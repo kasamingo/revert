@@ -1,0 +1,75 @@
+a{
+    list-style: none;
+}
+
+
+
+
+header{
+    position: fixed;
+    width: 100%;
+}
+.header1 {
+    width: 100%;
+    margin-top: 3.7vw;
+    margin-left: 2vw;
+}
+.h-li{
+    float: left;
+    margin-left: 3vw;
+}
+.h-a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6vw;
+    font-weight: bold;
+}   
+
+.header2{
+    float: right;
+    writing-mode: vertical-rl;
+}
+.h2-l{
+    width: 3vw;
+}
+
+
+
+.top-img{
+    width: 100%;
+}
+
+
+
+/*-------------------------------------------------------セクション１*/
+section1{
+    width: 100%;
+}
+.h-concept {
+    font-weight: lighter;
+    font-size: 2.3vw;
+    margin-left: 5vw;
+    letter-spacing: 0.2vw;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+.live{
+    text-align: center;
+}
+.live h2 {
+    font-size: 3.5vw;
+    font-family: serif;
+    letter-spacing: 1vw;
+    font-weight: lighter;
+}
+.live p {
+    margin-top: 3vw;
+}
+
+.gray {
+    width: 63%;
+    height: 30vw;
+    float: right;
+    margin-top: 3vw;
+    background-color: #e0dcbc;
+}
