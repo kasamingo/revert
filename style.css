@@ -53,11 +53,12 @@ header{
 
 .top-img{
     width: 100%;
+    height: 60vw;
 }
 .top-logo {
-    width: 22vw;
+    width: 25vw;
     position: relative;
-    top: -41vw;
+    top: -38vw;
     left: 8vw;
 }
 
@@ -66,15 +67,14 @@ header{
 /*-------------------------------------------------------セクション１*/
 section {
     width: 100%;
-    height: 70vw;
+    height: 58vw;
 }
 .h-concept {
     font-weight: lighter;
     font-size: 2.3vw;
     margin-left: 5vw;
     letter-spacing: 0.2vw;
-    margin-top: 3vw;
-    margin-bottom: 10vw;
+    margin-bottom: 6vw;
 }
 .live{
     text-align: center;
@@ -95,7 +95,7 @@ section {
     width: 63%;
     height: 30vw;
     float: right;
-    margin-top: 14vw;
+    margin-top: 8vw;
     background-color: #e2d4cd;
 }
 .g-text {
@@ -142,17 +142,17 @@ section {
 
 
 /*-------------------------------------------------------セクション2*/
-.section2{
+.section2 {
     width: 100%;
-    height: 172vw;
+    height: 162vw;
 }
-.h-set{
+.h-set {
     font-weight: lighter;
     font-size: 2.3vw;
     margin-left: 5vw;
     letter-spacing: 0.2vw;
     margin-top: 3vw;
-    margin-bottom: 10vw;
+    margin-bottom: 6vw;
 }
 .cource{
     text-align: center;
@@ -171,7 +171,7 @@ section {
     font-size: 2.4vw;
     padding: 2vw;
     color: white;
-    margin-top: 6vw;
+    margin-top: 5vw;
 }
 .c-text1 {
     margin-top: 3vw;
@@ -191,7 +191,7 @@ section {
 .puroduct1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 9vw;
+    margin-top: 7vw;
 }
 
 .inner-pro{
@@ -276,7 +276,7 @@ section {
 
 .pro-btn {
     background-color: transparent;
-    margin-top: 8vw;
+    margin-top: 5vw;
     padding-top: 1.5vw;
     padding-left: 3vw;
     font-size: 1.3vw;
@@ -294,7 +294,7 @@ section {
 .section3 {
     width: 100%;
     background-color: #dfedf2;
-    height: 95vw;
+    height: 89vw;
 }
 .section3-w h2 {
     float: right;
@@ -369,7 +369,7 @@ section {
 
 
 .plan-w{
-    margin-top: 5vw;
+    margin-top: 3vw;
 }
 .plan{
     display: grid;
@@ -462,14 +462,14 @@ section {
     margin-left: 10vw;
     font-size: 1.7vw;
     font-family: serif;
-    margin-top: 4vw;
+    margin-top: 3vw;
     letter-spacing: 0.3vw;
 }
 .sta-value{
     margin-right: 10vw;
     font-size: 1.7vw;
     font-family: serif;
-    margin-top: 4vw;
+    margin-top: 3vw;
     letter-spacing: 0.3vw;
 }
 
@@ -510,8 +510,8 @@ section {
 /*-------------------------------------------------------セクション4*/
 .section4 {
     background-color: #dbefe9;
-    margin-top: 18vw;
-    height: 96vw;
+    margin-top: 17vw;
+    height: 92vw;
     width: 100%;
 }
 .ge-right-text {
@@ -558,8 +558,8 @@ section {
 /*-------------------------------------------------------セクション5*/
 .section5 {
     width: 100%;
-    height: 170vw;
-    margin-top: 17vw;
+    height: 161vw;
+    margin-top: 15vw;
     background-color: #e0d4cf;
 }
 .section5-w h2 {
@@ -586,9 +586,11 @@ section {
     font-size: 2vw;
     font-weight: lighter;
     color: white;
+    letter-spacing: 0.3vw;
+    padding-left: 8vw;
     font-family: serif;
     margin-top: 5vw;
-}   
+}
 
 
 .s5-three{
@@ -608,7 +610,7 @@ section {
 
 
 .circle{
-    height: 25vw;
+    height: 23vw;
 }
 .circle img {
     float: left;
@@ -634,7 +636,7 @@ section {
     margin: auto;
 }
 .black-text {
-    margin-top: 5vw;
+    margin-top: 4vw;
     font-size: 1.1vw;
     line-height: 1.8vw;
 }
@@ -645,7 +647,7 @@ section {
 }
 
 .three-value1 {
-    margin-top: 5vw;
+    margin-top: 4vw;
     font-family: serif;
     letter-spacing: 0.2vw;
     font-size: 1.6vw;
@@ -654,10 +656,10 @@ section {
     font-family: serif;
     letter-spacing: 0.2vw;
     font-size: 1.6vw;
-    margin-top: 6.7vw;
+    margin-top: 5.7vw;
 }   
 .three-value3 {
-    margin-top: 3.2vw;
+    margin-top: 2.2vw;
     font-family: serif;
     letter-spacing: 0.2vw;
     font-size: 1.6vw;
@@ -693,7 +695,7 @@ section {
     margin-left: 15vw;
 }
 .s52-three{
-    margin-top: 4vw;
+    margin-top: 1vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
@@ -749,18 +751,20 @@ section {
 /*-------------------------------------------------------セクション6*/
 .section6 {
     width: 100%;
-    height: 32vw;
+    height: 30vw;
 }
 .s6-top-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 11vw;
+    margin-top: 8vw;
 }
-.t-text{
+.t-text {
     text-align: right;
+    margin-right: 2vw;
 }
 .t-text2{
     text-align: left;
+    margin-left: 2vw;
 }
 .line{
     text-align: center;
@@ -783,6 +787,10 @@ section {
     text-decoration: none;
     font-size: 1.7vw;
 }
+.fa-line{
+    font-size: 2vw;
+}
+
 
 
 /*-------------------------------------------------------セクション6*/
@@ -885,3 +893,4 @@ footer{
     margin-top: 1vw;
     color: white;
 }
+
