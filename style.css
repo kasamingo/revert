@@ -1,5 +1,7 @@
 a{
     list-style: none;
+    text-decoration: none;
+
 }
 
 
@@ -25,18 +27,38 @@ header{
     font-weight: bold;
 }   
 
-.header2{
+.header2 {
     float: right;
     writing-mode: vertical-rl;
-}
-.h2-l{
-    width: 3vw;
+    margin-right: 2vw;
 }
 
+.cart {
+    margin-bottom: 7vw;
+    width: 7vw;
+}
+.twitter {
+    margin-bottom: 3vw;
+    width: 5vw;
+}
+.instagram {
+    width: 5vw;
+}
+.right-logo {
+    transform: rotate(90deg);
+    width: 7vw;
+    margin-top: 9vw;
+}
 
 
 .top-img{
     width: 100%;
+}
+.top-logo {
+    width: 22vw;
+    position: relative;
+    top: -41vw;
+    left: 8vw;
 }
 
 
@@ -74,7 +96,7 @@ section {
     height: 30vw;
     float: right;
     margin-top: 14vw;
-    background-color: #e0dcbc;
+    background-color: #e2d4cd;
 }
 .g-text {
     text-align: center;
@@ -141,7 +163,7 @@ section {
     font-weight: lighter;
 }
 .c2-h2 {
-    background-color: #dfdcbb;
+    background-color: #e2d4cd;
     width: 57vw;
     height: 6vw;
     margin: auto;
@@ -271,7 +293,7 @@ section {
 /*-------------------------------------------------------セクション3*/
 .section3 {
     width: 100%;
-    background-color: rgb(162, 204, 204);
+    background-color: #dfedf2;
     height: 95vw;
 }
 .section3-w h2 {
@@ -487,7 +509,7 @@ section {
 
 /*-------------------------------------------------------セクション4*/
 .section4 {
-    background-color: #69cec4;
+    background-color: #dbefe9;
     margin-top: 18vw;
     height: 96vw;
     width: 100%;
@@ -538,7 +560,7 @@ section {
     width: 100%;
     height: 170vw;
     margin-top: 17vw;
-    background-color: #d8b7a0;
+    background-color: #e0d4cf;
 }
 .section5-w h2 {
     font-size: 2vw;
@@ -771,5 +793,95 @@ section {
 footer{
     width: 100%;
     height: 20vw;
-    background-color: #d8b7a0;
+    background-color: #e0d4cf;
+}
+.footer-w{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.f-concept {
+    margin-top: 2vw;
+    border: none;
+    background-color: transparent;
+    font-size: 1.9vw;
+    letter-spacing: 0.2vw;
+}
+.f-concept a{
+    color: black;
+}
+.f-product{
+    border: none;
+    background-color: transparent;
+    font-size: 1.9vw;
+    letter-spacing: 0.2vw;
+}
+.f-product a{
+    color: black;
+}
+.f-about{
+    border: none;
+    background-color: transparent;
+    font-size: 1.9vw;
+    letter-spacing: 0.2vw;
+}
+.f-about a{
+    color: black;
+}
+.f-detail{
+    border: none;
+    background-color: transparent;
+    font-size: 1.9vw;
+    letter-spacing: 0.2vw;
+}
+.f-detail a{
+    color: black;
+}
+.footer-menu {
+    line-height: 3.5vw;
+}
+.footer-logo {
+    width: 15vw;
+    padding-top: 4vw;
+}
+.number {
+    background-color: transparent;
+    border: none;
+    margin-top: 3vw;
+    letter-spacing: 0.5vw;
+    font-size: 2.7vw;
+}
+.number a {
+    color: white;
+}
+.mail{
+    background-color: transparent;
+    border: none;
+    margin-top: 2vw;
+    letter-spacing: 0.5vw;
+    font-size: 2.7vw;
+}
+.mail a{
+    color: white;
+}
+.pauypal {
+    width: 10vw;
+    margin-right: -20vw;
+    margin-top: 3vw;
+}
+.copy {
+    color: white;
+    margin-top: 1vw;
+}
+
+.post {
+    color: white;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+.direct {
+    font-size: 1.2vw;
+    margin-top: 1vw;
+    color: white;
 }
