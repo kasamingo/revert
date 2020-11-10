@@ -816,8 +816,10 @@ footer{
     font-size: 1.9vw;
     letter-spacing: 0.2vw;
 }
-.f-concept a{
+.f-concept a {
     color: black;
+    margin-left: -6vw;
+    letter-spacing: 0.5vw;
 }
 .f-product{
     border: none;
@@ -825,8 +827,10 @@ footer{
     font-size: 1.9vw;
     letter-spacing: 0.2vw;
 }
-.f-product a{
+.f-product a {
     color: black;
+    margin-left: -5.6vw;
+    letter-spacing: 0.5vw;
 }
 .f-about{
     border: none;
@@ -834,8 +838,10 @@ footer{
     font-size: 1.9vw;
     letter-spacing: 0.2vw;
 }
-.f-about a{
+.f-about a {
     color: black;
+    margin-left: -9.4vw;
+    letter-spacing: 0.5vw;
 }
 .f-detail{
     border: none;
@@ -843,8 +849,10 @@ footer{
     font-size: 1.9vw;
     letter-spacing: 0.2vw;
 }
-.f-detail a{
+.f-detail a {
     color: black;
+    margin-left: -8.9vw;
+    letter-spacing: 0.5vw;
 }
 .footer-menu {
     line-height: 3.5vw;
@@ -870,8 +878,9 @@ footer{
     letter-spacing: 0.5vw;
     font-size: 2.7vw;
 }
-.mail a{
+.mail a {
     color: white;
+    margin-left: -6.2vw;
 }
 .pauypal {
     width: 10vw;
@@ -887,6 +896,7 @@ footer{
     color: white;
     margin-top: 2vw;
     font-size: 1.5vw;
+    margin-left: -19.5vw;
 }
 .direct {
     font-size: 1.2vw;
@@ -894,3 +904,25 @@ footer{
     color: white;
 }
 
+
+
+
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）のCSSになります*/
+
+
+
+.detail-header{
+    width: 100%;
+    height: 7vw;
+    background-color: #dac1c1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.header-left{
+    width: 2vw;
+}
+.header-right{
+    width: 4vw;
+    float: right;
+}
