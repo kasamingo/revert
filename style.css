@@ -1,4 +1,4 @@
-a{
+a {
     list-style: none;
     text-decoration: none;
 
@@ -7,25 +7,28 @@ a{
 
 
 
-header{
+header {
     position: fixed;
     width: 100%;
 }
+
 .header1 {
     width: 100%;
     margin-top: 3.7vw;
     margin-left: 2vw;
 }
-.h-li{
+
+.h-li {
     float: left;
     margin-left: 3vw;
 }
+
 .h-a {
     text-decoration: none;
     color: white;
     font-size: 1.6vw;
     font-weight: bold;
-}   
+}
 
 .header2 {
     float: right;
@@ -37,13 +40,16 @@ header{
     margin-bottom: 7vw;
     width: 7vw;
 }
+
 .twitter {
     margin-bottom: 3vw;
     width: 5vw;
 }
+
 .instagram {
     width: 5vw;
 }
+
 .right-logo {
     transform: rotate(90deg);
     width: 7vw;
@@ -51,10 +57,11 @@ header{
 }
 
 
-.top-img{
+.top-img {
     width: 100%;
     height: 60vw;
 }
+
 .top-logo {
     width: 25vw;
     position: relative;
@@ -69,6 +76,7 @@ section {
     width: 100%;
     height: 58vw;
 }
+
 .h-concept {
     font-weight: lighter;
     font-size: 2.3vw;
@@ -76,15 +84,18 @@ section {
     letter-spacing: 0.2vw;
     margin-bottom: 6vw;
 }
-.live{
+
+.live {
     text-align: center;
 }
+
 .live h2 {
     font-size: 3.5vw;
     font-family: serif;
     letter-spacing: 1vw;
     font-weight: lighter;
 }
+
 .live p {
     margin-top: 3vw;
     letter-spacing: 0.4vw;
@@ -98,22 +109,26 @@ section {
     margin-top: 8vw;
     background-color: #e2d4cd;
 }
+
 .g-text {
     text-align: center;
     margin-top: -7vw;
 }
+
 .g-text h3 {
     font-size: 1.9vw;
     font-weight: lighter;
     font-family: serif;
     margin-top: 5vw;
 }
+
 .g-text p {
     font-size: 1.1vw;
     line-height: 3vw;
     margin-top: 3.7vw;
     letter-spacing: 0.1vw;
 }
+
 .g-btn {
     float: right;
     top: -7vw;
@@ -127,10 +142,12 @@ section {
     padding-bottom: 1.5vw;
     letter-spacing: 0.2vw;
 }
+
 .g-a {
     text-decoration: none;
     color: black;
 }
+
 .g-quo {
     width: 8vw;
     opacity: 0.5;
@@ -146,6 +163,7 @@ section {
     width: 100%;
     height: 162vw;
 }
+
 .h-set {
     font-weight: lighter;
     font-size: 2.3vw;
@@ -154,14 +172,17 @@ section {
     margin-top: 3vw;
     margin-bottom: 6vw;
 }
-.cource{
+
+.cource {
     text-align: center;
 }
+
 .c1-h2 {
     font-size: 2.5vw;
     font-family: serif;
     font-weight: lighter;
 }
+
 .c2-h2 {
     background-color: #e2d4cd;
     width: 57vw;
@@ -173,15 +194,18 @@ section {
     color: white;
     margin-top: 5vw;
 }
+
 .c-text1 {
     margin-top: 3vw;
     line-height: 3.5vw;
     font-weight: bold;
 }
+
 .c-text2 {
     margin-top: 2.5vw;
     font-weight: bold;
 }
+
 .c-text3 {
     margin-top: 1.7vw;
     font-weight: bold;
@@ -194,28 +218,33 @@ section {
     margin-top: 7vw;
 }
 
-.inner-pro{
+.inner-pro {
     width: 40vw;
     margin: auto;
 }
+
 .proMain-img1 {
     width: 20vw;
     margin-left: 2vw;
 }
-.proMain-img2{
+
+.proMain-img2 {
     width: 20vw;
 }
-.left-pro{
+
+.left-pro {
     float: left;
 }
+
 .pro-text1 {
     margin-top: 1vw;
     float: right;
 }
 
-.right-pro{
+.right-pro {
     float: left;
 }
+
 .pro-text2 {
     float: right;
     margin-top: 1vw;
@@ -227,9 +256,11 @@ section {
     line-height: 3vw;
     margin-top: 2vw;
 }
-.por-img1{
+
+.por-img1 {
     width: 15vw;
 }
+
 .pro-img2 {
     width: 8vw;
 }
@@ -240,6 +271,7 @@ section {
     width: 9vw;
     margin-left: 8vw;
 }
+
 .proMain-img4 {
     width: 8vw;
     margin-left: 7vw;
@@ -248,6 +280,7 @@ section {
 .por-img3 {
     width: 8vw;
 }
+
 .pro-img4 {
     width: 15vw;
     margin-top: 3vw;
@@ -257,6 +290,7 @@ section {
     float: right;
     margin-right: 5vw;
 }
+
 .pro-text4 {
     font: right;
     float: right;
@@ -264,10 +298,11 @@ section {
 }
 
 
-.pro-fin{
+.pro-fin {
     text-align: center;
     margin-top: 7vw;
 }
+
 .pro-f-text {
     line-height: 3vw;
     font-weight: bold;
@@ -284,10 +319,12 @@ section {
     padding-bottom: 1.5vw;
     letter-spacing: 0.2vw;
 }
-.pro-a{
+
+.pro-a {
     text-decoration: none;
     color: black;
 }
+
 /*-------------------------------------------------------セクション2*/
 
 /*-------------------------------------------------------セクション3*/
@@ -296,6 +333,7 @@ section {
     background-color: #dfedf2;
     height: 89vw;
 }
+
 .section3-w h2 {
     float: right;
     margin-right: 2vw;
@@ -306,7 +344,7 @@ section {
     letter-spacing: 1vw;
 }
 
-.mach{
+.mach {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -315,10 +353,12 @@ section {
     position: relative;
     margin-top: -9vw;
 }
+
 .machImg-top {
     position: absolute;
     width: 30vw;
 }
+
 .machImg-under {
     width: 30vw;
     margin-left: 5vw;
@@ -332,6 +372,7 @@ section {
     margin-left: 9vw;
     margin-top: 2vw;
 }
+
 .machImg2-under {
     width: 31vw;
     transform: rotate(13deg);
@@ -354,6 +395,7 @@ section {
     display: grid;
     grid-template-columns: 1fr 3fr;
 }
+
 .m3-img {
     width: 7vw;
     transform: rotate(-10deg);
@@ -368,10 +410,11 @@ section {
 
 
 
-.plan-w{
+.plan-w {
     margin-top: 3vw;
 }
-.plan{
+
+.plan {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -386,10 +429,12 @@ section {
     background-color: transparent;
     cursor: pointer;
 }
+
 .pre-top1 {
     margin-left: 10vw;
     font-family: serif;
 }
+
 .sta-btn {
     width: 30vw;
     margin-right: 10vw;
@@ -399,7 +444,8 @@ section {
     background-color: transparent;
     cursor: pointer;
 }
-.pre-top2{
+
+.pre-top2 {
     margin-right: 10vw;
     font-family: serif;
 }
@@ -411,6 +457,7 @@ section {
     top: -11.3vw;
     left: -8vw;
 }
+
 .sta-top2 {
     width: 23vw;
     position: relative;
@@ -423,7 +470,8 @@ section {
     margin-top: -16vw;
     margin-bottom: 2vw;
 }
-.sta-img2-w{
+
+.sta-img2-w {
     margin-top: -16vw;
     margin-bottom: 2vw;
 }
@@ -432,14 +480,16 @@ section {
 .staImg1-left {
     width: 2.3vw;
 }
+
 .staImg1-right {
     width: 5vw;
     margin-left: 3vw;
 }
 
-.staImg2-left{
+.staImg2-left {
     width: 3.5vw;
 }
+
 .staImg2-right {
     width: 5vw;
     margin-left: 2.7vw;
@@ -451,7 +501,8 @@ section {
     line-height: 3vw;
     margin-bottom: -7vw;
 }
-.sta-under-text{
+
+.sta-under-text {
     font-size: 0.6vw;
     font-weight: bold;
     line-height: 3vw;
@@ -465,7 +516,8 @@ section {
     margin-top: 3vw;
     letter-spacing: 0.3vw;
 }
-.sta-value{
+
+.sta-value {
     margin-right: 10vw;
     font-size: 1.7vw;
     font-family: serif;
@@ -481,7 +533,8 @@ section {
     background-color: transparent;
     border: 1px solid black;
 }
-.value2-btn{
+
+.value2-btn {
     margin-right: 10vw;
     padding: 1.5vw 4.5vw;
     margin-top: 3vw;
@@ -489,14 +542,17 @@ section {
     background-color: transparent;
     border: 1px solid black;
 }
+
 .value1-a {
     color: black;
     text-decoration: none;
 }
+
 .value2-a {
     color: black;
     text-decoration: none;
 }
+
 .under-white2 {
     font-size: 1.8vw;
     margin-left: 5vw;
@@ -504,6 +560,7 @@ section {
     margin-top: 1.4vw;
     color: white;
 }
+
 /*-------------------------------------------------------セクション3*/
 
 
@@ -514,6 +571,7 @@ section {
     height: 92vw;
     width: 100%;
 }
+
 .ge-right-text {
     margin-top: -11vw;
     font-size: 1.5vw;
@@ -521,11 +579,13 @@ section {
     letter-spacing: 0.6vw;
     margin-left: -3vw;
 }
+
 .getImg2-top {
     position: absolute;
     width: 50vw;
     margin-left: -4vw;
 }
+
 .getImg2-under {
     width: 21vw;
     position: relative;
@@ -533,11 +593,13 @@ section {
     margin-left: -21vw;
     margin-top: -2vw;
 }
+
 .g3-img {
     width: 6vw;
     transform: rotate(-10deg);
     margin-left: -2vw;
 }
+
 .label-g {
     padding-top: 6vw;
     line-height: 4vw;
@@ -545,6 +607,7 @@ section {
     font-family: serif;
     letter-spacing: 0.3vw;
 }
+
 .under-white {
     font-size: 1.8vw;
     margin-left: 9vw;
@@ -552,6 +615,7 @@ section {
     margin-top: 1.4vw;
     color: white;
 }
+
 /*-------------------------------------------------------セクション4*/
 
 
@@ -562,6 +626,7 @@ section {
     margin-top: 15vw;
     background-color: #e0d4cf;
 }
+
 .section5-w h2 {
     font-size: 2vw;
     letter-spacing: 0.3vw;
@@ -569,19 +634,23 @@ section {
     position: relative;
     top: -6vw;
 }
+
 .local {
     font-size: 1.3vw;
     margin-left: 7vw;
     font-weight: bold;
     letter-spacing: 0.3vw;
 }
-.s5-select{
+
+.s5-select {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .s5-select img {
     margin-left: 3vw;
 }
+
 .s5-select p {
     font-size: 2vw;
     font-weight: lighter;
@@ -593,29 +662,34 @@ section {
 }
 
 
-.s5-three{
+.s5-three {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
-.three-img1{
+
+.three-img1 {
     width: 20vw;
 }
-.three-img2{
+
+.three-img2 {
     width: 20vw;
 }
-.three-img3{
+
+.three-img3 {
     width: 20vw;
 }
 
 
-.circle{
+.circle {
     height: 23vw;
 }
+
 .circle img {
     float: left;
     margin-left: 7vw;
 }
+
 .circle p {
     writing-mode: vertical-rl;
     margin-right: 10vw;
@@ -635,11 +709,13 @@ section {
     font-size: 1.1vw;
     margin: auto;
 }
+
 .black-text {
     margin-top: 4vw;
     font-size: 1.1vw;
     line-height: 1.8vw;
 }
+
 .black-text2 {
     font-size: 1.1vw;
     margin-top: 2vw;
@@ -652,12 +728,14 @@ section {
     letter-spacing: 0.2vw;
     font-size: 1.6vw;
 }
+
 .three-value2 {
     font-family: serif;
     letter-spacing: 0.2vw;
     font-size: 1.6vw;
     margin-top: 5.7vw;
-}   
+}
+
 .three-value3 {
     margin-top: 2.2vw;
     font-family: serif;
@@ -665,14 +743,15 @@ section {
     font-size: 1.6vw;
 }
 
-.three-btn{
+.three-btn {
     padding: 1.5vw 4.5vw;
     margin-top: 3vw;
     cursor: pointer;
     background-color: transparent;
     border: 1px solid black;
 }
-.three-btn a{
+
+.three-btn a {
     text-decoration: none;
     color: black;
 }
@@ -680,11 +759,12 @@ section {
 
 
 
-.s5-select2{
+.s5-select2 {
     margin-top: 8vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
 .s5-select2 p {
     font-size: 2vw;
     font-weight: lighter;
@@ -694,30 +774,37 @@ section {
     letter-spacing: 0.3vw;
     margin-left: 15vw;
 }
-.s52-three{
+
+.s52-three {
     margin-top: 1vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
 }
+
 .three2-img1 {
     width: 7vw;
     margin-top: 5vw;
 }
+
 .three2-img2 {
     width: 6vw;
     margin-top: 3vw;
 }
-.three2-img3{
+
+.three2-img3 {
     width: 6vw;
 }
+
 .circle2 {
     height: 28vw;
 }
-.circle2 img{
+
+.circle2 img {
     float: left;
-    margin-left: 13vw;  
+    margin-left: 13vw;
 }
+
 .circle2 p {
     writing-mode: vertical-rl;
     color: white;
@@ -727,24 +814,28 @@ section {
     font-size: 0.8vw;
     letter-spacing: 0.2vw;
 }
+
 .three2-value1 {
     font-family: serif;
     margin-top: 4vw;
     letter-spacing: 0.2vw;
     font-size: 1.6vw;
 }
+
 .three2-value2 {
     font-family: serif;
     letter-spacing: 0.2vw;
     font-size: 1.6vw;
     margin-top: 2.5vw;
 }
+
 .three2-value3 {
     font-family: serif;
     letter-spacing: 0.2vw;
     font-size: 1.6vw;
     margin-top: 4.5vw;
 }
+
 /*-------------------------------------------------------セクション5*/
 
 
@@ -753,41 +844,50 @@ section {
     width: 100%;
     height: 30vw;
 }
+
 .s6-top-text {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 8vw;
 }
+
 .t-text {
     text-align: right;
     margin-right: 2vw;
 }
-.t-text2{
+
+.t-text2 {
     text-align: left;
     margin-left: 2vw;
 }
-.line{
+
+.line {
     text-align: center;
 }
+
 .line-img {
     width: 5vw;
     margin-top: 3vw;
 }
+
 .middle {
     margin-top: 2vw;
 }
+
 .fre {
     margin-top: 2vw;
     background-color: #43d229;
     padding: 0.6vw 5vw;
     border-radius: 0.7vw;
 }
+
 .fre a {
     color: white;
     text-decoration: none;
     font-size: 1.7vw;
 }
-.fa-line{
+
+.fa-line {
     font-size: 2vw;
 }
 
@@ -798,12 +898,13 @@ section {
 
 
 
-footer{
+footer {
     width: 100%;
     height: 20vw;
     background-color: #e0d4cf;
 }
-.footer-w{
+
+.footer-w {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
@@ -816,51 +917,61 @@ footer{
     font-size: 1.9vw;
     letter-spacing: 0.2vw;
 }
+
 .f-concept a {
     color: black;
     margin-left: -6vw;
     letter-spacing: 0.5vw;
 }
-.f-product{
+
+.f-product {
     border: none;
     background-color: transparent;
     font-size: 1.9vw;
     letter-spacing: 0.2vw;
 }
+
 .f-product a {
     color: black;
     margin-left: -5.6vw;
     letter-spacing: 0.5vw;
 }
-.f-about{
+
+.f-about {
     border: none;
     background-color: transparent;
     font-size: 1.9vw;
     letter-spacing: 0.2vw;
 }
+
 .f-about a {
     color: black;
     margin-left: -9.4vw;
     letter-spacing: 0.5vw;
 }
-.f-detail{
+
+.f-detail {
     border: none;
     background-color: transparent;
     font-size: 1.9vw;
     letter-spacing: 0.2vw;
 }
+
 .f-detail a {
     color: black;
     margin-left: -8.9vw;
     letter-spacing: 0.5vw;
 }
+
 .footer-menu {
     line-height: 3.5vw;
 }
+
 .footer-logo {
     width: 15vw;
     padding-top: 4vw;
 }
+
 .number {
     background-color: transparent;
     border: none;
@@ -868,25 +979,30 @@ footer{
     letter-spacing: 0.5vw;
     font-size: 2.7vw;
 }
+
 .number a {
     color: white;
 }
-.mail{
+
+.mail {
     background-color: transparent;
     border: none;
     margin-top: 2vw;
     letter-spacing: 0.5vw;
     font-size: 2.7vw;
 }
+
 .mail a {
     color: white;
     margin-left: -6.2vw;
 }
+
 .pauypal {
     width: 10vw;
     margin-right: -20vw;
     margin-top: 3vw;
 }
+
 .copy {
     color: white;
     margin-top: 1vw;
@@ -898,6 +1014,7 @@ footer{
     font-size: 1.5vw;
     margin-left: -19.5vw;
 }
+
 .direct {
     font-size: 1.2vw;
     margin-top: 1vw;
@@ -912,17 +1029,259 @@ footer{
 
 
 
-.detail-header{
+.detail-header {
     width: 100%;
     height: 7vw;
     background-color: #dac1c1;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.header-left{
-    width: 2vw;
+
+.header-left {
+    float: left;
 }
-.header-right{
-    width: 4vw;
+
+.header-left img {
+    margin-left: 3vw;
+    width: 9vw;
+    margin-top: 2.5vw;
+}
+
+.header-right {}
+
+.header-right img {
+    width: 6vw;
+    padding: 1.3vw 1.5vw 0 0;
     float: right;
 }
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第一セクションのCSSになります*/
+.detailSection1 {
+    width: 100%;
+    height: 30vw;
+}
+
+.detailSection1-w {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.d-section1-right {
+    position: relative;
+}
+
+.d-section1-left h2 {
+    font-size: 2.1vw;
+    letter-spacing: 0.5vw;
+    margin-left: 8vw;
+    margin-top: 10vw;
+}
+
+.water1 {
+    position: absolute;
+    top: 12.5vw;
+    z-index: 1;
+    width: 12vw;
+    left: 34vw;
+}
+
+.cream1 {
+    width: 46vw;
+    position: absolute;
+    top: 8vw;
+    z-index: 0;
+    left: 2vw;
+}
+
+.d-section1-right p {
+    position: absolute;
+    top: 19.4vw;
+    font-size: 2.6vw;
+    z-index: 3;
+    left: 14vw;
+    letter-spacing: 0.5vw;
+    font-family: serif;
+}
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第一セクションのCSSになります*/
+
+
+
+
+
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第2セクションのCSSになります*/
+.detailSection2 {
+    width: 100%;
+    height: 22vw;
+}
+
+.detailSection2-w {
+    position: relative;
+}
+
+.left-box {
+    width: 41vw;
+    height: 20vw;
+    background-color: #dac1c0;
+}
+
+.left-box img {
+    width: 32vw;
+    padding-top: 2vw;
+    margin-left: 4vw;
+}
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第2セクションのCSSになります*/
+
+.border {
+    width: 70vw;
+    margin: auto;
+    border: 2px solid #dac1c0;
+}
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第3セクションのCSSになります*/
+
+.detailSection3 {
+    width: 100%;
+    height: 33vw;
+}
+.detailSection3-w{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.d-curaprox {
+    width: 15vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
+}
+.d-philips {
+    width: 20vw;
+    margin-left: 15vw;
+    margin-top: -4vw;
+}
+.curaprox-text {
+    font-size: 0.8vw;
+    line-height: 2.3vw;
+    margin-left: 31.5vw;
+    margin-top: -8vw;
+}
+.s3-right{
+    margin-top: 2vw;
+    margin-left: 5vw;
+}
+
+.s3-righth2 {
+    letter-spacing: 0.4vw;
+    margin-top: 1vw;
+    font-size: 1.7vw;
+}
+.s3-rightp {
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    line-height: 1.7vw;
+}
+.desc {
+    font-size: 0.8vw;
+    margin-top: 3vw;
+}
+.desc1 {
+    font-size: 0.8vw;
+    margin-top: 1.7vw;
+    letter-spacing: 0.2vw;
+    line-height: 1.3vw;
+}
+.desc2 {
+    line-height: 1.4vw;
+    letter-spacing: 0.2vw;
+    font-size: 0.8vw;
+    margin-top: 1.7vw;
+}
+.desc3 {
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    margin-top: 1.7vw;
+}
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第3セクションのCSSになります*/
+
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第4セクションのCSSになります*/
+.detailSection4 {
+    width: 100%;
+    margin-top: 4vw;
+    height: 30vw;
+}
+.detailSection4-w{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.d-tepe {
+    margin-left: 3vw;
+    width: 9vw;
+    margin-top: 2vw;
+}
+.tepe-text{
+    font-size: 0.8vw;
+    line-height: 2.3vw;
+    margin-left: 31.5vw;
+    margin-top: -8vw;
+}
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第4セクションのCSSになります*/
+
+
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第5セクションのCSSになります*/
+.detailSection5 {
+    width: 100%;
+    margin-top: 4vw;
+    height: 36vw;
+}
+
+.detailSection5-w{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.d-aqua{
+    margin-left: 3vw;
+    width: 9vw;
+}
+.aqua-text{
+    font-size: 0.8vw;
+    line-height: 2.3vw;
+    margin-left: 31.5vw;
+    margin-top: -8vw;
+}
+.s5-righth2{
+    letter-spacing: 0.4vw;
+    margin-top: 1vw;
+    font-size: 1.7vw;
+}
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第5セクションのCSSになります*/
+
+.detailSection6{
+    width: 100%;
+    height: 22vw;
+}
+
+
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第７セクションのCSSになります*/
+.detailSetion7{
+    width: 100%;
+    height: 50vw;
+}
+.detailSection7-w{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.d-ruscello {
+    width: 14vw;
+    margin-left: 15vw;
+    margin-top: -4vw;
+}
+.rusce-text{
+    font-size: 0.8vw;
+    line-height: 2.3vw;
+    margin-left: 30vw;
+    margin-top: -8vw;
+}
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第７セクションのCSSになります*/
