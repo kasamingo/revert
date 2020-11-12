@@ -1032,7 +1032,7 @@ footer {
 .detail-header {
     width: 100%;
     height: 6vw;
-    background-color: #dac1c1;
+    background-color: #ddd3cc;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }   
@@ -1123,7 +1123,7 @@ footer {
 .left-box {
     width: 41vw;
     height: 20vw;
-    background-color: #dac1c0;
+    background-color: #e0d4cf;
 }
 
 .left-box img {
@@ -1137,7 +1137,7 @@ footer {
 .border {
     width: 70vw;
     margin: auto;
-    border: 2px solid #dac1c0;
+    border: 2px solid #e0d4cf;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第3セクションのCSSになります*/
 
@@ -1526,6 +1526,6 @@ footer {
 
 /*ここからレスポンシブデザインを書いていきまし*/
 
-@media screen and (max-width:480px){
+@media screen and (max-width:1040px){
 
 }
