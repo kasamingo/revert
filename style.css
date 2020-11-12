@@ -783,17 +783,18 @@ section {
 }
 
 .three2-img1 {
-    width: 7vw;
-    margin-top: 5vw;
+    width: 8vw;
+    margin-top: 0.8vw;
 }
 
 .three2-img2 {
     width: 6vw;
-    margin-top: 3vw;
+    margin-top: 1vw;
 }
 
 .three2-img3 {
-    width: 6vw;
+    width: 5.5vw;
+    margin-top: 1vw;
 }
 
 .circle2 {
@@ -842,7 +843,7 @@ section {
 /*-------------------------------------------------------セクション6*/
 .section6 {
     width: 100%;
-    height: 30vw;
+    height: 29vw;
 }
 
 .s6-top-text {
@@ -875,10 +876,9 @@ section {
 }
 
 .fre {
-    margin-top: 2vw;
-    background-color: #43d229;
-    padding: 0.6vw 5vw;
-    border-radius: 0.7vw;
+    margin-top: 3vw;
+    border: none;
+    background-color: transparent;
 }
 
 .fre a {
@@ -1031,11 +1031,11 @@ footer {
 
 .detail-header {
     width: 100%;
-    height: 7vw;
+    height: 6vw;
     background-color: #dac1c1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
+}   
 
 .header-left {
     float: left;
@@ -1044,21 +1044,21 @@ footer {
 .header-left img {
     margin-left: 3vw;
     width: 9vw;
-    margin-top: 2.5vw;
+    margin-top: 1.5vw;
 }
 
 .header-right {}
 
 .header-right img {
-    width: 6vw;
-    padding: 1.3vw 1.5vw 0 0;
+    width: 5.5vw;
+    padding: 0.8vw 1.9vw 0 0;
     float: right;
 }
 
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第一セクションのCSSになります*/
 .detailSection1 {
     width: 100%;
-    height: 30vw;
+    height: 26vw;
 }
 
 .detailSection1-w {
@@ -1074,12 +1074,12 @@ footer {
     font-size: 2.1vw;
     letter-spacing: 0.5vw;
     margin-left: 8vw;
-    margin-top: 10vw;
+    margin-top: 8vw;
 }
 
 .water1 {
     position: absolute;
-    top: 12.5vw;
+    top: 9.5vw;
     z-index: 1;
     width: 12vw;
     left: 34vw;
@@ -1088,14 +1088,14 @@ footer {
 .cream1 {
     width: 46vw;
     position: absolute;
-    top: 8vw;
+    top: 5vw;
     z-index: 0;
     left: 2vw;
 }
 
 .d-section1-right p {
     position: absolute;
-    top: 19.4vw;
+    top: 16.4vw;
     font-size: 2.6vw;
     z-index: 3;
     left: 14vw;
@@ -1143,7 +1143,7 @@ footer {
 
 .detailSection3 {
     width: 100%;
-    height: 33vw;
+    height: 31vw;
 }
 .detailSection3-w{
     display: grid;
@@ -1151,13 +1151,13 @@ footer {
 }
 .d-curaprox {
     width: 15vw;
-    margin-left: 3vw;
+    margin-left: 6vw;
     margin-top: 2vw;
 }
 .d-philips {
     width: 20vw;
     margin-left: 15vw;
-    margin-top: -4vw;
+    margin-top: -1vw;
 }
 .curaprox-text {
     font-size: 0.8vw;
@@ -1176,30 +1176,33 @@ footer {
     font-size: 1.7vw;
 }
 .s3-rightp {
-    margin-top: 1vw;
-    font-size: 1.2vw;
+    margin-top: 0.7vw;
+    font-size: 0.8vw;
+    font-weight: bold;
     line-height: 1.7vw;
 }
 .desc {
     font-size: 0.8vw;
-    margin-top: 3vw;
+    margin-top: 3.6vw;
 }
 .desc1 {
     font-size: 0.8vw;
-    margin-top: 1.7vw;
+    margin-top: 1vw;
     letter-spacing: 0.2vw;
-    line-height: 1.3vw;
+    line-height: 1.2vw;
 }
 .desc2 {
     line-height: 1.4vw;
     letter-spacing: 0.2vw;
     font-size: 0.8vw;
-    margin-top: 1.7vw;
+    margin-top: 1.5vw;
 }
+
 .desc3 {
     font-size: 0.8vw;
     letter-spacing: 0.1vw;
     margin-top: 1.7vw;
+    line-height: 0.4vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第3セクションのCSSになります*/
 
@@ -1207,7 +1210,7 @@ footer {
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第4セクションのCSSになります*/
 .detailSection4 {
     width: 100%;
-    margin-top: 4vw;
+    margin-top: 1vw;
     height: 30vw;
 }
 .detailSection4-w{
@@ -1215,7 +1218,7 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 .d-tepe {
-    margin-left: 3vw;
+    margin-left: 7vw;
     width: 9vw;
     margin-top: 2vw;
 }
@@ -1225,6 +1228,40 @@ footer {
     margin-left: 31.5vw;
     margin-top: -8vw;
 }
+.s4-right {
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
+.s4-righth2 {
+    letter-spacing: 0.4vw;
+    margin-top: 1vw;
+    font-size: 1.7vw;
+}
+.s4-rightp {
+    margin-top: 3.7vw;
+    font-size: 0.8vw;
+    font-weight: bold;
+    line-height: 1.7vw;
+}
+.desc1-4 {
+    font-size: 0.8vw;
+    margin-top: 1vw;
+    letter-spacing: 0.2vw;
+    line-height: 1.2vw;
+}
+.desc2-4 {
+    line-height: 1.4vw;
+    letter-spacing: 0.2vw;
+    font-size: 0.8vw;
+    margin-top: 1.5vw;
+}
+
+.desc3-4 {
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    margin-top: 1.7vw;
+    line-height: 0.4vw;
+}
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第4セクションのCSSになります*/
 
 
@@ -1232,7 +1269,7 @@ footer {
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第5セクションのCSSになります*/
 .detailSection5 {
     width: 100%;
-    margin-top: 4vw;
+    margin-top: 2vw;
     height: 36vw;
 }
 
@@ -1240,8 +1277,8 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.d-aqua{
-    margin-left: 3vw;
+.d-aqua {
+    margin-left: 7.3vw;
     width: 9vw;
 }
 .aqua-text{
@@ -1250,10 +1287,40 @@ footer {
     margin-left: 31.5vw;
     margin-top: -8vw;
 }
-.s5-righth2{
+.s5-righth2 {
     letter-spacing: 0.4vw;
+    margin-top: 2vw;
+    font-size: 1.5vw;
+}
+.desc {
+    font-size: 0.8vw;
+    letter-spacing: 0.2vw;
+    margin-top: 3.6vw;
+}
+.desc1-5 {
+    font-size: 0.8vw;
     margin-top: 1vw;
-    font-size: 1.7vw;
+    letter-spacing: 0.2vw;
+    line-height: 1.2vw;
+}
+.desc2-5 {
+    line-height: 1.4vw;
+    letter-spacing: 0.2vw;
+    font-size: 0.8vw;
+    margin-top: 1.5vw;
+}
+
+.desc3-5 {
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    margin-top: 1.7vw;
+    line-height: 0.4vw;
+}
+.s5-rightp {
+    margin-top: 1.9vw;
+    font-size: 0.8vw;
+    font-weight: bold;
+    line-height: 1.7vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第5セクションのCSSになります*/
 
@@ -1262,20 +1329,29 @@ footer {
     height: 22vw;
 }
 
-
-
+.d-philips-5 {
+    width: 20vw;
+    margin-left: 15vw;
+    margin-top: -3vw;
+}
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第７セクションのCSSになります*/
-.detailSetion7{
+.detailSetion7 {
     width: 100%;
-    height: 50vw;
+    height: 47vw;
+}
+.s7-rightp {
+    margin-top: 0.8vw;
+    font-size: 0.8vw;
+    font-weight: bold;
+    line-height: 1.7vw;
 }
 .detailSection7-w{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .d-ruscello {
-    width: 14vw;
-    margin-left: 15vw;
+    width: 12vw;
+    margin-left: 18vw;
     margin-top: -4vw;
 }
 .rusce-text{
@@ -1284,4 +1360,172 @@ footer {
     margin-left: 30vw;
     margin-top: -8vw;
 }
+.d-add-text {
+    margin-top: 2.5vw;
+}
+.d-add-text p {
+    font-size: 0.8vw;
+    line-height: 1.1vw;
+}
+.right {
+    margin-left: 4.2vw;
+}
+.right2 {
+    margin-left: 3.3vw;
+}
+.desc-7 {
+    font-size: 0.8vw;
+    letter-spacing: 0.2vw;
+    margin-top: 1.9vw;
+}
+.desc1-7 {
+    font-size: 0.8vw;
+    margin-top: 0.8vw;
+    letter-spacing: 0.2vw;
+    line-height: 1.2vw;
+}
+.desc2-7 {
+    line-height: 1.4vw;
+    letter-spacing: 0.2vw;
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+}
+.desc3-7 {
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0.7vw;
+    line-height: 0.4vw;
+}
+.s7-right {
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第７セクションのCSSになります*/
+
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第8セクションのCSSになります*/
+.detailSetion8 {
+    width: 100%;
+    height: 50vw;
+}
+.d-APAGARD {
+    width: 9vw;
+    margin-left: 19.5vw;
+    margin-top: 7vw;
+}
+.d-APG {
+    width: 18vw;
+    margin-bottom: -8vw;
+    margin-left: 6vw;
+}
+.s8-right {
+    margin-top: 6vw;
+    margin-left: 5vw;
+}
+.desc-8 {
+    font-size: 0.8vw;
+    letter-spacing: 0.2vw;
+    margin-top: 4vw;
+}
+.desc1-8 {
+    font-size: 0.8vw;
+    margin-top: 0.8vw;
+    letter-spacing: 0.2vw;
+    line-height: 1.2vw;
+}
+.desc2-8 {
+    line-height: 1.4vw;
+    letter-spacing: 0.2vw;
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+}
+.desc3-8 {
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0.7vw;
+    line-height: 0.4vw;
+}
+.d-add-text-2 {
+    margin-top: 4.5vw;
+}
+.d-add-text-2 p {
+    font-size: 0.8vw;
+    line-height: 1.1vw;
+}
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第8セクションのCSSになります*/
+
+
+
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第9セクションのCSSになります*/
+.detailSetion9 {
+    width: 100%;
+    height: 50vw;
+    margin-top: 3vw;
+}
+.d-oral {
+    margin-left: 8vw;
+    width: 9vw;
+    margin-top: 2vw;
+}
+.d-oralpeace {
+    width: 8vw;
+    margin-left: 20.5vw;
+    margin-top: -4vw;
+}
+.oral-text {
+    font-size: 0.8vw;
+    line-height: 2.3vw;
+    margin-left: 30vw;
+    margin-top: -16vw;
+}
+.s9-right {
+    margin-top: 4vw;
+    margin-left: 5vw;
+}
+.desc-9 {
+    font-size: 0.8vw;
+    letter-spacing: 0.2vw;
+    margin-top: 4vw;
+}
+.desc1-9 {
+    font-size: 0.8vw;
+    margin-top: 0.8vw;
+    letter-spacing: 0.2vw;
+    line-height: 1.2vw;
+}
+.desc2-9 {
+    line-height: 1.4vw;
+    letter-spacing: 0.2vw;
+    font-size: 0.8vw;
+    margin-top: 0.5vw;
+}
+.desc3-9 {
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    margin-top: 0.7vw;
+    line-height: 1.4vw;
+}
+.d-add-text-3 {
+    margin-top: 4.5vw;
+}
+.d-add-text-3 p {
+    font-size: 0.8vw;
+    line-height: 1.1vw;
+}
+/*---------------------------------------------------------ここからは商品一覧ページ（detail）第9セクションのCSSになります*/
+
+
+
+
+
+
+
+
+
+
+
+/*ここからレスポンシブデザインを書いていきまし*/
+
+@media screen and (max-width:480px){
+
+}
