@@ -31,6 +31,7 @@ header {
 }
 
 .header2 {
+    display: flex;
     float: right;
     writing-mode: vertical-rl;
     margin-right: 2vw;
@@ -38,24 +39,24 @@ header {
 
 .cart {
     margin-bottom: 7vw;
-    width: 7vw;
+    width: 4.4vw;
 }
 
 .twitter {
     margin-bottom: 3vw;
-    width: 5vw;
+    width: 3.7vw;
 }
 
 .instagram {
-    width: 5vw;
+    width: 4vw;
 }
 
 .right-logo {
     transform: rotate(90deg);
     width: 7vw;
     margin-top: 9vw;
+    margin-right: -1.5vw;
 }
-
 
 .top-img {
     width: 100%;
@@ -68,8 +69,13 @@ header {
     top: -38vw;
     left: 8vw;
 }
-
-
+.border-top {
+    width: 98px;
+    transform: rotate(90deg);
+    margin-top: 6vw;
+    margin-right: -2vw;
+    border: 1px solid white;
+}
 
 /*-------------------------------------------------------セクション１*/
 section {
@@ -1397,7 +1403,7 @@ footer {
     line-height: 0.4vw;
 }
 .s7-right {
-    margin-top: 4vw;
+    margin-top: 1vw;
     margin-left: 5vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第７セクションのCSSになります*/
@@ -1514,7 +1520,9 @@ footer {
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第9セクションのCSSになります*/
 
-
+.respo{
+    display: none;
+}
 
 
 
@@ -1527,5 +1535,202 @@ footer {
 /*ここからレスポンシブデザインを書いていきまし*/
 
 @media screen and (max-width:1040px){
-
+    .section5 {
+        height: 167vw;
+    }
+    .border-top {
+        margin-right: -3vw;
+    }
+    .right-logo {
+        margin-right: -2vw;
+    }
+    .detailSection4 {
+        height: 36vw;
+    }
+    .s3-right {
+        margin-top: 3vw;
+        margin-left: 5vw;
+    }
+    .desc3 {
+        line-height: 1.4vw;
+    }
+    .respo{
+        display: block;
+    }
+    .desc {
+        margin-top: 4.6vw;
+    }
+}
+@media screen and (max-width:780px){
+    .section5 {
+        height: 181vw;
+    }
+    .desc3-8 {
+        line-height: 1.6vw;
+    }
+    .desc3-7 {
+        line-height: 1.6vw;
+    }
+    .s7-right {
+        margin-top: -1vw;
+    }
+    .desc1-8 {
+        line-height: 1.7vw;
+    }
+    .desc1-7 {
+        line-height: 1.7vw;
+    }
+    .desc2-8 {
+        line-height: 1.7vw;
+    }
+    .desc2-7 {
+        line-height: 1.7vw;
+    }
+    .desc3-9 {
+        line-height: 1.7vw;
+    }
+    .desc-8 {
+        margin-top: 3vw;
+    }
+    .detailSection5 {
+        height: 42vw;
+    }
+    .desc1-9 {
+        line-height: 1.6vw;
+    }
+    .desc1 {
+        line-height: 1.7vw;
+    }
+    .d-add-text-2 {
+        margin-top: 3.5vw;
+    }
+    .desc3-5 {
+        line-height: 1.4vw;
+    }
+    .d-add-text p {
+        line-height: 1.6vw;
+    }
+    .d-add-text-2 p {
+        font-size: 0.8vw;
+        line-height: 1.6vw;
+    }
+    .detailSetion8 {
+        height: 58vw;
+    }
+    .d-add-text-3 p {
+        line-height: 1.6vw;
+    }
+    .s9-right {
+        margin-top: 1vw;
+    }
+    .s8-right {
+        margin-top: 3vw;
+    }
+    .detailSetion7 {
+        height: 54vw;
+    }
+    .curaprox-text {
+        margin-left: 25.5vw;
+        margin-top: -3vw;
+    }
+    .tepe-text {
+        margin-left: 25.5vw;
+        margin-top: -3vw;
+    }
+    .aqua-text {
+        margin-left: 25.5vw;
+        margin-top: -3vw;
+    }
+    .desc3-4 {
+        line-height: 1.6vw;
+    }
+    .detailSection3 {
+        height: 35vw;
+    }
+    .detailSection2 {
+        height: 25vw;
+    }
+    .pre-top2 {
+        margin-bottom: 4vw;
+    }
+    .pre-top1 {
+        margin-bottom: 4vw;
+    }
+    .pre-btn {
+        width: 34vw;
+    }
+    .sta-btn {
+        width: 34vw;
+    }
+    .border-top {
+        margin-right: -2vw;
+        width: 61px;
+    }
+    .section3 {
+        height: 94vw;
+    }
+    .section4 {
+        height: 104vw;
+        margin-top: 21vw;
+    }
+    .res-btn-4 {
+        height: 45vw;
+    }
+    .s5-select img {
+        margin-left: 3vw;
+        width: 39vw;
+    }
+    .s5-select p {
+        padding-left: 7vw;
+    }
+    .three-value2 {
+        margin-top: 8vw;
+    }
+    .three-value1 {
+        margin-top: 6.4vw;
+    }
+    .black-right {
+        margin-top: 7vw;
+    }
+    .black-mid{
+        margin-top: 7vw;
+    }
+    .black-left{
+        margin-top: 5vw;
+    }
+    .three-value3 {
+        margin-top: 4.2vw;
+    }
+    .s5-select2 img {
+        width: 40vw;
+        margin-left: 3vw;
+    }
+    .respo{
+        display: block;
+    }
+    .black-left2 {
+        margin-top: 6vw;
+    }
+    .black-right2{
+        margin-top: 6vw;
+    }
+    .three2-value2 {
+        margin-top: 3.9vw;
+    }
+    .three2-value3 {
+        margin-top: 5.5vw;
+    }
+    .section6 {
+        height: 32vw;
+    }
+    footer {
+        height: 26vw;
+    }
+    .copy {
+        margin-top: 6vw;
+        font-size: 1.4vw;
+    }
+    .f-concept {
+        margin-top: 3vw;
+    }
 }
