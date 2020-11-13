@@ -1764,6 +1764,7 @@ footer {
     .header2{
         display: none;
     }
+    
     .circle2 p {
         writing-mode: vertical-rl;
         color: white;
@@ -2581,7 +2582,7 @@ footer {
     .d-ruscello {
         width: 15vw;
         margin-left: 18vw;
-        margin-top: -4vw;
+        margin-top: 1vw;
     }
     .rusce-text {
         margin-left: 45.5vw;
@@ -2715,6 +2716,14 @@ footer {
         margin-top: 12vw;
         letter-spacing: 0.3vw;
         margin-left: 0vw;
+    }
+    .d-oralpeace {
+        width: 9vw;
+        margin-left: 20.5vw;
+        margin-top: 3vw;
+    }
+    .detailSetion7 {
+        height: 211vw;
     }
 
 
@@ -3066,7 +3075,7 @@ footer {
         left: 0;
     }
     .section5 {
-        height: 1241vw;
+        height: 1254vw;
         margin-top: 43vw;
     }
     .three2-value1 {
@@ -3174,4 +3183,9 @@ footer {
     .detailSetion7 {
         height: 225vw;
     }
+    .number {
+        margin-top: 3vw;
+        font-size: 2.7vw;
+    }
+    
 }
