@@ -3263,6 +3263,19 @@ main > section > .sec02-title03 h1 {
     .pc_only_300 {
         height: 127px;
     }
+    main > section > .sec02-title02 p {
+        font-size: 12px;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 12vw;
+    }
+    .aboufo {
+        margin-top: 164vw;
+    }
+    .aboufo {
+        margin-top: 159vw;
+        height: 122vw;
+    }
     main > section > .sec01-title02 h1 {
         font-size: 18px;
         margin: 28px 0;
