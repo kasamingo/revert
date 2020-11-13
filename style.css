@@ -2434,7 +2434,7 @@ footer {
     }
     .s3-rightp {
         margin-top: 3.7vw;
-        font-size: 11px;
+        font-size: 14px;
         line-height: 6.7vw;
     }
     .desc1 {
@@ -2480,7 +2480,7 @@ footer {
     }
     .s4-rightp {
         margin-top: 3.7vw;
-        font-size: 11px;
+        font-size: 12px;
         line-height: 6.7vw;
     }
     .desc1-4 {
@@ -2570,8 +2570,8 @@ footer {
         margin-top: 7vw;
     }
     .s7-rightp {
-        margin-top: 3.7vw;
-        font-size: 11px;
+        margin-top: 4.7vw;
+        font-size: 14px;
         line-height: 6.7vw;
     }
     .desc1-7 {
@@ -2663,7 +2663,8 @@ footer {
         font-size: 10px;
     }
     .d-add-text-3 p {
-        line-height: 3vw;
+        line-height: 4vw;
+        font-size: 11px;
     }
     .desc {
         margin-top: 8.6vw;
@@ -2677,6 +2678,10 @@ footer {
     .d-add-text p {
         line-height: 4vw;
         font-size: 12px;
+    }
+    .desc-8 {
+        margin-top: 6vw;
+        font-size: 11px;
     }
 
 
@@ -3134,6 +3139,6 @@ footer {
         margin-top: -36vw;
     }
     .detailSetion7 {
-        height: 193vw;
+        height: 225vw;
     }
 }
