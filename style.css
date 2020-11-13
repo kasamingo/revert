@@ -3,6 +3,52 @@ a {
     text-decoration: none;
 }
 
+input[type="checkbox"] {
+    display: none;
+    /*デフォルトのチェックボックスを非表示にする*/
+}
+input[type="checkbox"]+label {
+    position: relative;
+    padding-left: 15px;
+    /*チェックボックス分の隙間を作る*/
+}
+input[type="checkbox"]+label::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    /*中央ぞろえにする*/
+    border: 1px solid rgb(0, 0, 0);
+    /*お好きなや太さで。*/
+    cursor: pointer;
+    /*ポインターを表示する*/
+}
+input[type="checkbox"]:checked+label::before {
+    /*チェックしたときの箱の色を変える*/
+    background: rgb(235, 183, 233);
+}
+input[type=checkbox]:checked+label::after {
+    /*チェックの✓をつくる*/
+    content: "";
+    display: block;
+    width: 10px;
+    height: 6px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    position: absolute;
+    /*ここから下は位置を調整する*/
+    top: 40%;
+    left: 5px;
+    /*箱を斜めに傾けてチェック表示にする*/
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg) translateY(-50%);
+}
+
 .header1 {
     width: 100%;
     margin-top: 3.7vw;
