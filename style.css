@@ -1,3191 +1,3116 @@
 a {
-    list-style: none;
-    text-decoration: none;
-
-}
-
-
-
-
-header {
-    position: fixed;
-    width: 100%;
+  list-style: none;
+  text-decoration: none;
 }
 
 .header1 {
-    width: 100%;
-    margin-top: 3.7vw;
-    margin-left: 2vw;
+  width: 100%;
+  margin-top: 3.7vw;
+  margin-left: 2vw;
+  position: fixed;
+  z-index: 4;
 }
 
 .h-li {
-    float: left;
-    margin-left: 3vw;
+  float: left;
+  margin-left: 3vw;
 }
 
 .h-a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.6vw;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 1.6vw;
+  font-weight: bold;
 }
 
 .header2 {
-    display: flex;
-    float: right;
-    writing-mode: vertical-rl;
-    margin-right: 2vw;
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 3.7vw;
+  writing-mode: vertical-rl;
+  margin-right: 2vw;
 }
 
 .cart {
-    margin-bottom: 7vw;
-    width: 4.4vw;
+  margin-bottom: 7vw;
+  width: 4.4vw;
 }
 
 .twitter {
-    margin-bottom: 3vw;
-    width: 3.7vw;
+  margin-bottom: 3vw;
+  width: 3.7vw;
 }
 
 .instagram {
-    width: 4vw;
+  width: 4vw;
 }
 
 .right-logo {
-    transform: rotate(90deg);
-    width: 7vw;
-    margin-top: 9vw;
-    margin-right: -1.5vw;
+  transform: rotate(90deg);
+  width: 7vw;
+  margin-top: 9vw;
+  margin-right: -1.5vw;
 }
 
 .top-img {
-    width: 100%;
-    height: 60vw;
+  width: 100%;
+  height: 60vw;
 }
 
 .top-logo {
-    width: 25vw;
-    position: relative;
-    top: -38vw;
-    left: 8vw;
+  width: 25vw;
+  position: relative;
+  top: -38vw;
+  left: 8vw;
 }
 .border-top {
-    width: 98px;
-    transform: rotate(90deg);
-    margin-top: 6vw;
-    margin-right: -2vw;
-    border: 1px solid white;
+  width: 98px;
+  transform: rotate(90deg);
+  margin-top: 6vw;
+  margin-right: -2vw;
+  border: 1px solid white;
 }
 
 /*-------------------------------------------------------セクション１*/
 section {
-    width: 100%;
-    height: 58vw;
+  width: 100%;
+  height: 58vw;
 }
 
 .h-concept {
-    font-weight: lighter;
-    font-size: 2.3vw;
-    margin-left: 5vw;
-    letter-spacing: 0.2vw;
-    margin-bottom: 6vw;
+  font-weight: lighter;
+  font-size: 2.3vw;
+  margin-left: 5vw;
+  letter-spacing: 0.2vw;
+  margin-bottom: 6vw;
 }
 
 .live {
-    text-align: center;
+  text-align: center;
 }
 
 .live h2 {
-    font-size: 3.5vw;
-    font-family: serif;
-    letter-spacing: 1vw;
-    font-weight: lighter;
+  font-size: 3.5vw;
+  font-family: serif;
+  letter-spacing: 1vw;
+  font-weight: lighter;
 }
 
 .live p {
-    margin-top: 3vw;
-    letter-spacing: 0.4vw;
-    font-family: serif;
+  margin-top: 3vw;
+  letter-spacing: 0.4vw;
+  font-family: serif;
 }
 
 .gray {
-    width: 63%;
-    height: 30vw;
-    float: right;
-    margin-top: 8vw;
-    background-color: #e2d4cd;
+  width: 63%;
+  height: 30vw;
+  float: right;
+  margin-top: 8vw;
+  background-color: #e2d4cd;
 }
 
 .g-text {
-    text-align: center;
-    margin-top: -7vw;
+  text-align: center;
+  margin-top: -7vw;
 }
 
 .g-text h3 {
-    font-size: 1.9vw;
-    font-weight: lighter;
-    font-family: serif;
-    margin-top: 5vw;
+  font-size: 1.9vw;
+  font-weight: lighter;
+  font-family: serif;
+  margin-top: 5vw;
 }
 
 .g-text p {
-    font-size: 1.1vw;
-    line-height: 3vw;
-    margin-top: 3.7vw;
-    letter-spacing: 0.1vw;
+  font-size: 1.1vw;
+  line-height: 3vw;
+  margin-top: 3.7vw;
+  letter-spacing: 0.1vw;
 }
 
 .g-btn {
-    float: right;
-    top: -7vw;
-    background-color: transparent;
-    margin-top: 2vw;
-    margin-right: 7vw;
-    padding-top: 1.5vw;
-    padding-left: 3vw;
-    font-size: 1.3vw;
-    padding-right: 3vw;
-    padding-bottom: 1.5vw;
-    letter-spacing: 0.2vw;
+  float: right;
+  top: -7vw;
+  background-color: transparent;
+  margin-top: 2vw;
+  margin-right: 7vw;
+  padding-top: 1.5vw;
+  padding-left: 3vw;
+  font-size: 1.3vw;
+  padding-right: 3vw;
+  padding-bottom: 1.5vw;
+  letter-spacing: 0.2vw;
 }
 
 .g-a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .g-quo {
-    width: 8vw;
-    opacity: 0.5;
-    left: 0.5vw;
+  width: 8vw;
+  opacity: 0.5;
+  left: 0.5vw;
 }
 
 /*-------------------------------------------------------セクション１*/
 
-
-
 /*-------------------------------------------------------セクション2*/
 .section2 {
-    width: 100%;
-    height: 162vw;
+  width: 100%;
+  height: 162vw;
 }
 
 .h-set {
-    font-weight: lighter;
-    font-size: 2.3vw;
-    margin-left: 5vw;
-    letter-spacing: 0.2vw;
-    margin-top: 3vw;
-    margin-bottom: 6vw;
+  font-weight: lighter;
+  font-size: 2.3vw;
+  margin-left: 5vw;
+  letter-spacing: 0.2vw;
+  margin-top: 3vw;
+  margin-bottom: 6vw;
 }
 
 .cource {
-    text-align: center;
+  text-align: center;
 }
 
 .c1-h2 {
-    font-size: 2.5vw;
-    font-family: serif;
-    font-weight: lighter;
+  font-size: 2.5vw;
+  font-family: serif;
+  font-weight: lighter;
 }
 
 .c2-h2 {
-    background-color: #e2d4cd;
-    width: 57vw;
-    height: 6vw;
-    margin: auto;
-    letter-spacing: 0.1vw;
-    font-size: 2.4vw;
-    padding: 2vw;
-    color: white;
-    margin-top: 5vw;
+  background-color: #e2d4cd;
+  width: 57vw;
+  height: 6vw;
+  margin: auto;
+  letter-spacing: 0.1vw;
+  font-size: 2.4vw;
+  padding: 2vw;
+  color: white;
+  margin-top: 5vw;
 }
 
 .c-text1 {
-    margin-top: 3vw;
-    line-height: 3.5vw;
-    font-weight: bold;
+  margin-top: 3vw;
+  line-height: 3.5vw;
+  font-weight: bold;
 }
 
 .c-text2 {
-    margin-top: 2.5vw;
-    font-weight: bold;
+  margin-top: 2.5vw;
+  font-weight: bold;
 }
 
 .c-text3 {
-    margin-top: 1.7vw;
-    font-weight: bold;
+  margin-top: 1.7vw;
+  font-weight: bold;
 }
 
-
 .puroduct1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 7vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 7vw;
 }
 
 .inner-pro {
-    width: 40vw;
-    margin: auto;
+  width: 40vw;
+  margin: auto;
 }
 
 .proMain-img1 {
-    width: 20vw;
-    margin-left: 2vw;
+  width: 20vw;
+  margin-left: 2vw;
 }
 
 .proMain-img2 {
-    width: 20vw;
+  width: 20vw;
 }
 
 .left-pro {
-    float: left;
+  float: left;
 }
 
 .pro-text1 {
-    margin-top: 1vw;
-    float: right;
+  margin-top: 1vw;
+  float: right;
 }
 
 .right-pro {
-    float: left;
+  float: left;
 }
 
 .pro-text2 {
-    float: right;
-    margin-top: 1vw;
-    margin-right: 3vw;
+  float: right;
+  margin-top: 1vw;
+  margin-right: 3vw;
 }
 
 .merit1 {
-    font-size: 1.1vw;
-    line-height: 3vw;
-    margin-top: 2vw;
+  font-size: 1.1vw;
+  line-height: 3vw;
+  margin-top: 2vw;
 }
 
 .por-img1 {
-    width: 15vw;
+  width: 15vw;
 }
 
 .pro-img2 {
-    width: 8vw;
+  width: 8vw;
 }
 
-
-
 .proMain-img3 {
-    width: 9vw;
-    margin-left: 8vw;
+  width: 9vw;
+  margin-left: 8vw;
 }
 
 .proMain-img4 {
-    width: 8vw;
-    margin-left: 7vw;
+  width: 8vw;
+  margin-left: 7vw;
 }
 
 .por-img3 {
-    width: 8vw;
+  width: 8vw;
 }
 
 .pro-img4 {
-    width: 15vw;
-    margin-top: 3vw;
+  width: 15vw;
+  margin-top: 3vw;
 }
 
 .pro-text3 {
-    float: right;
-    margin-right: 5vw;
+  float: right;
+  margin-right: 5vw;
 }
 
 .pro-text4 {
-    font: right;
-    float: right;
-    margin-right: 2vw;
+  font: right;
+  float: right;
+  margin-right: 2vw;
 }
 
-
 .pro-fin {
-    text-align: center;
-    margin-top: 7vw;
+  text-align: center;
+  margin-top: 7vw;
 }
 
 .pro-f-text {
-    line-height: 3vw;
-    font-weight: bold;
-    letter-spacing: 0.3vw;
+  line-height: 3vw;
+  font-weight: bold;
+  letter-spacing: 0.3vw;
 }
 
 .pro-btn {
-    background-color: transparent;
-    margin-top: 5vw;
-    padding-top: 1.5vw;
-    padding-left: 3vw;
-    font-size: 1.3vw;
-    padding-right: 3vw;
-    padding-bottom: 1.5vw;
-    letter-spacing: 0.2vw;
+  background-color: transparent;
+  margin-top: 5vw;
+  padding-top: 1.5vw;
+  padding-left: 3vw;
+  font-size: 1.3vw;
+  padding-right: 3vw;
+  padding-bottom: 1.5vw;
+  letter-spacing: 0.2vw;
 }
 
 .pro-a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 /*-------------------------------------------------------セクション2*/
 
 /*-------------------------------------------------------セクション3*/
 .section3 {
-    width: 100%;
-    background-color: #dfedf2;
-    height: 89vw;
+  width: 100%;
+  background-color: #dfedf2;
+  height: 89vw;
 }
 
 .section3-w h2 {
-    float: right;
-    margin-right: 2vw;
-    font-size: 2.5vw;
-    font-weight: lighter;
-    font-family: serif;
-    margin-top: -25vw;
-    letter-spacing: 1vw;
+  float: right;
+  margin-right: 2vw;
+  font-size: 2.5vw;
+  font-weight: lighter;
+  font-family: serif;
+  margin-top: -25vw;
+  letter-spacing: 1vw;
 }
 
 .mach {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .mach2-img {
-    position: relative;
-    margin-top: -9vw;
+  position: relative;
+  margin-top: -9vw;
 }
 
 .machImg-top {
-    position: absolute;
-    width: 30vw;
+  position: absolute;
+  width: 30vw;
 }
 
 .machImg-under {
-    width: 30vw;
-    margin-left: 5vw;
-    margin-top: 2.6vw;
+  width: 30vw;
+  margin-left: 5vw;
+  margin-top: 2.6vw;
 }
 
 .machImg2-top {
-    width: 36vw;
-    position: absolute;
-    z-index: 1;
-    margin-left: 9vw;
-    margin-top: 2vw;
+  width: 36vw;
+  position: absolute;
+  z-index: 1;
+  margin-left: 9vw;
+  margin-top: 2vw;
 }
 
 .machImg2-under {
-    width: 31vw;
-    transform: rotate(13deg);
-    margin-left: -6vw;
-    margin-top: -2.7vw;
-    z-index: 0;
+  width: 31vw;
+  transform: rotate(13deg);
+  margin-left: -6vw;
+  margin-top: -2.7vw;
+  z-index: 0;
 }
 
 .ma-right-text {
-    margin-top: -11vw;
-    font-size: 1.5vw;
-    font-family: serif;
-    letter-spacing: 0.6vw;
-    margin-left: 2vw;
+  margin-top: -11vw;
+  font-size: 1.5vw;
+  font-family: serif;
+  letter-spacing: 0.6vw;
+  margin-left: 2vw;
 }
 
-
-
 .mach3-bottom {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }
 
 .m3-img {
-    width: 7vw;
-    transform: rotate(-10deg);
+  width: 7vw;
+  transform: rotate(-10deg);
 }
 
 .label {
-    padding-top: 6vw;
-    line-height: 4vw;
-    font-size: 1.2vw;
-    font-family: serif;
+  padding-top: 6vw;
+  line-height: 4vw;
+  font-size: 1.2vw;
+  font-family: serif;
 }
 
-
-
 .plan-w {
-    margin-top: 3vw;
+  margin-top: 3vw;
 }
 
 .plan {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
 }
 
 .pre-btn {
-    width: 30vw;
-    height: 40vw;
-    margin-top: 2vw;
-    border: 1px solid white;
-    margin-left: 10vw;
-    background-color: transparent;
-    cursor: pointer;
+  width: 30vw;
+  height: 40vw;
+  margin-top: 2vw;
+  border: 1px solid white;
+  margin-left: 10vw;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .pre-top1 {
-    margin-left: 10vw;
-    font-family: serif;
+  margin-left: 10vw;
+  font-family: serif;
 }
 
 .sta-btn {
-    width: 30vw;
-    margin-right: 10vw;
-    margin-top: 2vw;
-    border: 1px solid white;
-    height: 40vw;
-    background-color: transparent;
-    cursor: pointer;
+  width: 30vw;
+  margin-right: 10vw;
+  margin-top: 2vw;
+  border: 1px solid white;
+  height: 40vw;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .pre-top2 {
-    margin-right: 10vw;
-    font-family: serif;
+  margin-right: 10vw;
+  font-family: serif;
 }
 
-
 .sta-top1 {
-    width: 23vw;
-    position: relative;
-    top: -11.3vw;
-    left: -8vw;
+  width: 23vw;
+  position: relative;
+  top: -11.3vw;
+  left: -8vw;
 }
 
 .sta-top2 {
-    width: 23vw;
-    position: relative;
-    top: -12vw;
-    right: 7vw;
+  width: 23vw;
+  position: relative;
+  top: -12vw;
+  right: 7vw;
 }
 
-
 .sta-img1-w {
-    margin-top: -16vw;
-    margin-bottom: 2vw;
+  margin-top: -16vw;
+  margin-bottom: 2vw;
 }
 
 .sta-img2-w {
-    margin-top: -16vw;
-    margin-bottom: 2vw;
+  margin-top: -16vw;
+  margin-bottom: 2vw;
 }
 
-
 .staImg1-left {
-    width: 2.3vw;
+  width: 2.3vw;
 }
 
 .staImg1-right {
-    width: 5vw;
-    margin-left: 3vw;
+  width: 5vw;
+  margin-left: 3vw;
 }
 
 .staImg2-left {
-    width: 3.5vw;
+  width: 3.5vw;
 }
 
 .staImg2-right {
-    width: 5vw;
-    margin-left: 2.7vw;
+  width: 5vw;
+  margin-left: 2.7vw;
 }
 
 .pre-under-text {
-    font-size: 0.6vw;
-    font-weight: bold;
-    line-height: 3vw;
-    margin-bottom: -7vw;
+  font-size: 0.6vw;
+  font-weight: bold;
+  line-height: 3vw;
+  margin-bottom: -7vw;
 }
 
 .sta-under-text {
-    font-size: 0.6vw;
-    font-weight: bold;
-    line-height: 3vw;
-    margin-bottom: -7vw;
+  font-size: 0.6vw;
+  font-weight: bold;
+  line-height: 3vw;
+  margin-bottom: -7vw;
 }
 
 .pre-value {
-    margin-left: 10vw;
-    font-size: 1.7vw;
-    font-family: serif;
-    margin-top: 3vw;
-    letter-spacing: 0.3vw;
+  margin-left: 10vw;
+  font-size: 1.7vw;
+  font-family: serif;
+  margin-top: 3vw;
+  letter-spacing: 0.3vw;
 }
 
 .sta-value {
-    margin-right: 10vw;
-    font-size: 1.7vw;
-    font-family: serif;
-    margin-top: 3vw;
-    letter-spacing: 0.3vw;
+  margin-right: 10vw;
+  font-size: 1.7vw;
+  font-family: serif;
+  margin-top: 3vw;
+  letter-spacing: 0.3vw;
 }
 
 .value1-btn {
-    margin-left: 10vw;
-    padding: 1.5vw 4.5vw;
-    margin-top: 3vw;
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid black;
+  margin-left: 10vw;
+  padding: 1.5vw 4.5vw;
+  margin-top: 3vw;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
 }
 
 .value2-btn {
-    margin-right: 10vw;
-    padding: 1.5vw 4.5vw;
-    margin-top: 3vw;
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid black;
+  margin-right: 10vw;
+  padding: 1.5vw 4.5vw;
+  margin-top: 3vw;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
 }
 
 .value1-a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .value2-a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .under-white2 {
-    font-size: 1.8vw;
-    margin-left: 5vw;
-    letter-spacing: 0.2vw;
-    margin-top: 1.4vw;
-    color: white;
+  font-size: 1.8vw;
+  margin-left: 5vw;
+  letter-spacing: 0.2vw;
+  margin-top: 1.4vw;
+  color: white;
 }
 
 /*-------------------------------------------------------セクション3*/
 
-
 /*-------------------------------------------------------セクション4*/
 .section4 {
-    background-color: #dbefe9;
-    margin-top: 17vw;
-    height: 92vw;
-    width: 100%;
+  background-color: #dbefe9;
+  margin-top: 17vw;
+  height: 92vw;
+  width: 100%;
 }
 
 .ge-right-text {
-    margin-top: -11vw;
-    font-size: 1.5vw;
-    font-family: serif;
-    letter-spacing: 0.6vw;
-    margin-left: -3vw;
+  margin-top: -11vw;
+  font-size: 1.5vw;
+  font-family: serif;
+  letter-spacing: 0.6vw;
+  margin-left: -3vw;
 }
 
 .getImg2-top {
-    position: absolute;
-    width: 50vw;
-    margin-left: -4vw;
+  position: absolute;
+  width: 50vw;
+  margin-left: -4vw;
 }
 
 .getImg2-under {
-    width: 21vw;
-    position: relative;
-    z-index: 3;
-    margin-left: -21vw;
-    margin-top: -2vw;
+  width: 21vw;
+  position: relative;
+  z-index: 3;
+  margin-left: -21vw;
+  margin-top: -2vw;
 }
 
 .g3-img {
-    width: 6vw;
-    transform: rotate(-10deg);
-    margin-left: -2vw;
+  width: 6vw;
+  transform: rotate(-10deg);
+  margin-left: -2vw;
 }
 
 .label-g {
-    padding-top: 6vw;
-    line-height: 4vw;
-    font-size: 1.2vw;
-    font-family: serif;
-    letter-spacing: 0.3vw;
+  padding-top: 6vw;
+  line-height: 4vw;
+  font-size: 1.2vw;
+  font-family: serif;
+  letter-spacing: 0.3vw;
 }
 
 .under-white {
-    font-size: 1.8vw;
-    margin-left: 9vw;
-    letter-spacing: 0.2vw;
-    margin-top: 1.4vw;
-    color: white;
+  font-size: 1.8vw;
+  margin-left: 9vw;
+  letter-spacing: 0.2vw;
+  margin-top: 1.4vw;
+  color: white;
 }
 
 /*-------------------------------------------------------セクション4*/
 
-
 /*-------------------------------------------------------セクション5*/
 .section5 {
-    width: 100%;
-    height: 161vw;
-    margin-top: 15vw;
-    background-color: #e0d4cf;
+  width: 100%;
+  height: 161vw;
+  margin-top: 15vw;
+  background-color: #e0d4cf;
 }
 
 .section5-w h2 {
-    font-size: 2vw;
-    letter-spacing: 0.3vw;
-    margin-left: 7vw;
-    position: relative;
-    top: -6vw;
+  font-size: 2vw;
+  letter-spacing: 0.3vw;
+  margin-left: 7vw;
+  position: relative;
+  top: -6vw;
 }
 
 .local {
-    font-size: 1.3vw;
-    margin-left: 7vw;
-    font-weight: bold;
-    letter-spacing: 0.3vw;
+  font-size: 1.3vw;
+  margin-left: 7vw;
+  font-weight: bold;
+  letter-spacing: 0.3vw;
 }
 
 .s5-select {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .s5-select img {
-    margin-left: 0vw;
-    width: 36vw;
-    transform: rotate(-18deg);
+  margin-left: 0vw;
+  width: 36vw;
+  transform: rotate(-18deg);
 }
-.s5-select2 img{
-    margin-left: 0vw;
-    width: 36vw;
-    transform: rotate(-18deg);  
+.s5-select2 img {
+  margin-left: 0vw;
+  width: 36vw;
+  transform: rotate(-18deg);
 }
 
 .s5-select p {
-    font-size: 2vw;
-    font-weight: lighter;
-    color: white;
-    letter-spacing: 0.3vw;
-    padding-left: 8vw;
-    font-family: serif;
-    margin-top: 5vw;
+  font-size: 2vw;
+  font-weight: lighter;
+  color: white;
+  letter-spacing: 0.3vw;
+  padding-left: 8vw;
+  font-family: serif;
+  margin-top: 5vw;
 }
 
-
 .s5-three {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .three-img1 {
-    width: 20vw;
+  width: 20vw;
 }
 
 .three-img2 {
-    width: 20vw;
+  width: 20vw;
 }
 
 .three-img3 {
-    width: 20vw;
+  width: 20vw;
 }
 
-
 .circle {
-    height: 23vw;
+  height: 23vw;
 }
 
 .circle img {
-    float: left;
-    margin-left: 7vw;
+  float: left;
+  margin-left: 7vw;
 }
 
 .circle p {
-    writing-mode: vertical-rl;
-    margin-right: 10vw;
-    color: white;
-    padding-left: 1vw;
-    font-size: 01vw;
-    font-size: 0.8vw;
-    letter-spacing: 0.2vw;
+  writing-mode: vertical-rl;
+  margin-right: 10vw;
+  color: white;
+  padding-left: 1vw;
+  font-size: 01vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.2vw;
 }
 
 .white-text {
-    background-color: white;
-    width: 84%;
-    padding: 1vw 1vw;
-    border-radius: 10vw;
-    line-height: 2vw;
-    font-size: 1.1vw;
-    margin: auto;
+  background-color: white;
+  width: 84%;
+  padding: 1vw 1vw;
+  border-radius: 10vw;
+  line-height: 2vw;
+  font-size: 1.1vw;
+  margin: auto;
 }
 
 .black-text {
-    margin-top: 4vw;
-    font-size: 1.1vw;
-    line-height: 1.8vw;
+  margin-top: 4vw;
+  font-size: 1.1vw;
+  line-height: 1.8vw;
 }
 
 .black-text2 {
-    font-size: 1.1vw;
-    margin-top: 2vw;
-    line-height: 1.8vw;
+  font-size: 1.1vw;
+  margin-top: 2vw;
+  line-height: 1.8vw;
 }
 
 .three-value1 {
-    margin-top: 4vw;
-    font-family: serif;
-    letter-spacing: 0.2vw;
-    font-size: 1.6vw;
+  margin-top: 4vw;
+  font-family: serif;
+  letter-spacing: 0.2vw;
+  font-size: 1.6vw;
 }
 
 .three-value2 {
-    font-family: serif;
-    letter-spacing: 0.2vw;
-    font-size: 1.6vw;
-    margin-top: 5.7vw;
+  font-family: serif;
+  letter-spacing: 0.2vw;
+  font-size: 1.6vw;
+  margin-top: 5.7vw;
 }
 
 .three-value3 {
-    margin-top: 2.2vw;
-    font-family: serif;
-    letter-spacing: 0.2vw;
-    font-size: 1.6vw;
+  margin-top: 2.2vw;
+  font-family: serif;
+  letter-spacing: 0.2vw;
+  font-size: 1.6vw;
 }
 
 .three-btn {
-    padding: 1.5vw 4.5vw;
-    margin-top: 3vw;
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid black;
+  padding: 1.5vw 4.5vw;
+  margin-top: 3vw;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid black;
 }
 
 .three-btn a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
-
-
-
 .s5-select2 {
-    margin-top: 8vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  margin-top: 8vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .s5-select2 p {
-    font-size: 2vw;
-    font-weight: lighter;
-    color: white;
-    font-family: serif;
-    margin-top: 5vw;
-    letter-spacing: 0.3vw;
-    margin-left: 15vw;
+  font-size: 2vw;
+  font-weight: lighter;
+  color: white;
+  font-family: serif;
+  margin-top: 5vw;
+  letter-spacing: 0.3vw;
+  margin-left: 15vw;
 }
 
 .s52-three {
-    margin-top: 1vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+  margin-top: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .three2-img1 {
-    width: 8vw;
-    margin-top: 0.8vw;
+  width: 8vw;
+  margin-top: 0.8vw;
 }
 
 .three2-img2 {
-    width: 6vw;
-    margin-top: 1vw;
+  width: 6vw;
+  margin-top: 1vw;
 }
 
 .three2-img3 {
-    width: 5.5vw;
-    margin-top: 1vw;
+  width: 5.5vw;
+  margin-top: 1vw;
 }
 
 .circle2 {
-    height: 28vw;
+  height: 28vw;
 }
 
 .circle2 img {
-    float: left;
-    margin-left: 13vw;
+  float: left;
+  margin-left: 13vw;
 }
 
 .circle2 p {
-    writing-mode: vertical-rl;
-    color: white;
-    padding-left: 9vw;
+  writing-mode: vertical-rl;
+  color: white;
+  padding-left: 9vw;
 
-    font-size: 01vw;
-    font-size: 0.8vw;
-    letter-spacing: 0.2vw;
+  font-size: 01vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.2vw;
 }
 
 .three2-value1 {
-    font-family: serif;
-    margin-top: 4vw;
-    letter-spacing: 0.2vw;
-    font-size: 1.6vw;
+  font-family: serif;
+  margin-top: 4vw;
+  letter-spacing: 0.2vw;
+  font-size: 1.6vw;
 }
 
 .three2-value2 {
-    font-family: serif;
-    letter-spacing: 0.2vw;
-    font-size: 1.6vw;
-    margin-top: 2.5vw;
+  font-family: serif;
+  letter-spacing: 0.2vw;
+  font-size: 1.6vw;
+  margin-top: 2.5vw;
 }
 
 .three2-value3 {
-    font-family: serif;
-    letter-spacing: 0.2vw;
-    font-size: 1.6vw;
-    margin-top: 4.5vw;
+  font-family: serif;
+  letter-spacing: 0.2vw;
+  font-size: 1.6vw;
+  margin-top: 4.5vw;
 }
 
 /*-------------------------------------------------------セクション5*/
 
-
 /*-------------------------------------------------------セクション6*/
 .section6 {
-    width: 100%;
-    height: 29vw;
+  width: 100%;
+  height: 29vw;
 }
 
 .s6-top-text {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 8vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 8vw;
 }
 
 .t-text {
-    text-align: right;
-    margin-right: 2vw;
+  text-align: right;
+  margin-right: 2vw;
 }
 
 .t-text2 {
-    text-align: left;
-    margin-left: 2vw;
+  text-align: left;
+  margin-left: 2vw;
 }
 
 .line {
-    text-align: center;
+  text-align: center;
 }
 
 .line-img {
-    width: 5vw;
-    margin-top: 3vw;
+  width: 5vw;
+  margin-top: 3vw;
 }
 
 .middle {
-    margin-top: 2vw;
+  margin-top: 2vw;
 }
 
 .fre {
-    margin-top: 3vw;
-    border: none;
-    background-color: transparent;
+  margin-top: 3vw;
+  border: none;
+  background-color: transparent;
 }
 
 .fre a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.7vw;
+  color: white;
+  text-decoration: none;
+  font-size: 1.7vw;
 }
 
 .fa-line {
-    font-size: 2vw;
+  font-size: 2vw;
 }
-
-
 
 /*-------------------------------------------------------セクション6*/
 
-
-
-
 footer {
-    width: 100%;
-    height: 20vw;
-    background-color: #e0d4cf;
+  width: 100%;
+  height: 20vw;
+  background-color: #e0d4cf;
 }
 
 .footer-w {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .f-concept {
-    margin-top: 2vw;
-    border: none;
-    background-color: transparent;
-    font-size: 1.9vw;
-    letter-spacing: 0.2vw;
+  margin-top: 2vw;
+  border: none;
+  background-color: transparent;
+  font-size: 1.9vw;
+  letter-spacing: 0.2vw;
 }
 
 .f-concept a {
-    color: black;
-    margin-left: -6vw;
-    letter-spacing: 0.5vw;
+  color: black;
+  margin-left: -6vw;
+  letter-spacing: 0.5vw;
 }
 
 .f-product {
-    border: none;
-    background-color: transparent;
-    font-size: 1.9vw;
-    letter-spacing: 0.2vw;
+  border: none;
+  background-color: transparent;
+  font-size: 1.9vw;
+  letter-spacing: 0.2vw;
 }
 
 .f-product a {
-    color: black;
-    margin-left: -5.6vw;
-    letter-spacing: 0.5vw;
+  color: black;
+  margin-left: -5.6vw;
+  letter-spacing: 0.5vw;
 }
 
 .f-about {
-    border: none;
-    background-color: transparent;
-    font-size: 1.9vw;
-    letter-spacing: 0.2vw;
+  border: none;
+  background-color: transparent;
+  font-size: 1.9vw;
+  letter-spacing: 0.2vw;
 }
 
 .f-about a {
-    color: black;
-    margin-left: -9.4vw;
-    letter-spacing: 0.5vw;
+  color: black;
+  margin-left: -9.4vw;
+  letter-spacing: 0.5vw;
 }
 
 .f-detail {
-    border: none;
-    background-color: transparent;
-    font-size: 1.9vw;
-    letter-spacing: 0.2vw;
+  border: none;
+  background-color: transparent;
+  font-size: 1.9vw;
+  letter-spacing: 0.2vw;
 }
 
 .f-detail a {
-    color: black;
-    margin-left: -8.9vw;
-    letter-spacing: 0.5vw;
+  color: black;
+  margin-left: -8.9vw;
+  letter-spacing: 0.5vw;
 }
 
 .footer-menu {
-    line-height: 3.5vw;
+  line-height: 3.5vw;
 }
 
 .footer-logo {
-    width: 15vw;
-    padding-top: 4vw;
+  width: 15vw;
+  padding-top: 4vw;
 }
 
 .number {
-    background-color: transparent;
-    border: none;
-    margin-top: 3vw;
-    letter-spacing: 0.5vw;
-    font-size: 2.7vw;
+  background-color: transparent;
+  border: none;
+  margin-top: 3vw;
+  letter-spacing: 0.5vw;
+  font-size: 2.7vw;
 }
 
 .number a {
-    color: white;
+  color: white;
 }
 
 .mail {
-    background-color: transparent;
-    border: none;
-    margin-top: 2vw;
-    letter-spacing: 0.5vw;
-    font-size: 2.7vw;
+  background-color: transparent;
+  border: none;
+  margin-top: 2vw;
+  letter-spacing: 0.5vw;
+  font-size: 2.7vw;
 }
 
 .mail a {
-    color: white;
-    margin-left: -6.2vw;
+  color: white;
+  margin-left: -6.2vw;
 }
 
 .pauypal {
-    width: 10vw;
-    margin-right: -20vw;
-    margin-top: 3vw;
+  width: 10vw;
+  margin-right: -20vw;
+  margin-top: 3vw;
 }
 
 .copy {
-    color: white;
-    margin-top: 1vw;
+  color: white;
+  margin-top: 1vw;
 }
 
 .post {
-    color: white;
-    margin-top: 2vw;
-    font-size: 1.5vw;
-    margin-left: -19.5vw;
+  color: white;
+  margin-top: 2vw;
+  font-size: 1.5vw;
+  margin-left: -19.5vw;
 }
 
 .direct {
-    font-size: 1.2vw;
-    margin-top: 1vw;
-    color: white;
+  font-size: 1.2vw;
+  margin-top: 1vw;
+  color: white;
 }
-
-
-
-
 
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）のCSSになります*/
 
-
-
 .detail-header {
-    width: 100%;
-    height: 6vw;
-    background-color: #ddd3cc;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}   
+  width: 100%;
+  height: 6vw;
+  background-color: #ddd3cc;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 .header-left {
-    float: left;
+  float: left;
 }
 
 .header-left img {
-    margin-left: 3vw;
-    width: 9vw;
-    margin-top: 1.5vw;
+  margin-left: 3vw;
+  width: 9vw;
+  margin-top: 1.5vw;
 }
 
-.header-right {}
+.header-right {
+}
 
 .header-right img {
-    width: 5.5vw;
-    padding: 0.8vw 1.9vw 0 0;
-    float: right;
+  width: 5.5vw;
+  padding: 0.8vw 1.9vw 0 0;
+  float: right;
 }
 
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第一セクションのCSSになります*/
 .detailSection1 {
-    width: 100%;
-    height: 26vw;
+  width: 100%;
+  height: 26vw;
 }
 
 .detailSection1-w {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .d-section1-right {
-    position: relative;
+  position: relative;
 }
 
 .d-section1-left h2 {
-    font-size: 2.1vw;
-    letter-spacing: 0.5vw;
-    margin-left: 8vw;
-    margin-top: 8vw;
+  font-size: 2.1vw;
+  letter-spacing: 0.5vw;
+  margin-left: 8vw;
+  margin-top: 8vw;
 }
 
 .water1 {
-    position: absolute;
-    top: 9.5vw;
-    z-index: 1;
-    width: 12vw;
-    left: 34vw;
+  position: absolute;
+  top: 9.5vw;
+  z-index: 1;
+  width: 12vw;
+  left: 34vw;
 }
 
 .cream1 {
-    width: 46vw;
-    position: absolute;
-    top: 5vw;
-    z-index: 0;
-    left: 2vw;
+  width: 46vw;
+  position: absolute;
+  top: 5vw;
+  z-index: 0;
+  left: 2vw;
 }
 
 .d-section1-right p {
-    position: absolute;
-    top: 16.4vw;
-    font-size: 2.6vw;
-    z-index: 3;
-    left: 14vw;
-    letter-spacing: 0.5vw;
-    font-family: serif;
+  position: absolute;
+  top: 16.4vw;
+  font-size: 2.6vw;
+  z-index: 3;
+  left: 14vw;
+  letter-spacing: 0.5vw;
+  font-family: serif;
 }
 
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第一セクションのCSSになります*/
 
-
-
-
-
-
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第2セクションのCSSになります*/
 .detailSection2 {
-    width: 100%;
-    height: 22vw;
+  width: 100%;
+  height: 22vw;
 }
 
 .detailSection2-w {
-    position: relative;
+  position: relative;
 }
 
 .left-box {
-    width: 41vw;
-    height: 20vw;
-    background-color: #e0d4cf;
+  width: 41vw;
+  height: 20vw;
+  background-color: #e0d4cf;
 }
 
 .left-box img {
-    width: 37vw;
-    transform: rotate(-15deg);
-    padding-top: 2vw;
-    margin-left: 1vw;
+  width: 37vw;
+  transform: rotate(-15deg);
+  padding-top: 2vw;
+  margin-left: 1vw;
 }
 
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第2セクションのCSSになります*/
 
 .border {
-    width: 70vw;
-    margin: auto;
-    border: 2px solid #e0d4cf;
+  width: 70vw;
+  margin: auto;
+  border: 2px solid #e0d4cf;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第3セクションのCSSになります*/
 
 .detailSection3 {
-    width: 100%;
-    height: 31vw;
+  width: 100%;
+  height: 31vw;
 }
-.detailSection3-w{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.detailSection3-w {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .d-curaprox {
-    width: 15vw;
-    margin-left: 6vw;
-    margin-top: 2vw;
+  width: 15vw;
+  margin-left: 6vw;
+  margin-top: 2vw;
 }
 .d-philips {
-    width: 20vw;
-    margin-left: 15vw;
-    margin-top: -1vw;
+  width: 20vw;
+  margin-left: 15vw;
+  margin-top: -1vw;
 }
 .curaprox-text {
-    font-size: 0.8vw;
-    line-height: 2.3vw;
-    margin-left: 31.5vw;
-    margin-top: -8vw;
+  font-size: 0.8vw;
+  line-height: 2.3vw;
+  margin-left: 31.5vw;
+  margin-top: -8vw;
 }
-.s3-right{
-    margin-top: 2vw;
-    margin-left: 5vw;
+.s3-right {
+  margin-top: 2vw;
+  margin-left: 5vw;
 }
 
 .s3-righth2 {
-    letter-spacing: 0.4vw;
-    margin-top: 1vw;
-    font-size: 1.7vw;
+  letter-spacing: 0.4vw;
+  margin-top: 1vw;
+  font-size: 1.7vw;
 }
 .s3-rightp {
-    margin-top: 0.7vw;
-    font-size: 0.8vw;
-    font-weight: bold;
-    line-height: 1.7vw;
+  margin-top: 0.7vw;
+  font-size: 0.8vw;
+  font-weight: bold;
+  line-height: 1.7vw;
 }
 .desc {
-    font-size: 0.8vw;
-    margin-top: 3.6vw;
+  font-size: 0.8vw;
+  margin-top: 3.6vw;
 }
 .desc1 {
-    font-size: 0.8vw;
-    margin-top: 1vw;
-    letter-spacing: 0.2vw;
-    line-height: 1.2vw;
+  font-size: 0.8vw;
+  margin-top: 1vw;
+  letter-spacing: 0.2vw;
+  line-height: 1.2vw;
 }
 .desc2 {
-    line-height: 1.4vw;
-    letter-spacing: 0.2vw;
-    font-size: 0.8vw;
-    margin-top: 1.5vw;
+  line-height: 1.4vw;
+  letter-spacing: 0.2vw;
+  font-size: 0.8vw;
+  margin-top: 1.5vw;
 }
 
 .desc3 {
-    font-size: 0.8vw;
-    letter-spacing: 0.1vw;
-    margin-top: 1.7vw;
-    line-height: 0.4vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.1vw;
+  margin-top: 1.7vw;
+  line-height: 0.4vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第3セクションのCSSになります*/
 
-
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第4セクションのCSSになります*/
 .detailSection4 {
-    width: 100%;
-    margin-top: 1vw;
-    height: 30vw;
+  width: 100%;
+  margin-top: 1vw;
+  height: 30vw;
 }
-.detailSection4-w{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.detailSection4-w {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .d-tepe {
-    margin-left: 7vw;
-    width: 9vw;
-    margin-top: 2vw;
+  margin-left: 7vw;
+  width: 9vw;
+  margin-top: 2vw;
 }
-.tepe-text{
-    font-size: 0.8vw;
-    line-height: 2.3vw;
-    margin-left: 31.5vw;
-    margin-top: -8vw;
+.tepe-text {
+  font-size: 0.8vw;
+  line-height: 2.3vw;
+  margin-left: 31.5vw;
+  margin-top: -8vw;
 }
 .s4-right {
-    margin-top: 4vw;
-    margin-left: 5vw;
+  margin-top: 4vw;
+  margin-left: 5vw;
 }
 .s4-righth2 {
-    letter-spacing: 0.4vw;
-    margin-top: 1vw;
-    font-size: 1.7vw;
+  letter-spacing: 0.4vw;
+  margin-top: 1vw;
+  font-size: 1.7vw;
 }
 .s4-rightp {
-    margin-top: 3.7vw;
-    font-size: 0.8vw;
-    font-weight: bold;
-    line-height: 1.7vw;
+  margin-top: 3.7vw;
+  font-size: 0.8vw;
+  font-weight: bold;
+  line-height: 1.7vw;
 }
 .desc1-4 {
-    font-size: 0.8vw;
-    margin-top: 1vw;
-    letter-spacing: 0.2vw;
-    line-height: 1.2vw;
+  font-size: 0.8vw;
+  margin-top: 1vw;
+  letter-spacing: 0.2vw;
+  line-height: 1.2vw;
 }
 .desc2-4 {
-    line-height: 1.4vw;
-    letter-spacing: 0.2vw;
-    font-size: 0.8vw;
-    margin-top: 1.5vw;
+  line-height: 1.4vw;
+  letter-spacing: 0.2vw;
+  font-size: 0.8vw;
+  margin-top: 1.5vw;
 }
 
 .desc3-4 {
-    font-size: 0.8vw;
-    letter-spacing: 0.1vw;
-    margin-top: 1.7vw;
-    line-height: 0.4vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.1vw;
+  margin-top: 1.7vw;
+  line-height: 0.4vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第4セクションのCSSになります*/
 
-
-
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第5セクションのCSSになります*/
 .detailSection5 {
-    width: 100%;
-    margin-top: 2vw;
-    height: 36vw;
+  width: 100%;
+  margin-top: 2vw;
+  height: 36vw;
 }
 
-.detailSection5-w{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.detailSection5-w {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .d-aqua {
-    margin-left: 7.3vw;
-    width: 9vw;
+  margin-left: 7.3vw;
+  width: 9vw;
 }
-.aqua-text{
-    font-size: 0.8vw;
-    line-height: 2.3vw;
-    margin-left: 31.5vw;
-    margin-top: -8vw;
+.aqua-text {
+  font-size: 0.8vw;
+  line-height: 2.3vw;
+  margin-left: 31.5vw;
+  margin-top: -8vw;
 }
 .s5-righth2 {
-    letter-spacing: 0.4vw;
-    margin-top: 2vw;
-    font-size: 1.5vw;
+  letter-spacing: 0.4vw;
+  margin-top: 2vw;
+  font-size: 1.5vw;
 }
 .desc {
-    font-size: 0.8vw;
-    letter-spacing: 0.2vw;
-    margin-top: 3.6vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.2vw;
+  margin-top: 3.6vw;
 }
 .desc1-5 {
-    font-size: 0.8vw;
-    margin-top: 1vw;
-    letter-spacing: 0.2vw;
-    line-height: 1.2vw;
+  font-size: 0.8vw;
+  margin-top: 1vw;
+  letter-spacing: 0.2vw;
+  line-height: 1.2vw;
 }
 .desc2-5 {
-    line-height: 1.4vw;
-    letter-spacing: 0.2vw;
-    font-size: 0.8vw;
-    margin-top: 1.5vw;
+  line-height: 1.4vw;
+  letter-spacing: 0.2vw;
+  font-size: 0.8vw;
+  margin-top: 1.5vw;
 }
 
 .desc3-5 {
-    font-size: 0.8vw;
-    letter-spacing: 0.1vw;
-    margin-top: 1.7vw;
-    line-height: 0.4vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.1vw;
+  margin-top: 1.7vw;
+  line-height: 0.4vw;
 }
 .s5-rightp {
-    margin-top: 1.9vw;
-    font-size: 0.8vw;
-    font-weight: bold;
-    line-height: 1.7vw;
+  margin-top: 1.9vw;
+  font-size: 0.8vw;
+  font-weight: bold;
+  line-height: 1.7vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第5セクションのCSSになります*/
 
-.detailSection6{
-    width: 100%;
-    height: 22vw;
+.detailSection6 {
+  width: 100%;
+  height: 22vw;
 }
 
 .d-philips-5 {
-    width: 20vw;
-    margin-left: 15vw;
-    margin-top: -3vw;
+  width: 20vw;
+  margin-left: 15vw;
+  margin-top: -3vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第７セクションのCSSになります*/
 .detailSetion7 {
-    width: 100%;
-    height: 47vw;
+  width: 100%;
+  height: 47vw;
 }
 .s7-rightp {
-    margin-top: 0.8vw;
-    font-size: 0.8vw;
-    font-weight: bold;
-    line-height: 1.7vw;
+  margin-top: 0.8vw;
+  font-size: 0.8vw;
+  font-weight: bold;
+  line-height: 1.7vw;
 }
-.detailSection7-w{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.detailSection7-w {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .d-ruscello {
-    width: 12vw;
-    margin-left: 18vw;
-    margin-top: -4vw;
+  width: 12vw;
+  margin-left: 18vw;
+  margin-top: -4vw;
 }
-.rusce-text{
-    font-size: 0.8vw;
-    line-height: 2.3vw;
-    margin-left: 30vw;
-    margin-top: -8vw;
+.rusce-text {
+  font-size: 0.8vw;
+  line-height: 2.3vw;
+  margin-left: 30vw;
+  margin-top: -8vw;
 }
 .d-add-text {
-    margin-top: 2.5vw;
+  margin-top: 2.5vw;
 }
 .d-add-text p {
-    font-size: 0.8vw;
-    line-height: 1.1vw;
+  font-size: 0.8vw;
+  line-height: 1.1vw;
 }
 .right {
-    margin-left: 4.2vw;
+  margin-left: 4.2vw;
 }
 .right2 {
-    margin-left: 3.3vw;
+  margin-left: 3.3vw;
 }
 .desc-7 {
-    font-size: 0.8vw;
-    letter-spacing: 0.2vw;
-    margin-top: 1.9vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.2vw;
+  margin-top: 1.9vw;
 }
 .desc1-7 {
-    font-size: 0.8vw;
-    margin-top: 0.8vw;
-    letter-spacing: 0.2vw;
-    line-height: 1.2vw;
+  font-size: 0.8vw;
+  margin-top: 0.8vw;
+  letter-spacing: 0.2vw;
+  line-height: 1.2vw;
 }
 .desc2-7 {
-    line-height: 1.4vw;
-    letter-spacing: 0.2vw;
-    font-size: 0.8vw;
-    margin-top: 0.5vw;
+  line-height: 1.4vw;
+  letter-spacing: 0.2vw;
+  font-size: 0.8vw;
+  margin-top: 0.5vw;
 }
 .desc3-7 {
-    font-size: 0.8vw;
-    letter-spacing: 0.1vw;
-    margin-top: 0.7vw;
-    line-height: 0.4vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.1vw;
+  margin-top: 0.7vw;
+  line-height: 0.4vw;
 }
 .s7-right {
-    margin-top: 1vw;
-    margin-left: 5vw;
+  margin-top: 1vw;
+  margin-left: 5vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第７セクションのCSSになります*/
 
-
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第8セクションのCSSになります*/
 .detailSetion8 {
-    width: 100%;
-    height: 50vw;
+  width: 100%;
+  height: 50vw;
 }
 .d-APAGARD {
-    width: 9vw;
-    margin-left: 19.5vw;
-    margin-top: 7vw;
+  width: 9vw;
+  margin-left: 19.5vw;
+  margin-top: 7vw;
 }
 .d-APG {
-    width: 18vw;
-    margin-bottom: -8vw;
-    margin-left: 6vw;
+  width: 18vw;
+  margin-bottom: -8vw;
+  margin-left: 6vw;
 }
 .s8-right {
-    margin-top: 6vw;
-    margin-left: 5vw;
+  margin-top: 6vw;
+  margin-left: 5vw;
 }
 .desc-8 {
-    font-size: 0.8vw;
-    letter-spacing: 0.2vw;
-    margin-top: 4vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.2vw;
+  margin-top: 4vw;
 }
 .desc1-8 {
-    font-size: 0.8vw;
-    margin-top: 0.8vw;
-    letter-spacing: 0.2vw;
-    line-height: 1.2vw;
+  font-size: 0.8vw;
+  margin-top: 0.8vw;
+  letter-spacing: 0.2vw;
+  line-height: 1.2vw;
 }
 .desc2-8 {
-    line-height: 1.4vw;
-    letter-spacing: 0.2vw;
-    font-size: 0.8vw;
-    margin-top: 0.5vw;
+  line-height: 1.4vw;
+  letter-spacing: 0.2vw;
+  font-size: 0.8vw;
+  margin-top: 0.5vw;
 }
 .desc3-8 {
-    font-size: 0.8vw;
-    letter-spacing: 0.1vw;
-    margin-top: 0.7vw;
-    line-height: 0.4vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.1vw;
+  margin-top: 0.7vw;
+  line-height: 0.4vw;
 }
 .d-add-text-2 {
-    margin-top: 4.5vw;
+  margin-top: 4.5vw;
 }
 .d-add-text-2 p {
-    font-size: 0.8vw;
-    line-height: 1.1vw;
+  font-size: 0.8vw;
+  line-height: 1.1vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第8セクションのCSSになります*/
-
-
 
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第9セクションのCSSになります*/
 .detailSetion9 {
-    width: 100%;
-    height: 50vw;
-    margin-top: 3vw;
+  width: 100%;
+  height: 50vw;
+  margin-top: 3vw;
 }
 .d-oral {
-    margin-left: 8vw;
-    width: 19vw;
-    margin-top: 2vw;
+  margin-left: 8vw;
+  width: 19vw;
+  margin-top: 2vw;
 }
 .d-oralpeace {
-    width: 8vw;
-    margin-left: 20.5vw;
-    margin-top: 0vw;
+  width: 8vw;
+  margin-left: 20.5vw;
+  margin-top: 0vw;
 }
 .oral-text {
-    font-size: 0.8vw;
-    line-height: 2.3vw;
-    margin-left: 30vw;
-    margin-top: -16vw;
+  font-size: 0.8vw;
+  line-height: 2.3vw;
+  margin-left: 30vw;
+  margin-top: -16vw;
 }
 .s9-right {
-    margin-top: 4vw;
-    margin-left: 5vw;
+  margin-top: 4vw;
+  margin-left: 5vw;
 }
 .desc-9 {
-    font-size: 0.8vw;
-    letter-spacing: 0.2vw;
-    margin-top: 4vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.2vw;
+  margin-top: 4vw;
 }
 .desc1-9 {
-    font-size: 0.8vw;
-    margin-top: 0.8vw;
-    letter-spacing: 0.2vw;
-    line-height: 1.2vw;
+  font-size: 0.8vw;
+  margin-top: 0.8vw;
+  letter-spacing: 0.2vw;
+  line-height: 1.2vw;
 }
 .desc2-9 {
-    line-height: 1.4vw;
-    letter-spacing: 0.2vw;
-    font-size: 0.8vw;
-    margin-top: 0.5vw;
+  line-height: 1.4vw;
+  letter-spacing: 0.2vw;
+  font-size: 0.8vw;
+  margin-top: 0.5vw;
 }
 .desc3-9 {
-    font-size: 0.8vw;
-    letter-spacing: 0.1vw;
-    margin-top: 0.7vw;
-    line-height: 1.4vw;
+  font-size: 0.8vw;
+  letter-spacing: 0.1vw;
+  margin-top: 0.7vw;
+  line-height: 1.4vw;
 }
 .d-add-text-3 {
-    margin-top: 4.5vw;
+  margin-top: 4.5vw;
 }
 .d-add-text-3 p {
-    font-size: 0.8vw;
-    line-height: 1.1vw;
+  font-size: 0.8vw;
+  line-height: 1.1vw;
 }
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第9セクションのCSSになります*/
 
-.respo{
-    display: none;
+.respo {
+  display: none;
 }
-.respoX{
-    display: none;
+.respoX {
+  display: none;
 }
-
-
-
-
-
-
-
 
 /*ここからレスポンシブデザインを書いていきまし*/
 
-@media screen and (max-width:1040px){
-    .section5 {
-        height: 167vw;
-    }
-    .border-top {
-        margin-right: -3vw;
-    }
-    .right-logo {
-        margin-right: -2vw;
-    }
-    .detailSection4 {
-        height: 36vw;
-    }
-    .s3-right {
-        margin-top: 3vw;
-        margin-left: 5vw;
-    }
-    .desc3 {
-        line-height: 1.4vw;
-    }
-    .respo{
-        display: block;
-    }
-    .desc {
-        margin-top: 4.6vw;
-    }
+@media screen and (max-width: 1040px) {
+  .section5 {
+    height: 167vw;
+  }
+  .border-top {
+    margin-right: -3vw;
+  }
+  .right-logo {
+    margin-right: -2vw;
+  }
+  .detailSection4 {
+    height: 36vw;
+  }
+  .s3-right {
+    margin-top: 3vw;
+    margin-left: 5vw;
+  }
+  .desc3 {
+    line-height: 1.4vw;
+  }
+  .respo {
+    display: block;
+  }
+  .desc {
+    margin-top: 4.6vw;
+  }
 }
-@media screen and (max-width:780px){
-    .section5 {
-        height: 181vw;
-    }
-    .desc3-8 {
-        line-height: 1.6vw;
-    }
-    .gray {
-        height: 34vw;
-    }
-    .desc3-7 {
-        line-height: 1.6vw;
-    }
-    .s7-right {
-        margin-top: -1vw;
-    }
-    .desc1-8 {
-        line-height: 1.7vw;
-    }
-    .desc1-7 {
-        line-height: 1.7vw;
-    }
-    .desc2-8 {
-        line-height: 1.7vw;
-    }
-    .desc2-7 {
-        line-height: 1.7vw;
-    }
-    .desc3-9 {
-        line-height: 1.7vw;
-    }
-    .desc-8 {
-        margin-top: 3vw;
-    }
-    .detailSection5 {
-        height: 42vw;
-    }
-    .desc1-9 {
-        line-height: 1.6vw;
-    }
-    .desc1 {
-        line-height: 1.7vw;
-    }
-    .d-add-text-2 {
-        margin-top: 3.5vw;
-    }
-    .desc3-5 {
-        line-height: 1.4vw;
-    }
-    .d-add-text p {
-        line-height: 1.6vw;
-    }
-    .d-add-text-2 p {
-        font-size: 0.8vw;
-        line-height: 1.6vw;
-    }
-    .detailSetion8 {
-        height: 58vw;
-    }
-    .d-add-text-3 p {
-        line-height: 1.6vw;
-    }
-    .s9-right {
-        margin-top: 1vw;
-    }
-    .s8-right {
-        margin-top: 3vw;
-    }
-    .detailSetion7 {
-        height: 54vw;
-    }
-    .curaprox-text {
-        margin-left: 25.5vw;
-        margin-top: -3vw;
-    }
-    .tepe-text {
-        margin-left: 25.5vw;
-        margin-top: -3vw;
-    }
-    .aqua-text {
-        margin-left: 25.5vw;
-        margin-top: -3vw;
-    }
-    .desc3-4 {
-        line-height: 1.6vw;
-    }
-    .detailSection3 {
-        height: 35vw;
-    }
-    .detailSection2 {
-        height: 25vw;
-    }
-    .pre-top2 {
-        margin-bottom: 4vw;
-    }
-    .pre-top1 {
-        margin-bottom: 4vw;
-    }
-    .pre-btn {
-        width: 34vw;
-    }
-    .sta-btn {
-        width: 34vw;
-    }
-    .border-top {
-        margin-right: -2vw;
-        width: 61px;
-    }
-    .section3 {
-        height: 94vw;
-    }
-    .section4 {
-        height: 104vw;
-        margin-top: 21vw;
-    }
-    .res-btn-4 {
-        height: 45vw;
-    }
-    .s5-select img {
-        margin-left: -1vw;
-        width: 48vw;
-        margin-top: 6vw;
-    }
-    .s5-select p {
-        padding-left: 0vw;
-        margin-top: 15vw;
-        font-size: 14px;
-    }
-    .three-value2 {
-        margin-top: 8vw;
-    }
-    .three-value1 {
-        margin-top: 6.4vw;
-    }
-    .black-right {
-        margin-top: 7vw;
-    }
-    .black-mid{
-        margin-top: 7vw;
-    }
-    .black-left{
-        margin-top: 5vw;
-    }
-    .three-value3 {
-        margin-top: 4.2vw;
-    }
-    .s5-select2 img {
-        width: 52vw;
-        margin-left: 1vw;
-    }
-    .respo{
-        display: block;
-    }
-    .black-left2 {
-        margin-top: 6vw;
-    }
-    .black-right2{
-        margin-top: 6vw;
-    }
-    .three2-value2 {
-        margin-top: 3.9vw;
-    }
-    .three2-value3 {
-        margin-top: 5.5vw;
-    }
-    .section6 {
-        height: 32vw;
-    }
-    footer {
-        height: 26vw;
-    }
-    .copy {
-        margin-top: 6vw;
-        font-size: 1.4vw;
-    }
-    .f-concept {
-        margin-top: 3vw;
-    }
-    .s5-select2 p {
-        font-size: 2vw;
-        font-weight: lighter;
-        color: white;
-        font-family: serif;
-        margin-top: 8vw;
-        letter-spacing: 0.3vw;
-        margin-left: 8vw;
-    }
-}
-
-@media screen and (max-width:420px){
-    .header2{
-        display: none;
-    }
-    
-    .circle2 p {
-        writing-mode: vertical-rl;
-        color: white;
-        padding-left: 9vw;
-        font-size: 14px;
-        letter-spacing: 0.2vw;
-    }
-    .header1{
-        display: none;
-    }
-    .top-img {
-        height: 65vw;
-    }
-    .h-concept {
-        font-size: 36px;
-        margin-top: 8vw;
-        margin-bottom: 20vw;
-    }
-    .respo{
-        display: block;
-    }
-    .gray {
-        width: 100%;
-        height: 100vw;
-    }
-    .g-text p {
-        font-size: 12px;
-        line-height: 6vw;
-    }
-    .g-text h3 {
-        font-size: 25px;
-        margin-top: 12vw;
-        line-height: 10vw;
-    }
-    .g-text p {
-        font-size: 12px;
-        line-height: 9vw;
-        margin-top: 7.7vw;
-        letter-spacing: 0.1vw;
-    }
-    .g-btn {
-        margin-top: 11vw;
-        padding-top: 1.5vw;
-        padding-left: 3vw;
-        font-size: 1.3vw;
-        width: 40vw;
-        height: 10vw;
-        margin-left: 29vw;
-        float: none;
-    }
-    .section2 {
-        width: 100%;
-        height: 500vw;
-        margin-top: 40vw;
-    }
-    .h-set {
-        font-weight: lighter;
-        font-size: 36px;
-        margin-left: 5vw;
-        letter-spacing: 0.2vw;
-        margin-bottom: 6vw;
-    }
-    section {
-        width: 100%;
-        height: 120vw;
-    }
-    .c1-h2 {
-        font-size: 20px;
-    }
-    .c-text1 {
-        font-size: 14px;
-        margin-top: 15vw;
-        line-height: 7.5vw;
-    }
-    .cource {
-        margin-top: 16vw;
-    }
-    .c2-h2 {
-        width: 80vw;
-        height: 11vw;
-        font-size: 13px;
-        padding: 2vw;
-        padding-top: 4vw;
-        margin-top: 12vw;
-    }
-    .c-text2 {
-        margin-top: 11.5vw;
-    }
-    .c-text2 {
-        font-size: 14px;
-    }
-    .c-text3 {
-        font-size: 14px;
-    }
-    .puroduct1 {
-        display: block;
-        margin-top: 25vw;
-    }
-    .c-text3 {
-        margin-top: 4.7vw;
-        font-weight: bold;
-    }
-    .inner-pro {
-        width: 40vw;
-        margin: 0;
-    }
-    .proMain-img1 {
-        width: 34vw;
-        margin-left: 9vw;
-    }
-    .inner-pro {display: block;
-        width: 80vw;
-        margin: 0;
-    }
-    .right-pro {
-        float: none;
-    }
-    .proMain-img2 {
-        width: 34vw;
-        margin-left: 9vw;
-    }
-    .pro-text2 {
-        margin-left: 13vw;
-    }
-    .pro-text1 {
-        margin-left: 13vw;
-        margin-top: 2vw;
-    }
-    .proMain-img3 {
-        width: 14vw;
-        margin-left: 20vw;
-    }
-    
-    .inner-prores {
-        width: 100%;
-        display: flex;
-        margin: 0;
-        height: 50vw;
-    }
-    .pro-text3 {
-        margin-left: 23vw;
-    }
-    .proMain-img4 {
-        width: 11vw;
-        margin-left: 21.5vw;
-    }
-    .pro-text4 {
-        margin-left: 25vw;
-    }
-    .merit1 {
-        line-height: 6vw;
-    }
-    .pro-f-text {
-        line-height: 8vw;
-    }
-    .pro-btn {
-        margin-top:15vw;
-        padding-top: 1.5vw;
-        padding-left: 3vw;
-        font-size: 1.3vw;
-        width: 40vw;
-        height: 10vw;
-        float: none;
-    }
-    .section3 {
-        height: 500vw;
-    }
-
-
-    .section3-w h2 {
-        font-size: 18.5px;
-        float: none;
-        margin-left: 5vw;
-        position: relative;
-        top: -30vw;
-    }
-    .mach {
-        display: block;
-    } 
-    .ma-right-text {
-        margin-top: -58vw;
-        font-size: 13px;
-        font-family: serif;
-        letter-spacing: 0.6vw;
-        margin-left: 57vw;
-    }
-    .machImg2-top {
-        width: 68vw;
-        position: absolute;
-        z-index: 1;
-        margin-left: 32vw;
-        margin-top: 2vw;
-    }
-    .machImg2-under {
-        width: 65vw;
-        transform: rotate(10deg);
-        margin-left: 1vw;
-        margin-top: -7.7vw;
-        z-index: 0;
-    }
-    .mach3-bottom {
-        margin-top: 80vw;
-    }
-    .machImg-under {
-        position: relative;
-        width: 55vw;
-        z-index: 2;
-        top: 33vw;
-        left: 22vw;
-        margin-left: 5vw;
-        margin-top: 2.6vw;
-    }
-    .machImg-top {
-        position: absolute;
-        left: 18vw;
-        top: 31vw;
-        z-index: 3;
-        width: 55vw;
-    }
-    .under-white2 {
-        font-size: 16px;
-        position: relative;
-        top: 38vw;
-        margin-left: 20vw;
-    }
-    .m3-img {
-        width: 13vw;
-        transform: rotate(-10deg);
-        margin-left: 12vw;
-    }
-    .label {
-        padding-top: 6vw;
-        line-height: 8vw;
-        margin-left: 5vw;
-        font-size: 10px;
-    }
-    .plan {
-        display: block;
-        /* grid-template-columns: 1fr 1fr; */
-        text-align: center;
-    }
-    .pre-btn {
-        width: 60vw;
-        margin: 0;
-        height: 85vw;
-    }
-    .staImg1-left {
-        width: 5vw;
-    }
-    .staImg1-right {
-        width: 12vw;
-        margin-left: 3vw;
-    }
-    .pre-top1 {
-        margin: 0;
-        margin-top: 20vw;
-        margin-bottom: 4vw;
-    }
-    .sta-top1 {
-        width: 55vw;
-        position: relative;
-        top: -25.3vw;
-        left: -20vw;
-    }
-    .staImg1-left {
-        width: 5vw;
-        margin-top: -21vw;
-    }
-    .pre-under-text {
-        font-size: 11px;
-        font-weight: bold;
-        line-height: 4vw;
-        margin-top: 6vw;
-        margin-bottom: -13vw;
-    }
-    .sta-btn {
-        width: 60vw;
-        margin: 0;
-        height: 85vw;
-    }
-    .pre-value {
-        font-size: 17px;
-        margin: 0%;
-        margin-top: 5vw;
-    }
-    .value1-btn {
-        margin: 0vw;
-        padding: 3.5vw 13.5vw;
-        margin-top: 6vw;
-    }
-    .pre-top2 {
-        margin-bottom: 6vw;
-        margin: 0;
-        margin-bottom: 4vw;
-        margin-top: 27vw;
-    }
-    .staImg2-left {
-        width: 7.5vw;
-    }
-    .staImg2-right {
-        width: 12vw;
-        margin-left: 2.7vw;
-    }
-    .sta-under-text{
-        font-size: 0.6vw;
-        font-weight: bold;
-        line-height: 4vw;
-        margin-top: 6vw;
-        margin-bottom: -13vw;
-    }
-    .sta-top2 {
-        width: 59vw;
-        position: relative;
-        top: -23vw;
-        right: 16vw;
-    }
-    .staImg2-left {
-        width: 7.5vw;
-        margin-top: -4vw;
-    }
-    .sta-value {
-        font-size: 17px;
-        margin: 0%;
-        margin-top: 5vw;
-    }
-    .value2-btn {
-        margin: 0vw;
-        padding: 3.5vw 13.5vw;
-        margin-top: 6vw;
-    }
-
-
-
-
-    .section4 {
-        height: 500vw;
-        margin-top: 52vw;
-    }
-    .ge-right-text {
-        font-size: 13px;
-        position: relative;
-        margin-left: 41vw;
-        top: -61vw;
-        line-height: 6vw;
-    }
-    .getImg2-under {
-        width: 29vw;
-        position: relative;
-        z-index: 3;
-        top: -40vw;
-        margin-left: 2vw;
-        margin-top: -67vw;
-    }
-    .getImg2-top {
-        position: absolute;
-        width: 75vw;
-        margin-left: 20vw;
-        margin-top: -58vw;
-    }
-    .under-white {
-        font-size: 16px;
-        margin-left: 25vw;
-        letter-spacing: 0.2vw;
-        margin-top: 1.4vw;
-        color: white;
-        position: relative;
-        position: top;
-        top: 38vw;
-    }
-    .g3-img {
-        width: 12vw;
-        transform: rotate(-10deg);
-        margin-left: 24vw;
-    }
-    .mach3-bottom3{
-        margin-top: 50vw;
-    }
-    .label-g {
-        padding-top: 8vw;
-        line-height: 8vw;
-        margin-left: 5vw;
-        font-size: 10px;
-        margin-left: 10vw;
-    }
-    .res-apa {
-        width: 10vw;
-        margin-top: -21vw;
-    }
-    .sta-img2-w {
-        margin-top: -28vw;
-    }
-    .section5-w h2 {
-        font-weight: lighter;
-        font-size: 36px;
-        margin-left: 5vw;
-        position: relative;
-        letter-spacing: 0.2vw;
-        margin-bottom: 7vw;
-        top: -19vw;
-    }
-    .section5 {
-        height: 700vw;
-        margin-top: 43vw;
-    }
-    .s5-select {
-        display: grid;
-        margin-bottom: 18vw;
-        grid-template-columns: 1fr 1fr;
-    }
-    .s5-three {
-        display: block;
-        text-align: center;
-    }
-    .three-img1 {
-        width: 51vw;
-    }
-    .circle {
-        height: 61vw;
-    }
-    .circle p {
-        writing-mode: vertical-rl;
-        color: white;
-        padding-left: 1vw;
-        font-size: 01vw;
-        font-size: 15px;
-        letter-spacing: 0.2vw;
-    }
-    .circle img {
-        float: left;
-        margin-left: 23vw;
-    }
-    .white-text {
-        padding: 4vw 1vw;
-        border-radius: 10vw;
-        line-height: 6vw;
-        font-size: 13px;
-    }
-    .black-text {
-        margin-top: 4vw;
-        font-size: 11px;
-        line-height: 6.8vw;
-    }
-
-    .three-btn {
-        margin: 0vw;
-        padding: 3.5vw 13.5vw;
-        margin-top: 6vw;
-    }
-    .three-value1 {
-        font-size: 17px;
-        margin: 0%;
-        margin-top: 5vw;
-    }
-    .second-boll {
-        margin-top: 22vw;
-    }
-    .three-img2 {
-        width: 51vw;
-    }
-    .three-img3 {
-        width: 51vw;
-    }
-    .three-boll{
-        margin-top: 22vw;
-    }
-    .black-text2 {
-        font-size: 11px;
-        margin-top: 1vw;
-        line-height: 7.8vw;
-    }
-    .s52-three {
-        margin-top: 29vw;
-        display: block;
-    }
-    .section5 {
-        height: 1051vw;
-        margin-top: 43vw;
-    }
-    .three2-img1 {
-        width: 20vw;
-        margin-top: 0.8vw;
-    }
-    .circle2 img {
-        float: left;
-        margin-left: 36vw;
-    }
-    .three2-img2 {
-        width: 14vw;
-        margin-top: 1vw;
-    }
-    .circle2 {
-        height: 65vw;
-        margin-top: 20vw;
-    }
-    .three2-img3 {
-        width: 12.5vw;
-        margin-top: 1vw;
-    }
-    .section6 {
-        height: 70vw;
-    }
-    .s6-top-text {
-        display: block;
-        line-height: 14vw;
-        margin-top: 14vw;
-    }
-    .t-text {
-        text-align: center;
-    }
-    .t-text2 {
-        text-align: center;
-    }
-    .middle {
-        margin-top: 2vw;
-        line-height: 14vw;
-    }
-    .section6 {
-        height: 135vw;
-    }
-    .line-img {
-        width: 19vw;
-        margin-top: 7vw;
-    }
-    .fre {
-        margin-top: 11vw;
-    }
-    .LINE {
-        width: 48vw;
-        margin-top: 2vw;
-    }
-    footer {
-        height: 121vw;
-    }
-    .footer-w {
-        display: block;
-    }
-    .footer-logo {
-        width: 46vw;
-        padding-top: 15vw;
-    }
-    .post {
-        margin-top: 11vw;
-        font-size: 14px;
-        margin-left: 0;
-    }
-    .direct {
-        font-size: 14px;
-        margin-top: 1vw;
-        color: white;
-    }
-    .f-concept {
-        margin-top: 14vw;
-        font-size: 20px;
-    }
-    .f-product {
-        font-size: 20px;
-    }
-    .f-about a {
-        font-size: 20px;
-    }
-    .f-detail a {
-        font-size: 20px;
-    }
-    
-    .footer-menu {
-        line-height: 9.5vw;
-        float: left;
-    }
-    .res-nam {
-        margin-top: 10vw;
-    }
-    .number a {
-        color: white;
-        font-size: 20px;
-    }
-    .mail a {
-        color: white;
-        font-size: 20px;
-        margin-left: -9.2vw;
-    }
-    .pauypal {
-        width: 31vw;
-        margin-right: 4vw;
-        margin-top: 9vw;
-    }
-    .copy {
-        width: 100%;
-        margin-top: 6vw;
-        font-size: 1.4vw;
-        position: relative;
-        top: 3vw;
-        left: 24vw;
-    }
-
-
-
-
-    /*detail*/
-    .left-box {
-        width: 100%;
-        height: 35vw;
-        background-color: #e0d4cf;
-    }
-    .d-section1-left h2 {
-        font-size: 30px;
-    }
-    .detailSection1-w {
-        display: block;
-    }
-    .cream1 {
-        width: 80vw;
-        position: absolute;
-        top: 20vw;
-        z-index: 0;
-        left: 19vw;
-    }
-    .detailSection1 {
-        height: 72vw;
-    }
-    .d-section1-right p {
-        top: 38.4vw;
-        font-size: 22px;
-        left: 38vw;
-        letter-spacing: 0.5vw;
-        font-family: serif;
-    }
-    .water1 {
-        position: absolute;
-        top: 15.5vw;
-        z-index: 1;
-        width: 34vw;
-        left: 63vw;
-    }
-    .detail-header {
-        width: 100%;
-        height: 13vw;
-    }
-    .header-left img {
-        margin-left: 5vw;
-        width: 17vw;
-        margin-top: 3.5vw;
-    }
-    .header-right img {
-        width: 12.5vw;
-        padding: 1.8vw 3.9vw 0 0;
-        float: right;
-    }
-    .detailSection2 {
-        height: 57vw;
-        margin-top: 6vw;
-    }
-    .left-box img {
-        width: 76vw;
-    }
-    .detailSection3 {
-        height: 141vw;
-    }
-    
-    .detailSection3-w {
-        display: block;
-    }
-    .res-sec3{
-        text-align: left;
-    }
-    .d-curaprox {
-        width: 32vw;
-        margin-left: 7vw;
-    }
-    .d-philips {
-        width: 50vw;
-        margin-left: 2vw;
-        margin-top: 1vw;
-    }
-    .d-aqua {
-        margin-left: 7.3vw;
-        width: 16vw;
-    }
-    .s3-right {
-        margin-top: 8vw;
-    }
-    .curaprox-text {
-        margin-left: 45.5vw;
-        margin-top: -29vw;
-        font-size: 12px;
-        line-height: 9vw;
-    }
-    .s3-righth2 {
-        letter-spacing: 0.4vw;
-        margin-top: 1vw;
-        font-size: 26px;
-    }
-    .s3-rightp {
-        margin-top: 3.7vw;
-        font-size: 14px;
-        line-height: 6.7vw;
-    }
-    .desc1 {
-        line-height: 3.7vw;
-        margin-top: 2vw;
-        font-size: 10px;
-    }
-    .desc2 {
-        line-height: 3.7vw;
-        margin-top: 1.5vw;
-        font-size: 10px;
-    }
-    .desc3 {
-        line-height: 3.7vw;
-        font-size: 10px;
-    }
-    .res-none{
-        display: none;
-    }
-    .detailSection4 {
-        height: 150vw;
-        margin-top: 10vw;
-    }
-    .d-tepe {
-        margin-left: 7vw;
-        width: 20vw;
-        margin-top: 2vw;
-    }
-    .detailSection4-w {
-        display: block;
-        grid-template-columns: 1fr 1fr;
-    }
-    .tepe-text {
-        margin-left: 45.5vw;
-        margin-top: -36vw;
-        font-size: 12px;
-        line-height: 9vw;
-    }
-    .s4-righth2 {
-        letter-spacing: 0.4vw;
-        margin-top: 1vw;
-        font-size: 26px;
-    }
-    .s4-rightp {
-        margin-top: 3.7vw;
-        font-size: 12px;
-        line-height: 6.7vw;
-    }
-    .desc1-4 {
-        line-height: 3.7vw;
-        margin-top: 2vw;
-        font-size: 10px;
-    }
-    .desc2-4 {
-        line-height: 3.7vw;
-        margin-top: 1.5vw;
-        font-size: 10px;
-    }
-    .desc3-4 {
-        line-height: 3.7vw;
-        font-size: 10px;
-    }
-    .detailSection5 {
-        height: 150vw;
-        margin-top: 13vw;
-    }
-    .number {
-        margin-top: 13vw;
-        font-size: 2.7vw;
-    }
-    .detailSection5-w {
-        display: block;
-    }
-    
-    .d-philips-5 {
-        width: 50vw;
-        margin-left: 2vw;
-        margin-top: -3vw;
-    }
-    .aqua-text {
-        margin-left: 36.5vw;
-        margin-top: -18vw;
-        font-size: 12px;
-        line-height: 9vw;
-    }
-    .s5-righth2 {
-        letter-spacing: 0.4vw;
-        margin-top: 1vw;
-        font-size: 26px;
-    }
-    .s5-rightp {
-        margin-top: 3.7vw;
-        font-size: 11px;
-        line-height: 6.7vw;
-    }
-    .desc1-5 {
-        line-height: 3.7vw;
-        margin-top: 2vw;
-        font-size: 10px;
-    }
-    .desc2-5 {
-        line-height: 3.7vw;
-        margin-top: 1.5vw;
-        font-size: 10px;
-    }
-    .desc3-5 {
-        line-height: 3.7vw;
-        font-size: 10px;
-    }
-    .detailSetion7 {
-        height: 183vw;
-    }
-    .detailSection6 {
-        width: 100%;
-        height: 45vw;
-        margin-top: 15vw;
-    }
-    .detailSection7-w {
-        display: block;
-    }
-    .d-ruscello {
-        width: 15vw;
-        margin-left: 18vw;
-        margin-top: 1vw;
-    }
-    .rusce-text {
-        margin-left: 45.5vw;
-        margin-top: -34vw;
-        font-size: 12px;
-        line-height: 9vw;
-    }
-    .s7-right {
-        margin-top: 7vw;
-    }
-    .s7-rightp {
-        margin-top: 4.7vw;
-        font-size: 14px;
-        line-height: 6.7vw;
-    }
-    .desc1-7 {
-        line-height: 3.7vw;
-        margin-top: 2vw;
-        font-size: 12px;
-    }
-    .desc2-7 {
-        line-height: 3.7vw;
-        margin-top: 1.5vw;
-        font-size: 12px;
-    }
-    .desc3-7 {
-        line-height: 3.7vw;
-        font-size: 12px;
-    }
-    .d-add-text {
-        margin-top: 8.5vw;
-    }
-    .d-add-text p {
-        line-height: 3vw;
-    }
-    .right {
-        margin-left: 12.2vw;
-    }
-    .right2 {
-        margin-left: 9.7vw;
-    }
-
-    .detailSetion8 {
-        height: 178vw;
-        margin-top: 14vw;
-    }
-    .d-APAGARD {
-        width: 11vw;
-    }
-    .desc1-8 {
-        line-height: 3.7vw;
-        margin-top: 2vw;
-        font-size: 12px;
-    }
-    .desc2-8 {
-        line-height: 3.7vw;
-        margin-top: 1.5vw;
-        font-size: 12px;
-    }
-    .desc3-8 {
-        line-height: 3.7vw;
-        font-size: 12px;
-    }
-    .s8-righth2 {
-        letter-spacing: 0.4vw;
-        margin-top: 15vw;
-        font-size: 26px;
-    }
-    .d-add-text-2 p {
-        font-size: 10px;
-        line-height: 3vw;
-    }
-
-    .detailSetion9 {
-        width: 100%;
-        height: 170vw;
-        margin-top: 19vw;
-    }
-    .d-oralpeace {
-        width: 9vw;
-        margin-left: 20.5vw;
-        margin-top: -4vw;
-    }
-    .oral-text {
-        margin-left: 37.5vw;
-        margin-top: -35vw;
-        font-size: 12px;
-        line-height: 9vw;
-        margin-bottom: 12vw;
-    }
-    .desc1-9 {
-        line-height: 3.7vw;
-        margin-top: 2vw;
-        font-size: 10px;
-    }
-    .desc2-9 {
-        line-height: 3.7vw;
-        margin-top: 1.5vw;
-        font-size: 10px;
-    }
-    .desc3-9 {
-        line-height: 3.7vw;
-        font-size: 10px;
-    }
-    .d-add-text-3 p {
-        line-height: 4vw;
-        font-size: 11px;
-    }
-    .desc {
-        margin-top: 8.6vw;
-        font-size: 12px;
-    }
-    .desc-7 {
-        font-size: 11px;
-        letter-spacing: 0.2vw;
-        margin-top: 8.9vw;
-    }
-    .d-add-text p {
-        line-height: 4vw;
-        font-size: 12px;
-    }
-    .desc-8 {
-        margin-top: 6vw;
-        font-size: 11px;
-    }
-    .s5-select2 p {
-        font-size: 12px;
-        font-weight: lighter;
-        color: white;
-        font-family: serif;
-        margin-top: 12vw;
-        letter-spacing: 0.3vw;
-        margin-left: 0vw;
-    }
-    .d-oralpeace {
-        width: 9vw;
-        margin-left: 20.5vw;
-        margin-top: 3vw;
-    }
-    .detailSetion7 {
-        height: 211vw;
-    }
-
-
-
+@media screen and (max-width: 780px) {
+  .section5 {
+    height: 181vw;
+  }
+  .desc3-8 {
+    line-height: 1.6vw;
+  }
+  .gray {
+    height: 34vw;
+  }
+  .desc3-7 {
+    line-height: 1.6vw;
+  }
+  .s7-right {
+    margin-top: -1vw;
+  }
+  .desc1-8 {
+    line-height: 1.7vw;
+  }
+  .desc1-7 {
+    line-height: 1.7vw;
+  }
+  .desc2-8 {
+    line-height: 1.7vw;
+  }
+  .desc2-7 {
+    line-height: 1.7vw;
+  }
+  .desc3-9 {
+    line-height: 1.7vw;
+  }
+  .desc-8 {
+    margin-top: 3vw;
+  }
+  .detailSection5 {
+    height: 42vw;
+  }
+  .desc1-9 {
+    line-height: 1.6vw;
+  }
+  .desc1 {
+    line-height: 1.7vw;
+  }
+  .d-add-text-2 {
+    margin-top: 3.5vw;
+  }
+  .desc3-5 {
+    line-height: 1.4vw;
+  }
+  .d-add-text p {
+    line-height: 1.6vw;
+  }
+  .d-add-text-2 p {
+    font-size: 0.8vw;
+    line-height: 1.6vw;
+  }
+  .detailSetion8 {
+    height: 58vw;
+  }
+  .d-add-text-3 p {
+    line-height: 1.6vw;
+  }
+  .s9-right {
+    margin-top: 1vw;
+  }
+  .s8-right {
+    margin-top: 3vw;
+  }
+  .detailSetion7 {
+    height: 54vw;
+  }
+  .curaprox-text {
+    margin-left: 25.5vw;
+    margin-top: -3vw;
+  }
+  .tepe-text {
+    margin-left: 25.5vw;
+    margin-top: -3vw;
+  }
+  .aqua-text {
+    margin-left: 25.5vw;
+    margin-top: -3vw;
+  }
+  .desc3-4 {
+    line-height: 1.6vw;
+  }
+  .detailSection3 {
+    height: 35vw;
+  }
+  .detailSection2 {
+    height: 25vw;
+  }
+  .pre-top2 {
+    margin-bottom: 4vw;
+  }
+  .pre-top1 {
+    margin-bottom: 4vw;
+  }
+  .pre-btn {
+    width: 34vw;
+  }
+  .sta-btn {
+    width: 34vw;
+  }
+  .border-top {
+    margin-right: -2vw;
+    width: 61px;
+  }
+  .section3 {
+    height: 94vw;
+  }
+  .section4 {
+    height: 104vw;
+    margin-top: 21vw;
+  }
+  .res-btn-4 {
+    height: 45vw;
+  }
+  .s5-select img {
+    margin-left: -1vw;
+    width: 48vw;
+    margin-top: 6vw;
+  }
+  .s5-select p {
+    padding-left: 0vw;
+    margin-top: 15vw;
+    font-size: 14px;
+  }
+  .three-value2 {
+    margin-top: 8vw;
+  }
+  .three-value1 {
+    margin-top: 6.4vw;
+  }
+  .black-right {
+    margin-top: 7vw;
+  }
+  .black-mid {
+    margin-top: 7vw;
+  }
+  .black-left {
+    margin-top: 5vw;
+  }
+  .three-value3 {
+    margin-top: 4.2vw;
+  }
+  .s5-select2 img {
+    width: 52vw;
+    margin-left: 1vw;
+  }
+  .respo {
+    display: block;
+  }
+  .black-left2 {
+    margin-top: 6vw;
+  }
+  .black-right2 {
+    margin-top: 6vw;
+  }
+  .three2-value2 {
+    margin-top: 3.9vw;
+  }
+  .three2-value3 {
+    margin-top: 5.5vw;
+  }
+  .section6 {
+    height: 32vw;
+  }
+  footer {
+    height: 26vw;
+  }
+  .copy {
+    margin-top: 6vw;
+    font-size: 1.4vw;
+  }
+  .f-concept {
+    margin-top: 3vw;
+  }
+  .s5-select2 p {
+    font-size: 2vw;
+    font-weight: lighter;
+    color: white;
+    font-family: serif;
+    margin-top: 8vw;
+    letter-spacing: 0.3vw;
+    margin-left: 8vw;
+  }
 }
 
+@media screen and (max-width: 420px) {
+  .header2 {
+    display: none;
+  }
 
+  .circle2 p {
+    writing-mode: vertical-rl;
+    color: white;
+    padding-left: 9vw;
+    font-size: 14px;
+    letter-spacing: 0.2vw;
+  }
+  .header1 {
+    display: none;
+  }
+  .top-img {
+    height: 65vw;
+  }
+  .h-concept {
+    font-size: 36px;
+    margin-top: 8vw;
+    margin-bottom: 20vw;
+  }
+  .respo {
+    display: block;
+  }
+  .gray {
+    width: 100%;
+    height: 100vw;
+  }
+  .g-text p {
+    font-size: 12px;
+    line-height: 6vw;
+  }
+  .g-text h3 {
+    font-size: 25px;
+    margin-top: 12vw;
+    line-height: 10vw;
+  }
+  .g-text p {
+    font-size: 12px;
+    line-height: 9vw;
+    margin-top: 7.7vw;
+    letter-spacing: 0.1vw;
+  }
+  .g-btn {
+    margin-top: 11vw;
+    padding-top: 1.5vw;
+    padding-left: 3vw;
+    font-size: 1.3vw;
+    width: 40vw;
+    height: 10vw;
+    margin-left: 29vw;
+    float: none;
+  }
+  .section2 {
+    width: 100%;
+    height: 500vw;
+    margin-top: 40vw;
+  }
+  .h-set {
+    font-weight: lighter;
+    font-size: 36px;
+    margin-left: 5vw;
+    letter-spacing: 0.2vw;
+    margin-bottom: 6vw;
+  }
+  section {
+    width: 100%;
+    height: 120vw;
+  }
+  .c1-h2 {
+    font-size: 20px;
+  }
+  .c-text1 {
+    font-size: 14px;
+    margin-top: 15vw;
+    line-height: 7.5vw;
+  }
+  .cource {
+    margin-top: 16vw;
+  }
+  .c2-h2 {
+    width: 80vw;
+    height: 11vw;
+    font-size: 13px;
+    padding: 2vw;
+    padding-top: 4vw;
+    margin-top: 12vw;
+  }
+  .c-text2 {
+    margin-top: 11.5vw;
+  }
+  .c-text2 {
+    font-size: 14px;
+  }
+  .c-text3 {
+    font-size: 14px;
+  }
+  .puroduct1 {
+    display: block;
+    margin-top: 25vw;
+  }
+  .c-text3 {
+    margin-top: 4.7vw;
+    font-weight: bold;
+  }
+  .inner-pro {
+    width: 40vw;
+    margin: 0;
+  }
+  .proMain-img1 {
+    width: 34vw;
+    margin-left: 9vw;
+  }
+  .inner-pro {
+    display: block;
+    width: 80vw;
+    margin: 0;
+  }
+  .right-pro {
+    float: none;
+  }
+  .proMain-img2 {
+    width: 34vw;
+    margin-left: 9vw;
+  }
+  .pro-text2 {
+    margin-left: 13vw;
+  }
+  .pro-text1 {
+    margin-left: 13vw;
+    margin-top: 2vw;
+  }
+  .proMain-img3 {
+    width: 14vw;
+    margin-left: 20vw;
+  }
 
+  .inner-prores {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    height: 50vw;
+  }
+  .pro-text3 {
+    margin-left: 23vw;
+  }
+  .proMain-img4 {
+    width: 11vw;
+    margin-left: 21.5vw;
+  }
+  .pro-text4 {
+    margin-left: 25vw;
+  }
+  .merit1 {
+    line-height: 6vw;
+  }
+  .pro-f-text {
+    line-height: 8vw;
+  }
+  .pro-btn {
+    margin-top: 15vw;
+    padding-top: 1.5vw;
+    padding-left: 3vw;
+    font-size: 1.3vw;
+    width: 40vw;
+    height: 10vw;
+    float: none;
+  }
+  .section3 {
+    height: 500vw;
+  }
 
+  .section3-w h2 {
+    font-size: 18.5px;
+    float: none;
+    margin-left: 5vw;
+    position: relative;
+    top: -30vw;
+  }
+  .mach {
+    display: block;
+  }
+  .ma-right-text {
+    margin-top: -58vw;
+    font-size: 13px;
+    font-family: serif;
+    letter-spacing: 0.6vw;
+    margin-left: 57vw;
+  }
+  .machImg2-top {
+    width: 68vw;
+    position: absolute;
+    z-index: 1;
+    margin-left: 32vw;
+    margin-top: 2vw;
+  }
+  .machImg2-under {
+    width: 65vw;
+    transform: rotate(10deg);
+    margin-left: 1vw;
+    margin-top: -7.7vw;
+    z-index: 0;
+  }
+  .mach3-bottom {
+    margin-top: 80vw;
+  }
+  .machImg-under {
+    position: relative;
+    width: 55vw;
+    z-index: 2;
+    top: 33vw;
+    left: 22vw;
+    margin-left: 5vw;
+    margin-top: 2.6vw;
+  }
+  .machImg-top {
+    position: absolute;
+    left: 18vw;
+    top: 31vw;
+    z-index: 3;
+    width: 55vw;
+  }
+  .under-white2 {
+    font-size: 16px;
+    position: relative;
+    top: 38vw;
+    margin-left: 20vw;
+  }
+  .m3-img {
+    width: 13vw;
+    transform: rotate(-10deg);
+    margin-left: 12vw;
+  }
+  .label {
+    padding-top: 6vw;
+    line-height: 8vw;
+    margin-left: 5vw;
+    font-size: 10px;
+  }
+  .plan {
+    display: block;
+    /* grid-template-columns: 1fr 1fr; */
+    text-align: center;
+  }
+  .pre-btn {
+    width: 60vw;
+    margin: 0;
+    height: 85vw;
+  }
+  .staImg1-left {
+    width: 5vw;
+  }
+  .staImg1-right {
+    width: 12vw;
+    margin-left: 3vw;
+  }
+  .pre-top1 {
+    margin: 0;
+    margin-top: 20vw;
+    margin-bottom: 4vw;
+  }
+  .sta-top1 {
+    width: 55vw;
+    position: relative;
+    top: -25.3vw;
+    left: -20vw;
+  }
+  .staImg1-left {
+    width: 5vw;
+    margin-top: -21vw;
+  }
+  .pre-under-text {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 4vw;
+    margin-top: 6vw;
+    margin-bottom: -13vw;
+  }
+  .sta-btn {
+    width: 60vw;
+    margin: 0;
+    height: 85vw;
+  }
+  .pre-value {
+    font-size: 17px;
+    margin: 0%;
+    margin-top: 5vw;
+  }
+  .value1-btn {
+    margin: 0vw;
+    padding: 3.5vw 13.5vw;
+    margin-top: 6vw;
+  }
+  .pre-top2 {
+    margin-bottom: 6vw;
+    margin: 0;
+    margin-bottom: 4vw;
+    margin-top: 27vw;
+  }
+  .staImg2-left {
+    width: 7.5vw;
+  }
+  .staImg2-right {
+    width: 12vw;
+    margin-left: 2.7vw;
+  }
+  .sta-under-text {
+    font-size: 0.6vw;
+    font-weight: bold;
+    line-height: 4vw;
+    margin-top: 6vw;
+    margin-bottom: -13vw;
+  }
+  .sta-top2 {
+    width: 59vw;
+    position: relative;
+    top: -23vw;
+    right: 16vw;
+  }
+  .staImg2-left {
+    width: 7.5vw;
+    margin-top: -4vw;
+  }
+  .sta-value {
+    font-size: 17px;
+    margin: 0%;
+    margin-top: 5vw;
+  }
+  .value2-btn {
+    margin: 0vw;
+    padding: 3.5vw 13.5vw;
+    margin-top: 6vw;
+  }
 
+  .section4 {
+    height: 500vw;
+    margin-top: 52vw;
+  }
+  .ge-right-text {
+    font-size: 13px;
+    position: relative;
+    margin-left: 41vw;
+    top: -61vw;
+    line-height: 6vw;
+  }
+  .getImg2-under {
+    width: 29vw;
+    position: relative;
+    z-index: 3;
+    top: -40vw;
+    margin-left: 2vw;
+    margin-top: -67vw;
+  }
+  .getImg2-top {
+    position: absolute;
+    width: 75vw;
+    margin-left: 20vw;
+    margin-top: -58vw;
+  }
+  .under-white {
+    font-size: 16px;
+    margin-left: 25vw;
+    letter-spacing: 0.2vw;
+    margin-top: 1.4vw;
+    color: white;
+    position: relative;
+    position: top;
+    top: 38vw;
+  }
+  .g3-img {
+    width: 12vw;
+    transform: rotate(-10deg);
+    margin-left: 24vw;
+  }
+  .mach3-bottom3 {
+    margin-top: 50vw;
+  }
+  .label-g {
+    padding-top: 8vw;
+    line-height: 8vw;
+    margin-left: 5vw;
+    font-size: 10px;
+    margin-left: 10vw;
+  }
+  .res-apa {
+    width: 10vw;
+    margin-top: -21vw;
+  }
+  .sta-img2-w {
+    margin-top: -28vw;
+  }
+  .section5-w h2 {
+    font-weight: lighter;
+    font-size: 36px;
+    margin-left: 5vw;
+    position: relative;
+    letter-spacing: 0.2vw;
+    margin-bottom: 7vw;
+    top: -19vw;
+  }
+  .section5 {
+    height: 700vw;
+    margin-top: 43vw;
+  }
+  .s5-select {
+    display: grid;
+    margin-bottom: 18vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  .s5-three {
+    display: block;
+    text-align: center;
+  }
+  .three-img1 {
+    width: 51vw;
+  }
+  .circle {
+    height: 61vw;
+  }
+  .circle p {
+    writing-mode: vertical-rl;
+    color: white;
+    padding-left: 1vw;
+    font-size: 01vw;
+    font-size: 15px;
+    letter-spacing: 0.2vw;
+  }
+  .circle img {
+    float: left;
+    margin-left: 23vw;
+  }
+  .white-text {
+    padding: 4vw 1vw;
+    border-radius: 10vw;
+    line-height: 6vw;
+    font-size: 13px;
+  }
+  .black-text {
+    margin-top: 4vw;
+    font-size: 11px;
+    line-height: 6.8vw;
+  }
 
+  .three-btn {
+    margin: 0vw;
+    padding: 3.5vw 13.5vw;
+    margin-top: 6vw;
+  }
+  .three-value1 {
+    font-size: 17px;
+    margin: 0%;
+    margin-top: 5vw;
+  }
+  .second-boll {
+    margin-top: 22vw;
+  }
+  .three-img2 {
+    width: 51vw;
+  }
+  .three-img3 {
+    width: 51vw;
+  }
+  .three-boll {
+    margin-top: 22vw;
+  }
+  .black-text2 {
+    font-size: 11px;
+    margin-top: 1vw;
+    line-height: 7.8vw;
+  }
+  .s52-three {
+    margin-top: 29vw;
+    display: block;
+  }
+  .section5 {
+    height: 1051vw;
+    margin-top: 43vw;
+  }
+  .three2-img1 {
+    width: 20vw;
+    margin-top: 0.8vw;
+  }
+  .circle2 img {
+    float: left;
+    margin-left: 36vw;
+  }
+  .three2-img2 {
+    width: 14vw;
+    margin-top: 1vw;
+  }
+  .circle2 {
+    height: 65vw;
+    margin-top: 20vw;
+  }
+  .three2-img3 {
+    width: 12.5vw;
+    margin-top: 1vw;
+  }
+  .section6 {
+    height: 70vw;
+  }
+  .s6-top-text {
+    display: block;
+    line-height: 14vw;
+    margin-top: 14vw;
+  }
+  .t-text {
+    text-align: center;
+  }
+  .t-text2 {
+    text-align: center;
+  }
+  .middle {
+    margin-top: 2vw;
+    line-height: 14vw;
+  }
+  .section6 {
+    height: 135vw;
+  }
+  .line-img {
+    width: 19vw;
+    margin-top: 7vw;
+  }
+  .fre {
+    margin-top: 11vw;
+  }
+  .LINE {
+    width: 48vw;
+    margin-top: 2vw;
+  }
+  footer {
+    height: 121vw;
+  }
+  .footer-w {
+    display: block;
+  }
+  .footer-logo {
+    width: 46vw;
+    padding-top: 15vw;
+  }
+  .post {
+    margin-top: 11vw;
+    font-size: 14px;
+    margin-left: 0;
+  }
+  .direct {
+    font-size: 14px;
+    margin-top: 1vw;
+    color: white;
+  }
+  .f-concept {
+    margin-top: 14vw;
+    font-size: 20px;
+  }
+  .f-product {
+    font-size: 20px;
+  }
+  .f-about a {
+    font-size: 20px;
+  }
+  .f-detail a {
+    font-size: 20px;
+  }
 
+  .footer-menu {
+    line-height: 9.5vw;
+    float: left;
+  }
+  .res-nam {
+    margin-top: 10vw;
+  }
+  .number a {
+    color: white;
+    font-size: 20px;
+  }
+  .mail a {
+    color: white;
+    font-size: 20px;
+    margin-left: -9.2vw;
+  }
+  .pauypal {
+    width: 31vw;
+    margin-right: 4vw;
+    margin-top: 9vw;
+  }
+  .copy {
+    width: 100%;
+    margin-top: 6vw;
+    font-size: 1.4vw;
+    position: relative;
+    top: 3vw;
+    left: 24vw;
+  }
 
+  /*detail*/
+  .left-box {
+    width: 100%;
+    height: 35vw;
+    background-color: #e0d4cf;
+  }
+  .d-section1-left h2 {
+    font-size: 30px;
+  }
+  .detailSection1-w {
+    display: block;
+  }
+  .cream1 {
+    width: 80vw;
+    position: absolute;
+    top: 20vw;
+    z-index: 0;
+    left: 19vw;
+  }
+  .detailSection1 {
+    height: 72vw;
+  }
+  .d-section1-right p {
+    top: 38.4vw;
+    font-size: 22px;
+    left: 38vw;
+    letter-spacing: 0.5vw;
+    font-family: serif;
+  }
+  .water1 {
+    position: absolute;
+    top: 15.5vw;
+    z-index: 1;
+    width: 34vw;
+    left: 63vw;
+  }
+  .detail-header {
+    width: 100%;
+    height: 13vw;
+  }
+  .header-left img {
+    margin-left: 5vw;
+    width: 17vw;
+    margin-top: 3.5vw;
+  }
+  .header-right img {
+    width: 12.5vw;
+    padding: 1.8vw 3.9vw 0 0;
+    float: right;
+  }
+  .detailSection2 {
+    height: 57vw;
+    margin-top: 6vw;
+  }
+  .left-box img {
+    width: 76vw;
+  }
+  .detailSection3 {
+    height: 141vw;
+  }
 
+  .detailSection3-w {
+    display: block;
+  }
+  .res-sec3 {
+    text-align: left;
+  }
+  .d-curaprox {
+    width: 32vw;
+    margin-left: 7vw;
+  }
+  .d-philips {
+    width: 50vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+  }
+  .d-aqua {
+    margin-left: 7.3vw;
+    width: 16vw;
+  }
+  .s3-right {
+    margin-top: 8vw;
+  }
+  .curaprox-text {
+    margin-left: 45.5vw;
+    margin-top: -29vw;
+    font-size: 12px;
+    line-height: 9vw;
+  }
+  .s3-righth2 {
+    letter-spacing: 0.4vw;
+    margin-top: 1vw;
+    font-size: 26px;
+  }
+  .s3-rightp {
+    margin-top: 3.7vw;
+    font-size: 14px;
+    line-height: 6.7vw;
+  }
+  .desc1 {
+    line-height: 3.7vw;
+    margin-top: 2vw;
+    font-size: 10px;
+  }
+  .desc2 {
+    line-height: 3.7vw;
+    margin-top: 1.5vw;
+    font-size: 10px;
+  }
+  .desc3 {
+    line-height: 3.7vw;
+    font-size: 10px;
+  }
+  .res-none {
+    display: none;
+  }
+  .detailSection4 {
+    height: 150vw;
+    margin-top: 10vw;
+  }
+  .d-tepe {
+    margin-left: 7vw;
+    width: 20vw;
+    margin-top: 2vw;
+  }
+  .detailSection4-w {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+  }
+  .tepe-text {
+    margin-left: 45.5vw;
+    margin-top: -36vw;
+    font-size: 12px;
+    line-height: 9vw;
+  }
+  .s4-righth2 {
+    letter-spacing: 0.4vw;
+    margin-top: 1vw;
+    font-size: 26px;
+  }
+  .s4-rightp {
+    margin-top: 3.7vw;
+    font-size: 12px;
+    line-height: 6.7vw;
+  }
+  .desc1-4 {
+    line-height: 3.7vw;
+    margin-top: 2vw;
+    font-size: 10px;
+  }
+  .desc2-4 {
+    line-height: 3.7vw;
+    margin-top: 1.5vw;
+    font-size: 10px;
+  }
+  .desc3-4 {
+    line-height: 3.7vw;
+    font-size: 10px;
+  }
+  .detailSection5 {
+    height: 150vw;
+    margin-top: 13vw;
+  }
+  .number {
+    margin-top: 13vw;
+    font-size: 2.7vw;
+  }
+  .detailSection5-w {
+    display: block;
+  }
 
+  .d-philips-5 {
+    width: 50vw;
+    margin-left: 2vw;
+    margin-top: -3vw;
+  }
+  .aqua-text {
+    margin-left: 36.5vw;
+    margin-top: -18vw;
+    font-size: 12px;
+    line-height: 9vw;
+  }
+  .s5-righth2 {
+    letter-spacing: 0.4vw;
+    margin-top: 1vw;
+    font-size: 26px;
+  }
+  .s5-rightp {
+    margin-top: 3.7vw;
+    font-size: 11px;
+    line-height: 6.7vw;
+  }
+  .desc1-5 {
+    line-height: 3.7vw;
+    margin-top: 2vw;
+    font-size: 10px;
+  }
+  .desc2-5 {
+    line-height: 3.7vw;
+    margin-top: 1.5vw;
+    font-size: 10px;
+  }
+  .desc3-5 {
+    line-height: 3.7vw;
+    font-size: 10px;
+  }
+  .detailSetion7 {
+    height: 183vw;
+  }
+  .detailSection6 {
+    width: 100%;
+    height: 45vw;
+    margin-top: 15vw;
+  }
+  .detailSection7-w {
+    display: block;
+  }
+  .d-ruscello {
+    width: 15vw;
+    margin-left: 18vw;
+    margin-top: 1vw;
+  }
+  .rusce-text {
+    margin-left: 45.5vw;
+    margin-top: -34vw;
+    font-size: 12px;
+    line-height: 9vw;
+  }
+  .s7-right {
+    margin-top: 7vw;
+  }
+  .s7-rightp {
+    margin-top: 4.7vw;
+    font-size: 14px;
+    line-height: 6.7vw;
+  }
+  .desc1-7 {
+    line-height: 3.7vw;
+    margin-top: 2vw;
+    font-size: 12px;
+  }
+  .desc2-7 {
+    line-height: 3.7vw;
+    margin-top: 1.5vw;
+    font-size: 12px;
+  }
+  .desc3-7 {
+    line-height: 3.7vw;
+    font-size: 12px;
+  }
+  .d-add-text {
+    margin-top: 8.5vw;
+  }
+  .d-add-text p {
+    line-height: 3vw;
+  }
+  .right {
+    margin-left: 12.2vw;
+  }
+  .right2 {
+    margin-left: 9.7vw;
+  }
 
-@media screen and (max-width:380px){
-    .top-img {
-        height: 67vw;
-    }
-    .live h2 {
-        font-size: 23px;
-    }
-    .live p {
-        margin-top: 15vw;
-        letter-spacing: 0.2vw;
-    }
-    section {
-        height: 63vw;
-        margin: 0;
-    }
-    .gray {
-        width: 100%;
-        height: 135vw;
-    }
-    .g-text h3 {
-        font-size: 25px;
-        margin-top: 13vw;
-        line-height: 10vw;
-    }
-    .g-quo {
-        width: 12vw;
-        position: relative;
-        left: 1.5vw;
-        top: 8vw;
-    }
-    .respoX{
-        display: block;
-    }
-    .g-btn {
-        margin-top: 14vw;
-        font-size: 1.3vw;
-        width: 46vw;
-        height: 12vw;
-        margin-left: 27vw;
-        float: none;
-    }
-    .section2 {
-        margin-top: 162vw;
-        height: 568vw;
-    }
-    .c-text1 {
-        line-height: 9.5vw;
-        font-size: 12px;
-    }
-    .c1-h2 {
-        font-size: 23px;
-    }
-    .c-text2 {
-        font-size: 12px;
-    }
-    .c-text3 {
-        font-size: 12px;
-    }
-    .c2-h2 {
-        width: 84vw;
-        height: 12vw;
-        font-size: 14px;
-        padding: 2vw;
-        padding-top: 4vw;
-        margin-top: 12vw;
-    }
-    .proMain-img1 {
-        width: 40vw;
-        margin-left: 9vw;
-    }
-    .pro-text1 {
-        margin-left: 8vw;
-        line-height: 8vw;
-        margin-top: 3vw;
-    }
-    .proMain-img2 {
-        width: 40vw;
-        margin-left: 9vw;
-    }
-    .pro-text2 {
-        margin-top: 3vw;
-        margin-left: 9vw;
-    }
-    .inner-prores {
-        margin-top: 10vw;
-    }
-    .proMain-img3 {
-        width: 16vw;
-        margin-left: 21vw;
-    }
-    .pro-text3 {
-        margin-left: 22vw;
-    }
-    .proMain-img4 {
-        width: 11vw;
-        margin-left: 23.5vw;
-    }
-    .pro-text4 {
-        margin-left: 25vw;
-    }
-    .pro-f-text {
-        line-height: 13vw;
-        font-size: 15px;
-    }
-    .pro-btn {
-        margin-top: 15vw;
-        padding-top: 1.5vw;
-        padding-left: 3vw;
-        font-size: 12px;
-        width: 50vw;
-        height: 14vw;
-        float: none;
-    }
-    .ma-right-text {
-        margin-top: -63vw;
-        font-size: 13px;
-        font-family: serif;
-        letter-spacing: 0.6vw;
-        margin-left: 57vw;
-    }
-    .machImg-top {
-        position: absolute;
-        left: 11vw;
-        top: 51vw;
-        z-index: 3;
-        width: 67vw;
-    }
-    .mach2-img {
-        position: relative;
-        margin-top: -17vw;
-    }
-    .machImg-under {
-        position: relative;
-        width: 67vw;
-        z-index: 2;
-        top: 54vw;
-        left: 17vw;
-        margin-left: 5vw;
-        margin-top: 2.6vw;
-    }
-    .under-white2 {
-        font-size: 19px;
-        position: relative;
-        top: 58vw;
-        margin-left: 15vw;
-    }
-    .mach3-bottom {
-        margin-top: 106vw;
-    }
-    .m3-img {
-        width: 15vw;
-        transform: rotate(-10deg);
-        margin-left: 9vw;
-    }
-    .label {
-        padding-top: 6vw;
-        line-height: 8vw;
-        margin-left: 3vw;
-        font-size: 10px;
-    }
-    .pre-btn {
-        width: 70vw;
-        margin: 0;
-        height: 100vw;
-    }
-    .pre-top1 {
-        margin: 0;
-        margin-top: 23vw;
-        margin-bottom: 7vw;
-    }
-    .staImg1-right {
-        width: 16vw;
-        margin-left: 3vw;
-    }
-    .pre-value {
-        font-size: 20px;
-        margin: 0%;
-        margin-top: 9vw;
-    }
-    .staImg1-left {
-        width: 6vw;
-        margin-top: -21vw;
-    }
-    .value1-btn {
-        margin: 0vw;
-        padding: 5.5vw 18.5vw;
-        margin-top: 10vw;
-    }
-    .sta-btn {
-        width: 70vw;
-        margin: 0;
-        height: 100vw;
-    }
-    .staImg2-left {
-        width: 10vw;
-        margin-top: -6vw;
-    }
-    .staImg2-right {
-        width: 17vw;
-        margin-left: 2.7vw;
-    }
-    .pre-top2 {
-        margin: 0;
-        margin-top: 23vw;
-        margin-bottom: 7vw;
-    }
-    .section3 {
-        height: 533vw;
-    }
-    .sta-value {
-        font-size: 20px;
-        margin: 0%;
-        margin-top: 9vw;
-    }
-    .value2-btn {
-        margin: 0vw;
-        padding: 5.5vw 18.5vw;
-        margin-top: 10vw;
-    }
-    .section4 {
-        height: 556vw;
-        margin-top: 66vw;
-    }
-    .ge-right-text {
-        font-size: 13px;
-        position: relative;
-        margin-left: 41vw;
-        top: -62vw;
-        line-height: 6vw;
-    }
-    .getImg2-under {
-        width: 33vw;
-        position: relative;
-        z-index: 3;
-        top: -53vw;
-        margin-left: -2vw;
-        margin-top: -67vw;
-    }
-    .getImg2-top {
-        position: absolute;
-        width: 85vw;
-        margin-left: 12vw;
-        margin-top: -56vw;
-    }
-    .mach3-bottom3 {
-        margin-top: 76vw;
-    }
-    .under-white {
-        top: 58vw;
-    }
-    .sta-under-text {
-        font-size: 10px;
-        margin-top: 3vw;
-    }
-    .local {
-        font-size: 13px;
-        margin-left: 4vw;
-    }
-    .s5-select img {
-        margin-left: 3vw;
-        width: 59vw;
-    }
-    .s5-select {
-        display: block;
-        margin-bottom: 18vw;
-        /* grid-template-columns: 1fr 1fr; */
-    }
-    .s5-select p {
-        font-size: 13px;
-        position: relative;
-        top: -6vw;
-        left: 25vw;
-    }
-    .s5-select p {
-        font-size: 15px;
-        position: relative;
-        top: -6vw;
-        margin-left: 15vw;
-        left: 0;
-    }
-    .three-img1 {
-        width: 60vw;
-    }   
-    .circle img {
-        float: left;
-        margin-left: 17vw;
-    }
-    .circle {
-        height: 69vw;
-    }
-    .three-value1 {
-        font-size: 20px;
-        margin: 0%;
-        margin-top: 9vw;
-    }
-    .three-btn {
-        margin: 0vw;
-        padding: 5.5vw 18.5vw;
-        margin-top: 10vw;
-    }
-    .circle img {
-        float: left;
-        width: 60vw;
-        margin-left: 17vw;
-    }
-    .white-text {
-        width: 90vw;
-        padding: 5vw 1vw;
-    }
-    .three-value2 {
-        font-size: 20px;
-        margin: 0%;
-        margin-top: 9vw;
-    }
-    .three-value3 {
-        font-size: 20px;
-        margin: 0%;
-        margin-top: 9vw;
-    }
-    .s5-select2 {
-        display: block;
-        margin-top: 43vw;
-    }
-    .s5-select2 img {
-        margin-left: 3vw;
-        width: 59vw;
-    }
-    .s5-select2 p {
-        font-size: 15px;
-        position: relative;
-        top: -6vw;
-        margin-left: 35vw;
-        left: 0;
-    }
-    .section5 {
-        height: 1254vw;
-        margin-top: 43vw;
-    }
-    .three2-value1 {
-        font-size: 20px;
-        margin: 0%;
-        margin-top: 9vw;
-    }
-    .three2-value2 {
-        font-size: 20px;
-        margin: 0%;
-        margin-top: 9vw;
-    }
-    .three2-img3 {
-        width: 16.5vw;
-        padding-left: 4vw;
-        margin-top: 1vw;
-    }
-    .three2-value3 {
-        font-size: 20px;
-        margin: 0%;
-        margin-top: 9vw;
-    }
-    .LINE {
-        width: 62vw;
-        margin-top: 2vw;
-    }
-    .merit1 {
-        line-height: 6vw;
-        font-size: 11px;
-    }
-    .por-img1 {
-        width: 23vw;
-    }
-    .pro-img2 {
-        width: 15vw;
-    }
-    .por-img3 {
-        width: 15vw;
-    }
-    .pro-img4 {
-        width: 23vw;
-        margin-top: 3vw;
-    }
-    .g-btn {
+  .detailSetion8 {
+    height: 178vw;
+    margin-top: 14vw;
+  }
+  .d-APAGARD {
+    width: 11vw;
+  }
+  .desc1-8 {
+    line-height: 3.7vw;
+    margin-top: 2vw;
+    font-size: 12px;
+  }
+  .desc2-8 {
+    line-height: 3.7vw;
+    margin-top: 1.5vw;
+    font-size: 12px;
+  }
+  .desc3-8 {
+    line-height: 3.7vw;
+    font-size: 12px;
+  }
+  .s8-righth2 {
+    letter-spacing: 0.4vw;
+    margin-top: 15vw;
+    font-size: 26px;
+  }
+  .d-add-text-2 p {
+    font-size: 10px;
+    line-height: 3vw;
+  }
 
-        font-size: 12px;
-    }
-    .section3-w h2 {
-        font-size: 16.5px;
-        float: none;
-        margin-left: 5vw;
-        position: relative;
-        top: -30vw;
-    }
-    .d-philips {
-        width: 60vw;
-        margin-left: 2vw;
-        margin-top: 1vw;
-    }
-    .d-philips-5 {
-        width: 60vw;
-        margin-left: 2vw;
-        margin-top: -3vw;
-    }
-    .curaprox-text {
-        margin-left: 39.5vw;
-        margin-top: -14vw;
-        font-size: 12px;
-        line-height: 9vw;
-    }
-    .detailSection3 {
-        height: 185vw;
-    }
-    .aqua-text {
-        margin-left: 32.5vw;
-        margin-top: -9vw;
-        font-size: 12px;
-        line-height: 9vw;
-    }
-    .tepe-text {
-        margin-left: 42.5vw;
-        margin-top: -14vw;
-    }
-    .detailSection4 {
-        height: 171vw;
-        margin-top: 10vw;
-    }
-    .detailSection5 {
-        height: 183vw;
-        margin-top: 13vw;
-    }
-    .s4-right {
-        margin-top: 6vw;
-        margin-left: 5vw;
-    }
-    .d-ruscello {
-        width: 19vw;
-        margin-left: 18vw;
-        margin-top: -1vw;
-    }
-    .rusce-text {
-        margin-left: 44.5vw;
-        margin-top: -36vw;
-    }
-    .detailSetion7 {
-        height: 225vw;
-    }
-    .number {
-        margin-top: 3vw;
-        font-size: 2.7vw;
-    }
-    
+  .detailSetion9 {
+    width: 100%;
+    height: 170vw;
+    margin-top: 19vw;
+  }
+  .d-oralpeace {
+    width: 9vw;
+    margin-left: 20.5vw;
+    margin-top: -4vw;
+  }
+  .oral-text {
+    margin-left: 37.5vw;
+    margin-top: -35vw;
+    font-size: 12px;
+    line-height: 9vw;
+    margin-bottom: 12vw;
+  }
+  .desc1-9 {
+    line-height: 3.7vw;
+    margin-top: 2vw;
+    font-size: 10px;
+  }
+  .desc2-9 {
+    line-height: 3.7vw;
+    margin-top: 1.5vw;
+    font-size: 10px;
+  }
+  .desc3-9 {
+    line-height: 3.7vw;
+    font-size: 10px;
+  }
+  .d-add-text-3 p {
+    line-height: 4vw;
+    font-size: 11px;
+  }
+  .desc {
+    margin-top: 8.6vw;
+    font-size: 12px;
+  }
+  .desc-7 {
+    font-size: 11px;
+    letter-spacing: 0.2vw;
+    margin-top: 8.9vw;
+  }
+  .d-add-text p {
+    line-height: 4vw;
+    font-size: 12px;
+  }
+  .desc-8 {
+    margin-top: 6vw;
+    font-size: 11px;
+  }
+  .s5-select2 p {
+    font-size: 12px;
+    font-weight: lighter;
+    color: white;
+    font-family: serif;
+    margin-top: 12vw;
+    letter-spacing: 0.3vw;
+    margin-left: 0vw;
+  }
+  .d-oralpeace {
+    width: 9vw;
+    margin-left: 20.5vw;
+    margin-top: 3vw;
+  }
+  .detailSetion7 {
+    height: 211vw;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .top-img {
+    height: 67vw;
+  }
+  .live h2 {
+    font-size: 23px;
+  }
+  .live p {
+    margin-top: 15vw;
+    letter-spacing: 0.2vw;
+  }
+  section {
+    height: 63vw;
+    margin: 0;
+  }
+  .gray {
+    width: 100%;
+    height: 135vw;
+  }
+  .g-text h3 {
+    font-size: 25px;
+    margin-top: 13vw;
+    line-height: 10vw;
+  }
+  .g-quo {
+    width: 12vw;
+    position: relative;
+    left: 1.5vw;
+    top: 8vw;
+  }
+  .respoX {
+    display: block;
+  }
+  .g-btn {
+    margin-top: 14vw;
+    font-size: 1.3vw;
+    width: 46vw;
+    height: 12vw;
+    margin-left: 27vw;
+    float: none;
+  }
+  .section2 {
+    margin-top: 162vw;
+    height: 568vw;
+  }
+  .c-text1 {
+    line-height: 9.5vw;
+    font-size: 12px;
+  }
+  .c1-h2 {
+    font-size: 23px;
+  }
+  .c-text2 {
+    font-size: 12px;
+  }
+  .c-text3 {
+    font-size: 12px;
+  }
+  .c2-h2 {
+    width: 84vw;
+    height: 12vw;
+    font-size: 14px;
+    padding: 2vw;
+    padding-top: 4vw;
+    margin-top: 12vw;
+  }
+  .proMain-img1 {
+    width: 40vw;
+    margin-left: 9vw;
+  }
+  .pro-text1 {
+    margin-left: 8vw;
+    line-height: 8vw;
+    margin-top: 3vw;
+  }
+  .proMain-img2 {
+    width: 40vw;
+    margin-left: 9vw;
+  }
+  .pro-text2 {
+    margin-top: 3vw;
+    margin-left: 9vw;
+  }
+  .inner-prores {
+    margin-top: 10vw;
+  }
+  .proMain-img3 {
+    width: 16vw;
+    margin-left: 21vw;
+  }
+  .pro-text3 {
+    margin-left: 22vw;
+  }
+  .proMain-img4 {
+    width: 11vw;
+    margin-left: 23.5vw;
+  }
+  .pro-text4 {
+    margin-left: 25vw;
+  }
+  .pro-f-text {
+    line-height: 13vw;
+    font-size: 15px;
+  }
+  .pro-btn {
+    margin-top: 15vw;
+    padding-top: 1.5vw;
+    padding-left: 3vw;
+    font-size: 12px;
+    width: 50vw;
+    height: 14vw;
+    float: none;
+  }
+  .ma-right-text {
+    margin-top: -63vw;
+    font-size: 13px;
+    font-family: serif;
+    letter-spacing: 0.6vw;
+    margin-left: 57vw;
+  }
+  .machImg-top {
+    position: absolute;
+    left: 11vw;
+    top: 51vw;
+    z-index: 3;
+    width: 67vw;
+  }
+  .mach2-img {
+    position: relative;
+    margin-top: -17vw;
+  }
+  .machImg-under {
+    position: relative;
+    width: 67vw;
+    z-index: 2;
+    top: 54vw;
+    left: 17vw;
+    margin-left: 5vw;
+    margin-top: 2.6vw;
+  }
+  .under-white2 {
+    font-size: 19px;
+    position: relative;
+    top: 58vw;
+    margin-left: 15vw;
+  }
+  .mach3-bottom {
+    margin-top: 106vw;
+  }
+  .m3-img {
+    width: 15vw;
+    transform: rotate(-10deg);
+    margin-left: 9vw;
+  }
+  .label {
+    padding-top: 6vw;
+    line-height: 8vw;
+    margin-left: 3vw;
+    font-size: 10px;
+  }
+  .pre-btn {
+    width: 70vw;
+    margin: 0;
+    height: 100vw;
+  }
+  .pre-top1 {
+    margin: 0;
+    margin-top: 23vw;
+    margin-bottom: 7vw;
+  }
+  .staImg1-right {
+    width: 16vw;
+    margin-left: 3vw;
+  }
+  .pre-value {
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 9vw;
+  }
+  .staImg1-left {
+    width: 6vw;
+    margin-top: -21vw;
+  }
+  .value1-btn {
+    margin: 0vw;
+    padding: 5.5vw 18.5vw;
+    margin-top: 10vw;
+  }
+  .sta-btn {
+    width: 70vw;
+    margin: 0;
+    height: 100vw;
+  }
+  .staImg2-left {
+    width: 10vw;
+    margin-top: -6vw;
+  }
+  .staImg2-right {
+    width: 17vw;
+    margin-left: 2.7vw;
+  }
+  .pre-top2 {
+    margin: 0;
+    margin-top: 23vw;
+    margin-bottom: 7vw;
+  }
+  .section3 {
+    height: 533vw;
+  }
+  .sta-value {
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 9vw;
+  }
+  .value2-btn {
+    margin: 0vw;
+    padding: 5.5vw 18.5vw;
+    margin-top: 10vw;
+  }
+  .section4 {
+    height: 556vw;
+    margin-top: 66vw;
+  }
+  .ge-right-text {
+    font-size: 13px;
+    position: relative;
+    margin-left: 41vw;
+    top: -62vw;
+    line-height: 6vw;
+  }
+  .getImg2-under {
+    width: 33vw;
+    position: relative;
+    z-index: 3;
+    top: -53vw;
+    margin-left: -2vw;
+    margin-top: -67vw;
+  }
+  .getImg2-top {
+    position: absolute;
+    width: 85vw;
+    margin-left: 12vw;
+    margin-top: -56vw;
+  }
+  .mach3-bottom3 {
+    margin-top: 76vw;
+  }
+  .under-white {
+    top: 58vw;
+  }
+  .sta-under-text {
+    font-size: 10px;
+    margin-top: 3vw;
+  }
+  .local {
+    font-size: 13px;
+    margin-left: 4vw;
+  }
+  .s5-select img {
+    margin-left: 3vw;
+    width: 59vw;
+  }
+  .s5-select {
+    display: block;
+    margin-bottom: 18vw;
+    /* grid-template-columns: 1fr 1fr; */
+  }
+  .s5-select p {
+    font-size: 13px;
+    position: relative;
+    top: -6vw;
+    left: 25vw;
+  }
+  .s5-select p {
+    font-size: 15px;
+    position: relative;
+    top: -6vw;
+    margin-left: 15vw;
+    left: 0;
+  }
+  .three-img1 {
+    width: 60vw;
+  }
+  .circle img {
+    float: left;
+    margin-left: 17vw;
+  }
+  .circle {
+    height: 69vw;
+  }
+  .three-value1 {
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 9vw;
+  }
+  .three-btn {
+    margin: 0vw;
+    padding: 5.5vw 18.5vw;
+    margin-top: 10vw;
+  }
+  .circle img {
+    float: left;
+    width: 60vw;
+    margin-left: 17vw;
+  }
+  .white-text {
+    width: 90vw;
+    padding: 5vw 1vw;
+  }
+  .three-value2 {
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 9vw;
+  }
+  .three-value3 {
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 9vw;
+  }
+  .s5-select2 {
+    display: block;
+    margin-top: 43vw;
+  }
+  .s5-select2 img {
+    margin-left: 3vw;
+    width: 59vw;
+  }
+  .s5-select2 p {
+    font-size: 15px;
+    position: relative;
+    top: -6vw;
+    margin-left: 35vw;
+    left: 0;
+  }
+  .section5 {
+    height: 1254vw;
+    margin-top: 43vw;
+  }
+  .three2-value1 {
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 9vw;
+  }
+  .three2-value2 {
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 9vw;
+  }
+  .three2-img3 {
+    width: 16.5vw;
+    padding-left: 4vw;
+    margin-top: 1vw;
+  }
+  .three2-value3 {
+    font-size: 20px;
+    margin: 0%;
+    margin-top: 9vw;
+  }
+  .LINE {
+    width: 62vw;
+    margin-top: 2vw;
+  }
+  .merit1 {
+    line-height: 6vw;
+    font-size: 11px;
+  }
+  .por-img1 {
+    width: 23vw;
+  }
+  .pro-img2 {
+    width: 15vw;
+  }
+  .por-img3 {
+    width: 15vw;
+  }
+  .pro-img4 {
+    width: 23vw;
+    margin-top: 3vw;
+  }
+  .g-btn {
+    font-size: 12px;
+  }
+  .section3-w h2 {
+    font-size: 16.5px;
+    float: none;
+    margin-left: 5vw;
+    position: relative;
+    top: -30vw;
+  }
+  .d-philips {
+    width: 60vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+  }
+  .d-philips-5 {
+    width: 60vw;
+    margin-left: 2vw;
+    margin-top: -3vw;
+  }
+  .curaprox-text {
+    margin-left: 39.5vw;
+    margin-top: -14vw;
+    font-size: 12px;
+    line-height: 9vw;
+  }
+  .detailSection3 {
+    height: 185vw;
+  }
+  .aqua-text {
+    margin-left: 32.5vw;
+    margin-top: -9vw;
+    font-size: 12px;
+    line-height: 9vw;
+  }
+  .tepe-text {
+    margin-left: 42.5vw;
+    margin-top: -14vw;
+  }
+  .detailSection4 {
+    height: 171vw;
+    margin-top: 10vw;
+  }
+  .detailSection5 {
+    height: 183vw;
+    margin-top: 13vw;
+  }
+  .s4-right {
+    margin-top: 6vw;
+    margin-left: 5vw;
+  }
+  .d-ruscello {
+    width: 19vw;
+    margin-left: 18vw;
+    margin-top: -1vw;
+  }
+  .rusce-text {
+    margin-left: 44.5vw;
+    margin-top: -36vw;
+  }
+  .detailSetion7 {
+    height: 225vw;
+  }
+  .number {
+    margin-top: 3vw;
+    font-size: 2.7vw;
+  }
 }
