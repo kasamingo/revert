@@ -786,6 +786,14 @@ section {
     font-size: 1.6vw;
 }
 
+
+.phone-f{
+    width: 2vw;
+}
+
+.mail-f{
+    width: 2vw;
+}
 .three-btn {
     padding: 1.5vw 4.5vw;
     margin-top: 3vw;
@@ -3435,9 +3443,8 @@ main>section>.sec02-title03 h1 {
     }
 
     .detailSetion7 {
-        height: 211vw;
+        height: 224vw;
     }
-
     .aboufo {
         margin-top: 75vw;
     }
