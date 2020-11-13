@@ -2742,7 +2742,7 @@ main>section>.sec02-title03 h1 {
     }
 
     footer {
-        height: 121vw;
+        height: 132vw;
     }
 
     .footer-w {
@@ -2813,9 +2813,9 @@ main>section>.sec02-title03 h1 {
     }
 
     .copy {
-        width: 100%;
+        width: 105%;
         margin-top: 6vw;
-        font-size: 1.4vw;
+        font-size: 8px;
         position: relative;
         top: 3vw;
         left: 24vw;
