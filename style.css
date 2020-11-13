@@ -1523,7 +1523,9 @@ footer {
 .respo{
     display: none;
 }
-
+.respoX{
+    display: none;
+}
 
 
 
@@ -1747,13 +1749,15 @@ footer {
     }
     .h-concept {
         font-size: 36px;
+        margin-top: 8vw;
+        margin-bottom: 20vw;
     }
     .respo{
         display: block;
     }
     .gray {
         width: 100%;
-        height: 70vw;
+        height: 100vw;
     }
     .g-text p {
         font-size: 12px;
@@ -1761,16 +1765,17 @@ footer {
     }
     .g-text h3 {
         font-size: 25px;
+        margin-top: 12vw;
         line-height: 10vw;
     }
     .g-text p {
         font-size: 12px;
-        line-height: 6vw;
-        margin-top: 3.7vw;
+        line-height: 9vw;
+        margin-top: 7.7vw;
         letter-spacing: 0.1vw;
     }
     .g-btn {
-        margin-top: 5vw;
+        margin-top: 11vw;
         padding-top: 1.5vw;
         padding-left: 3vw;
         font-size: 1.3vw;
@@ -1781,7 +1786,8 @@ footer {
     }
     .section2 {
         width: 100%;
-        height: 459vw;
+        height: 500vw;
+        margin-top: 40vw;
     }
     .h-set {
         font-weight: lighter;
@@ -1799,7 +1805,7 @@ footer {
     }
     .c-text1 {
         font-size: 14px;
-        margin-top: 10vw;
+        margin-top: 15vw;
         line-height: 7.5vw;
     }
     .cource {
@@ -1811,7 +1817,7 @@ footer {
         font-size: 13px;
         padding: 2vw;
         padding-top: 4vw;
-        margin-top: 7vw;
+        margin-top: 12vw;
     }
     .c-text2 {
         margin-top: 11.5vw;
@@ -1824,7 +1830,11 @@ footer {
     }
     .puroduct1 {
         display: block;
-        margin-top: 17vw;
+        margin-top: 25vw;
+    }
+    .c-text3 {
+        margin-top: 4.7vw;
+        font-weight: bold;
     }
     .inner-pro {
         width: 40vw;
@@ -1899,9 +1909,6 @@ footer {
         margin-left: 5vw;
         position: relative;
         top: -30vw;
-    }
-        height: 350vw;
-        margin-top: 24vw;
     }
     .mach {
         display: block;
@@ -2319,5 +2326,370 @@ footer {
         position: relative;
         top: 3vw;
         left: 24vw;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    .top-img {
+        height: 67vw;
+    }
+    .live h2 {
+        font-size: 23px;
+    }
+    .live p {
+        margin-top: 15vw;
+        letter-spacing: 0.2vw;
+    }
+    section {
+        height: 63vw;
+        margin: 0;
+    }
+    .gray {
+        width: 100%;
+        height: 135vw;
+    }
+    .g-text h3 {
+        font-size: 25px;
+        margin-top: 13vw;
+        line-height: 10vw;
+    }
+    .g-quo {
+        width: 12vw;
+        position: relative;
+        left: 1.5vw;
+        top: 8vw;
+    }
+    .respoX{
+        display: block;
+    }
+    .g-btn {
+        margin-top: 14vw;
+        font-size: 1.3vw;
+        width: 46vw;
+        height: 12vw;
+        margin-left: 27vw;
+        float: none;
+    }
+    .section2 {
+        margin-top: 162vw;
+        height: 568vw;
+    }
+    .c-text1 {
+        line-height: 9.5vw;
+        font-size: 12px;
+    }
+    .c1-h2 {
+        font-size: 23px;
+    }
+    .c-text2 {
+        font-size: 12px;
+    }
+    .c-text3 {
+        font-size: 12px;
+    }
+    .c2-h2 {
+        width: 84vw;
+        height: 12vw;
+        font-size: 14px;
+        padding: 2vw;
+        padding-top: 4vw;
+        margin-top: 12vw;
+    }
+    .proMain-img1 {
+        width: 40vw;
+        margin-left: 9vw;
+    }
+    .pro-text1 {
+        margin-left: 8vw;
+        line-height: 8vw;
+        margin-top: 3vw;
+    }
+    .proMain-img2 {
+        width: 40vw;
+        margin-left: 9vw;
+    }
+    .pro-text2 {
+        margin-top: 3vw;
+        margin-left: 9vw;
+    }
+    .inner-prores {
+        margin-top: 10vw;
+    }
+    .proMain-img3 {
+        width: 16vw;
+        margin-left: 21vw;
+    }
+    .pro-text3 {
+        margin-left: 22vw;
+    }
+    .proMain-img4 {
+        width: 11vw;
+        margin-left: 23.5vw;
+    }
+    .pro-text4 {
+        margin-left: 25vw;
+    }
+    .pro-f-text {
+        line-height: 13vw;
+        font-size: 15px;
+    }
+    .pro-btn {
+        margin-top: 15vw;
+        padding-top: 1.5vw;
+        padding-left: 3vw;
+        font-size: 1.3vw;
+        width: 50vw;
+        height: 14vw;
+        float: none;
+    }
+    .ma-right-text {
+        margin-top: -63vw;
+        font-size: 13px;
+        font-family: serif;
+        letter-spacing: 0.6vw;
+        margin-left: 57vw;
+    }
+    .machImg-top {
+        position: absolute;
+        left: 11vw;
+        top: 51vw;
+        z-index: 3;
+        width: 67vw;
+    }
+    .mach2-img {
+        position: relative;
+        margin-top: -17vw;
+    }
+    .machImg-under {
+        position: relative;
+        width: 67vw;
+        z-index: 2;
+        top: 54vw;
+        left: 17vw;
+        margin-left: 5vw;
+        margin-top: 2.6vw;
+    }
+    .under-white2 {
+        font-size: 19px;
+        position: relative;
+        top: 58vw;
+        margin-left: 15vw;
+    }
+    .mach3-bottom {
+        margin-top: 106vw;
+    }
+    .m3-img {
+        width: 15vw;
+        transform: rotate(-10deg);
+        margin-left: 9vw;
+    }
+    .label {
+        padding-top: 6vw;
+        line-height: 8vw;
+        margin-left: 3vw;
+        font-size: 10px;
+    }
+    .pre-btn {
+        width: 70vw;
+        margin: 0;
+        height: 100vw;
+    }
+    .pre-top1 {
+        margin: 0;
+        margin-top: 23vw;
+        margin-bottom: 7vw;
+    }
+    .staImg1-right {
+        width: 16vw;
+        margin-left: 3vw;
+    }
+    .pre-value {
+        font-size: 20px;
+        margin: 0%;
+        margin-top: 9vw;
+    }
+    .staImg1-left {
+        width: 6vw;
+        margin-top: -21vw;
+    }
+    .value1-btn {
+        margin: 0vw;
+        padding: 5.5vw 18.5vw;
+        margin-top: 10vw;
+    }
+    .sta-btn {
+        width: 70vw;
+        margin: 0;
+        height: 100vw;
+    }
+    .staImg2-left {
+        width: 10vw;
+        margin-top: -6vw;
+    }
+    .staImg2-right {
+        width: 17vw;
+        margin-left: 2.7vw;
+    }
+    .pre-top2 {
+        margin: 0;
+        margin-top: 23vw;
+        margin-bottom: 7vw;
+    }
+    .section3 {
+        height: 533vw;
+    }
+    .sta-value {
+        font-size: 20px;
+        margin: 0%;
+        margin-top: 9vw;
+    }
+    .value2-btn {
+        margin: 0vw;
+        padding: 5.5vw 18.5vw;
+        margin-top: 10vw;
+    }
+    .section4 {
+        height: 556vw;
+        margin-top: 66vw;
+    }
+    .ge-right-text {
+        font-size: 13px;
+        position: relative;
+        margin-left: 41vw;
+        top: -62vw;
+        line-height: 6vw;
+    }
+    .getImg2-under {
+        width: 33vw;
+        position: relative;
+        z-index: 3;
+        top: -53vw;
+        margin-left: -2vw;
+        margin-top: -67vw;
+    }
+    .getImg2-top {
+        position: absolute;
+        width: 85vw;
+        margin-left: 12vw;
+        margin-top: -56vw;
+    }
+    .mach3-bottom3 {
+        margin-top: 76vw;
+    }
+    .under-white {
+        top: 58vw;
+    }
+    .sta-under-text {
+        font-size: 10px;
+        margin-top: 3vw;
+    }
+    .local {
+        font-size: 13px;
+        margin-left: 4vw;
+    }
+    .s5-select img {
+        margin-left: 3vw;
+        width: 59vw;
+    }
+    .s5-select {
+        display: block;
+        margin-bottom: 18vw;
+        /* grid-template-columns: 1fr 1fr; */
+    }
+    .s5-select p {
+        font-size: 13px;
+        position: relative;
+        top: -6vw;
+        left: 25vw;
+    }
+    .s5-select p {
+        font-size: 15px;
+        position: relative;
+        top: -6vw;
+        margin-left: 15vw;
+        left: 0;
+    }
+    .three-img1 {
+        width: 60vw;
+    }   
+    .circle img {
+        float: left;
+        margin-left: 17vw;
+    }
+    .circle {
+        height: 69vw;
+    }
+    .three-value1 {
+        font-size: 20px;
+        margin: 0%;
+        margin-top: 9vw;
+    }
+    .three-btn {
+        margin: 0vw;
+        padding: 5.5vw 18.5vw;
+        margin-top: 10vw;
+    }
+    .circle img {
+        float: left;
+        width: 60vw;
+        margin-left: 17vw;
+    }
+    .white-text {
+        width: 90vw;
+        padding: 5vw 1vw;
+    }
+    .three-value2 {
+        font-size: 20px;
+        margin: 0%;
+        margin-top: 9vw;
+    }
+    .three-value3 {
+        font-size: 20px;
+        margin: 0%;
+        margin-top: 9vw;
+    }
+    .s5-select2 {
+        display: block;
+        margin-top: 43vw;
+    }
+    .s5-select2 img {
+        margin-left: 3vw;
+        width: 59vw;
+    }
+    .s5-select2 p {
+        font-size: 15px;
+        position: relative;
+        top: -6vw;
+        margin-left: 35vw;
+        left: 0;
+    }
+    .section5 {
+        height: 1241vw;
+        margin-top: 43vw;
+    }
+    .three2-value1 {
+        font-size: 20px;
+        margin: 0%;
+        margin-top: 9vw;
+    }
+    .three2-value2 {
+        font-size: 20px;
+        margin: 0%;
+        margin-top: 9vw;
+    }
+    .three2-img3 {
+        width: 16.5vw;
+        padding-left: 4vw;
+        margin-top: 1vw;
+    }
+    .three2-value3 {
+        font-size: 20px;
+        margin: 0%;
+        margin-top: 9vw;
+    }
+    .LINE {
+        width: 62vw;
+        margin-top: 2vw;
     }
 }
