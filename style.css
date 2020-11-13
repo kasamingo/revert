@@ -1741,6 +1741,13 @@ footer {
     .header2{
         display: none;
     }
+    .circle2 p {
+        writing-mode: vertical-rl;
+        color: white;
+        padding-left: 9vw;
+        font-size: 14px;
+        letter-spacing: 0.2vw;
+    }
     .header1{
         display: none;
     }
@@ -2158,7 +2165,7 @@ footer {
         color: white;
         padding-left: 1vw;
         font-size: 01vw;
-        font-size: 8px;
+        font-size: 15px;
         letter-spacing: 0.2vw;
     }
     .circle img {
