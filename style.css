@@ -1578,6 +1578,9 @@ footer {
     .desc3-8 {
         line-height: 1.6vw;
     }
+    .gray {
+        height: 34vw;
+    }
     .desc3-7 {
         line-height: 1.6vw;
     }
@@ -1687,11 +1690,14 @@ footer {
         height: 45vw;
     }
     .s5-select img {
-        margin-left: 3vw;
-        width: 39vw;
+        margin-left: -1vw;
+        width: 48vw;
+        margin-top: 6vw;
     }
     .s5-select p {
-        padding-left: 7vw;
+        padding-left: 0vw;
+        margin-top: 15vw;
+        font-size: 14px;
     }
     .three-value2 {
         margin-top: 8vw;
@@ -1712,8 +1718,8 @@ footer {
         margin-top: 4.2vw;
     }
     .s5-select2 img {
-        width: 40vw;
-        margin-left: 3vw;
+        width: 52vw;
+        margin-left: 1vw;
     }
     .respo{
         display: block;
@@ -1742,6 +1748,15 @@ footer {
     }
     .f-concept {
         margin-top: 3vw;
+    }
+    .s5-select2 p {
+        font-size: 2vw;
+        font-weight: lighter;
+        color: white;
+        font-family: serif;
+        margin-top: 8vw;
+        letter-spacing: 0.3vw;
+        margin-left: 8vw;
     }
 }
 
@@ -2067,7 +2082,7 @@ footer {
     }
     .staImg2-left {
         width: 7.5vw;
-        margin-top: -17vw;
+        margin-top: -4vw;
     }
     .sta-value {
         font-size: 17px;
@@ -2691,6 +2706,15 @@ footer {
     .desc-8 {
         margin-top: 6vw;
         font-size: 11px;
+    }
+    .s5-select2 p {
+        font-size: 12px;
+        font-weight: lighter;
+        color: white;
+        font-family: serif;
+        margin-top: 12vw;
+        letter-spacing: 0.3vw;
+        margin-left: 0vw;
     }
 
 
