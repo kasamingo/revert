@@ -899,6 +899,7 @@ footer {
 }
 
 .f-concept {
+    width: 100%;
     margin-top: 2vw;
     border: none;
     background-color: transparent;
@@ -913,6 +914,7 @@ footer {
 }
 
 .f-product {
+    width: 100%;
     border: none;
     background-color: transparent;
     font-size: 1.9vw;
@@ -926,6 +928,7 @@ footer {
 }
 
 .f-about {
+    width: 100%;
     border: none;
     background-color: transparent;
     font-size: 1.9vw;
@@ -953,6 +956,10 @@ footer {
 
 .footer-menu {
     line-height: 3.5vw;
+}
+
+.footer-menu>button {
+    width: 100%;
 }
 
 .footer-logo {
