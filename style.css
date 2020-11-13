@@ -2577,16 +2577,16 @@ footer {
     .desc1-7 {
         line-height: 3.7vw;
         margin-top: 2vw;
-        font-size: 10px;
+        font-size: 12px;
     }
     .desc2-7 {
         line-height: 3.7vw;
         margin-top: 1.5vw;
-        font-size: 10px;
+        font-size: 12px;
     }
     .desc3-7 {
         line-height: 3.7vw;
-        font-size: 10px;
+        font-size: 12px;
     }
     .d-add-text {
         margin-top: 8.5vw;
@@ -2611,16 +2611,16 @@ footer {
     .desc1-8 {
         line-height: 3.7vw;
         margin-top: 2vw;
-        font-size: 10px;
+        font-size: 12px;
     }
     .desc2-8 {
         line-height: 3.7vw;
         margin-top: 1.5vw;
-        font-size: 10px;
+        font-size: 12px;
     }
     .desc3-8 {
         line-height: 3.7vw;
-        font-size: 10px;
+        font-size: 12px;
     }
     .s8-righth2 {
         letter-spacing: 0.4vw;
@@ -2664,6 +2664,19 @@ footer {
     }
     .d-add-text-3 p {
         line-height: 3vw;
+    }
+    .desc {
+        margin-top: 8.6vw;
+        font-size: 12px;
+    }
+    .desc-7 {
+        font-size: 11px;
+        letter-spacing: 0.2vw;
+        margin-top: 8.9vw;
+    }
+    .d-add-text p {
+        line-height: 4vw;
+        font-size: 12px;
     }
 
 
