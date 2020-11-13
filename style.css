@@ -2046,6 +2046,9 @@ main>section>.sec02-title03 h1 {
     .about-header-contena{
         display: none;
     }
+    .lefton{
+
+    }
     .detail-header{
         display: none;
     }
@@ -2192,7 +2195,7 @@ main>section>.sec02-title03 h1 {
         font-size: 12px;
         text-align: center;
         letter-spacing: 2px;
-        line-height: 10vw;
+        line-height: 8vw;
     }
 
     .about-header-contena {
@@ -2227,6 +2230,7 @@ main>section>.sec02-title03 h1 {
         font-size: 21px;
         text-align: center;
         font-family: "Yu Mincho", YuMincho, serif;
+        line-height: 13vw;
         margin: 20px 0;
         margin-bottom: 14vw;
         letter-spacing: 4px;
@@ -3019,8 +3023,8 @@ main>section>.sec02-title03 h1 {
     }
 
     .detailSection3 {
-        height: 141vw;
-    }
+    height: 155vw;
+}
 
     .detailSection3-w {
         display: block;
@@ -3070,20 +3074,20 @@ main>section>.sec02-title03 h1 {
     }
 
     .desc1 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 2vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .desc2 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 1.5vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .desc3 {
-        line-height: 3.7vw;
-        font-size: 10px;
+        line-height: 5.7vw;
+        font-size: 11px;
     }
 
     .res-none {
@@ -3091,7 +3095,7 @@ main>section>.sec02-title03 h1 {
     }
 
     .detailSection4 {
-        height: 150vw;
+        height: 163vw;
         margin-top: 10vw;
     }
 
@@ -3126,24 +3130,24 @@ main>section>.sec02-title03 h1 {
     }
 
     .desc1-4 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 2vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .desc2-4 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 1.5vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .desc3-4 {
-        line-height: 3.7vw;
-        font-size: 10px;
+        line-height: 5.7vw;
+        font-size: 11px;
     }
 
     .detailSection5 {
-        height: 150vw;
+        height: 179vw;
         margin-top: 13vw;
     }
 
@@ -3182,20 +3186,20 @@ main>section>.sec02-title03 h1 {
     }
 
     .desc1-5 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 2vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .desc2-5 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 1.5vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .desc3-5 {
-        line-height: 3.7vw;
-        font-size: 10px;
+        line-height: 5.7vw;
+        font-size: 11px;
     }
 
     .detailSetion7 {
@@ -3236,19 +3240,19 @@ main>section>.sec02-title03 h1 {
     }
 
     .desc1-7 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 2vw;
         font-size: 12px;
     }
 
     .desc2-7 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 1.5vw;
         font-size: 12px;
     }
 
     .desc3-7 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         font-size: 12px;
     }
 
@@ -3278,19 +3282,19 @@ main>section>.sec02-title03 h1 {
     }
 
     .desc1-8 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 2vw;
         font-size: 12px;
     }
 
     .desc2-8 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 1.5vw;
         font-size: 12px;
     }
 
     .desc3-8 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         font-size: 12px;
     }
 
@@ -3326,19 +3330,19 @@ main>section>.sec02-title03 h1 {
     }
 
     .desc1-9 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 2vw;
         font-size: 10px;
     }
 
     .desc2-9 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         margin-top: 1.5vw;
         font-size: 10px;
     }
 
     .desc3-9 {
-        line-height: 3.7vw;
+        line-height: 5.7vw;
         font-size: 10px;
     }
 
@@ -3956,12 +3960,12 @@ main>section>.sec02-title03 h1 {
     }
 
     .detailSection4 {
-        height: 171vw;
+        height: 191vw;
         margin-top: 10vw;
     }
 
     .detailSection5 {
-        height: 183vw;
+        height: 200vw;
         margin-top: 13vw;
     }
 
@@ -3982,7 +3986,11 @@ main>section>.sec02-title03 h1 {
     }
 
     .detailSetion7 {
-        height: 225vw;
+        height: 232vw;
+    }
+    .detailSetion8 {
+        height: 193vw;
+        margin-top: 14vw;
     }
     .copy {
         width: 131%;
