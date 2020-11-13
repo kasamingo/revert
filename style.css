@@ -654,7 +654,14 @@ section {
 }
 
 .s5-select img {
-    margin-left: 3vw;
+    margin-left: 0vw;
+    width: 36vw;
+    transform: rotate(-18deg);
+}
+.s5-select2 img{
+    margin-left: 0vw;
+    width: 36vw;
+    transform: rotate(-18deg);  
 }
 
 .s5-select p {
@@ -1133,9 +1140,10 @@ footer {
 }
 
 .left-box img {
-    width: 32vw;
+    width: 37vw;
+    transform: rotate(-15deg);
     padding-top: 2vw;
-    margin-left: 4vw;
+    margin-left: 1vw;
 }
 
 /*---------------------------------------------------------ここからは商品一覧ページ（detail）第2セクションのCSSになります*/
@@ -1470,13 +1478,13 @@ footer {
 }
 .d-oral {
     margin-left: 8vw;
-    width: 9vw;
+    width: 19vw;
     margin-top: 2vw;
 }
 .d-oralpeace {
     width: 8vw;
     margin-left: 20.5vw;
-    margin-top: -4vw;
+    margin-top: 0vw;
 }
 .oral-text {
     font-size: 0.8vw;
@@ -2393,7 +2401,7 @@ footer {
         margin-top: 6vw;
     }
     .left-box img {
-        width: 56vw;
+        width: 76vw;
     }
     .detailSection3 {
         height: 141vw;
@@ -2419,7 +2427,7 @@ footer {
         width: 16vw;
     }
     .s3-right {
-        margin-top: 16vw;
+        margin-top: 8vw;
     }
     .curaprox-text {
         margin-left: 45.5vw;
@@ -2515,8 +2523,8 @@ footer {
         margin-top: -3vw;
     }
     .aqua-text {
-        margin-left: 45.5vw;
-        margin-top: -36vw;
+        margin-left: 36.5vw;
+        margin-top: -18vw;
         font-size: 12px;
         line-height: 9vw;
     }
@@ -2643,10 +2651,11 @@ footer {
         margin-top: -4vw;
     }
     .oral-text {
-        margin-left: 45.5vw;
-        margin-top: -40vw;
+        margin-left: 37.5vw;
+        margin-top: -35vw;
         font-size: 12px;
         line-height: 9vw;
+        margin-bottom: 12vw;
     }
     .desc1-9 {
         line-height: 3.7vw;
@@ -3108,8 +3117,8 @@ footer {
         height: 185vw;
     }
     .aqua-text {
-        margin-left: 38.5vw;
-        margin-top: -14vw;
+        margin-left: 32.5vw;
+        margin-top: -9vw;
         font-size: 12px;
         line-height: 9vw;
     }
