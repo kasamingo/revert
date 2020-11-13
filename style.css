@@ -1647,9 +1647,9 @@ main>section>.sec01-title03 h1 {
     text-align: center;
     font-family: "Yu Mincho", YuMincho, serif;
     margin: 20px 0;
+    line-height: 5vw;
     letter-spacing: 6px;
 }
-
 main>section>.sec01-img-contena01 {
     width: 60%;
     margin: 100px auto;
@@ -2049,6 +2049,7 @@ main>section>.sec02-title03 h1 {
     .detail-header{
         display: none;
     }
+
     nav ul {
         list-style: none;
         margin-top: 20%;
@@ -2919,11 +2920,6 @@ main>section>.sec02-title03 h1 {
     .footer-menu {
         line-height: 9.5vw;
     }
-
-    .res-nam {
-        margin-top: 10vw;
-    }
-
     .number a {
         color: white;
         font-size: 20px;
@@ -3996,4 +3992,8 @@ main>section>.sec02-title03 h1 {
         top: 3vw;
         left: 17vw;
     }
+    .final {
+        margin-top: 150vw;
+    }
+    
 }
