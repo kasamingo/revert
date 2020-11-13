@@ -548,6 +548,9 @@ section {
   margin-top: 1.4vw;
   color: white;
 }
+.submit_input {
+  display: none;
+}
 
 /*-------------------------------------------------------セクション3*/
 
