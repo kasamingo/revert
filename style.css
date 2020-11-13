@@ -743,12 +743,19 @@ section {
 }
 
 
-.phone-f{
-    width: 2vw;
+.phone-f {
+    width: 4vw;
+    position: relative;
+    top: 1.1vw;
+    right: 2vw;
 }
 
+
 .mail-f{
-    width: 2vw;
+    width: 4vw;
+    position: relative;
+    top: 1.1vw;
+    right: 1vw;
 }
 .three-btn {
     padding: 1.5vw 4.5vw;
@@ -893,15 +900,20 @@ section {
 .fa-line {
     font-size: 2vw;
 }
-
+.about-logo{
+    width: 14vw;
+}
+.cart-ri {
+    width: 5vw;
+    margin-right: 2vw;
+}
 /*-------------------------------------------------------セクション6*/
 
 footer {
     width: 100%;
-    height: 20vw;
+    height: 23vw;
     background-color: #e0d4cf;
 }
-
 .footer-w {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -2183,11 +2195,16 @@ main>section>.sec02-title03 h1 {
 
     .phone-f {
         width: 7vw;
-        padding-right: 3vw;
+        position: relative;
+        top: 2vw;
     }
     .mail-f {
-        width: 6vw;
+        width: 8vw;
         padding-right: 3vw;
+        position: top;
+        position: relative;
+        top: 1vw;
+        right: 1vw;
     }
     .toos {
         width: 90%;
@@ -3448,6 +3465,28 @@ main>section>.sec02-title03 h1 {
 
     .detailFO {
         margin-top: 3vw;
+    }
+    .desc1-4::before,
+    .desc2-4::before,
+    .desc3-4::before,
+    .desc1-5::before,
+    .desc2-5::before,
+    .desc3-5::before,
+    .desc1-6::before,
+    .desc2-6::before,
+    .desc3-6::before,
+    .desc1-7::before,
+    .desc2-7::before,
+    .desc3-7::before,
+    .desc1-8::before,
+    .desc2-8::before,
+    .desc3-8::before,
+    .desc1-9::before,
+    .desc2-9::before,
+    .desc3-9::before {
+        content: "・";
+        margin-left: -10px;
+        transform: translateX(10px);
     }
 }
 
