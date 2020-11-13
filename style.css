@@ -2059,6 +2059,7 @@ main>section>.sec02-title03 h1 {
         width: 100%;
         position: fixed;
         display: flex;
+        z-index: 100;
         justify-content: space-between;
         align-items: center;
         padding: 0 20px;
@@ -2247,7 +2248,8 @@ main>section>.sec02-title03 h1 {
     }
 
     .top-img {
-        height: 65vw;
+        height: 78vw;
+        padding-top: 16vw;
     }
 
     .h-concept {
@@ -3410,7 +3412,8 @@ main>section>.sec02-title03 h1 {
 
 @media screen and (max-width: 380px) {
     .top-img {
-        height: 67vw;
+        padding-top: 17vw;
+        height: 77vw;
     }
 
     .pc_only_300 {
