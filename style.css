@@ -549,6 +549,7 @@ section {
     margin-top: 1.4vw;
     color: white;
 }
+
 .submit_input {
     display: none;
 }
@@ -1028,8 +1029,7 @@ footer {
     margin-top: 1.5vw;
 }
 
-.header-right {
-}
+.header-right {}
 
 .header-right img {
     width: 5.5vw;
@@ -1559,12 +1559,12 @@ footer {
     display: flex;
 }
 
-.add-he ul > li:nth-child(1) {
+.add-he ul>li:nth-child(1) {
     width: 80%;
     padding: 15px 0px 10px 30px;
 }
 
-.add-he ul > li:nth-child(2) {
+.add-he ul>li:nth-child(2) {
     width: 20%;
     text-align: right;
     list-style: none;
@@ -1613,20 +1613,20 @@ main {
 
 /* メインコンテンツ_sec01 */
 
-main > section > .sec01-title01 h1 {
+main>section>.sec01-title01 h1 {
     font-size: 30px;
     text-align: left;
     margin-left: 100px;
     letter-spacing: 6px;
 }
 
-main > section > .sec01-img-contena01 {
+main>section>.sec01-img-contena01 {
     width: 60%;
     margin: 100px auto;
     text-align: center;
 }
 
-main > section > .sec01-title02 h1 {
+main>section>.sec01-title02 h1 {
     font-size: 30px;
     text-align: center;
     font-family: "Yu Mincho", YuMincho, serif;
@@ -1634,7 +1634,7 @@ main > section > .sec01-title02 h1 {
     letter-spacing: 6px;
 }
 
-main > section > .sec01-title03 h1 {
+main>section>.sec01-title03 h1 {
     font-size: 30px;
     text-align: center;
     font-family: "Yu Mincho", YuMincho, serif;
@@ -1642,13 +1642,13 @@ main > section > .sec01-title03 h1 {
     letter-spacing: 6px;
 }
 
-main > section > .sec01-img-contena01 {
+main>section>.sec01-img-contena01 {
     width: 60%;
     margin: 100px auto;
     text-align: center;
 }
 
-main > section > .sec01-img-contena02 {
+main>section>.sec01-img-contena02 {
     width: 60%;
     margin: 100px auto;
     text-align: center;
@@ -1656,20 +1656,20 @@ main > section > .sec01-img-contena02 {
 
 /* メインコンテンツ_sec02 */
 
-main > section > .sec02-title01 h1 {
+main>section>.sec02-title01 h1 {
     font-size: 20px;
     text-align: center;
     letter-spacing: 6px;
 }
 
-main > section > .sec02-title02 p {
+main>section>.sec02-title02 p {
     font-size: 18px;
     text-align: center;
     letter-spacing: 4px;
     line-height: 2;
 }
 
-main > section > .sec02-title03 h1 {
+main>section>.sec02-title03 h1 {
     font-size: 30px;
     text-align: center;
     font-family: "Yu Mincho", YuMincho, serif;
@@ -2007,13 +2007,13 @@ main > section > .sec02-title03 h1 {
         margin-top: 111vw;
     }
 
-    main > section > .sec01-img-contena02 {
+    main>section>.sec01-img-contena02 {
         width: 100%;
         margin: auto;
         text-align: center;
     }
 
-    main > section > .sec01-title03 h1 {
+    main>section>.sec01-title03 h1 {
         line-height: 7vw;
     }
 
@@ -2035,19 +2035,23 @@ main > section > .sec02-title03 h1 {
     .toos {
         width: 90%;
     }
+
     .sec02-title01 {
         margin-top: 134vw;
     }
+
     .about-logo {
         width: 20vw;
     }
-    main > section > .sec02-title01 h1 {
+
+    main>section>.sec02-title01 h1 {
         font-size: 21px;
         line-height: 9vw;
         text-align: center;
         letter-spacing: 6px;
     }
-    main > section > .sec02-title02 p {
+
+    main>section>.sec02-title02 p {
         font-size: 12px;
         text-align: center;
         letter-spacing: 2px;
@@ -2058,28 +2062,31 @@ main > section > .sec02-title03 h1 {
         height: 15vw;
     }
 
-    .add-he ul > li:nth-child(1) {
+    .add-he ul>li:nth-child(1) {
         width: 80%;
         padding: 19px 0px 10px 22px;
     }
 
-    main > section > .sec01-title01 h1 {
+    main>section>.sec01-title01 h1 {
         font-size: 36px;
         /* text-align: left; */
         margin-left: 6vw;
         letter-spacing: 6px;
     }
+
     .pc_only_300 {
         height: 155px;
     }
-    main > section > .sec01-title02 h1 {
+
+    main>section>.sec01-title02 h1 {
         font-size: 21px;
         text-align: center;
         font-family: "Yu Mincho", YuMincho, serif;
         margin: 28px 0;
         letter-spacing: 4px;
     }
-    main > section > .sec01-title03 h1 {
+
+    main>section>.sec01-title03 h1 {
         font-size: 21px;
         text-align: center;
         font-family: "Yu Mincho", YuMincho, serif;
@@ -2087,6 +2094,7 @@ main > section > .sec02-title03 h1 {
         margin-bottom: 14vw;
         letter-spacing: 4px;
     }
+
     .pc_only_100 {
         height: 62px;
     }
@@ -2730,7 +2738,11 @@ main > section > .sec02-title03 h1 {
     }
 
     .footer-w {
-        display: block;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-w>div:first-child {
+        grid-column: 1/3;
     }
 
     .footer-logo {
@@ -2769,7 +2781,6 @@ main > section > .sec02-title03 h1 {
 
     .footer-menu {
         line-height: 9.5vw;
-        float: left;
     }
 
     .res-nam {
@@ -3240,16 +3251,19 @@ main > section > .sec02-title03 h1 {
     .detailSetion7 {
         height: 211vw;
     }
+
     .aboufo {
         margin-top: 75vw;
     }
-    main > section > .sec02-title03 h1 {
+
+    main>section>.sec02-title03 h1 {
         font-size: 24px;
         text-align: center;
         font-family: "Yu Mincho", YuMincho, serif;
         margin: 20px 0;
         letter-spacing: 6px;
     }
+
     .number {
         margin-top: 4vw;
         font-size: 2.7vw;
@@ -3260,28 +3274,34 @@ main > section > .sec02-title03 h1 {
     .top-img {
         height: 67vw;
     }
+
     .pc_only_300 {
         height: 127px;
     }
-    main > section > .sec02-title02 p {
+
+    main>section>.sec02-title02 p {
         font-size: 12px;
         text-align: center;
         letter-spacing: 1px;
         line-height: 12vw;
     }
+
     .aboufo {
         margin-top: 164vw;
     }
+
     .aboufo {
         margin-top: 159vw;
         height: 122vw;
     }
-    main > section > .sec01-title02 h1 {
+
+    main>section>.sec01-title02 h1 {
         font-size: 18px;
         margin: 28px 0;
         letter-spacing: 4px;
     }
-    main > section > .sec01-title03 h1 {
+
+    main>section>.sec01-title03 h1 {
         font-size: 18px;
         text-align: center;
         font-family: "Yu Mincho", YuMincho, serif;
@@ -3290,6 +3310,7 @@ main > section > .sec02-title03 h1 {
         margin-bottom: 14vw;
         letter-spacing: 4px;
     }
+
     .sec02-title01 {
         margin-top: 211vw;
     }
