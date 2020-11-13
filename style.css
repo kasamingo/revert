@@ -2003,7 +2003,7 @@ footer {
         margin-top: -21vw;
     }
     .pre-under-text {
-        font-size: 0.6vw;
+        font-size: 11px;
         font-weight: bold;
         line-height: 4vw;
         margin-top: 6vw;
@@ -2173,7 +2173,7 @@ footer {
     }
     .black-text {
         margin-top: 4vw;
-        font-size: 1.1vw;
+        font-size: 11px;
         line-height: 6.8vw;
     }
 
@@ -2200,7 +2200,7 @@ footer {
         margin-top: 22vw;
     }
     .black-text2 {
-        font-size: 1.1vw;
+        font-size: 11px;
         margin-top: 1vw;
         line-height: 7.8vw;
     }
@@ -2438,7 +2438,7 @@ footer {
         margin-top: 15vw;
         padding-top: 1.5vw;
         padding-left: 3vw;
-        font-size: 1.3vw;
+        font-size: 12px;
         width: 50vw;
         height: 14vw;
         float: none;
@@ -2691,5 +2691,33 @@ footer {
     .LINE {
         width: 62vw;
         margin-top: 2vw;
+    }
+    .merit1 {
+        line-height: 6vw;
+        font-size: 11px;
+    }
+    .por-img1 {
+        width: 23vw;
+    }
+    .pro-img2 {
+        width: 15vw;
+    }
+    .por-img3 {
+        width: 15vw;
+    }
+    .pro-img4 {
+        width: 23vw;
+        margin-top: 3vw;
+    }
+    .g-btn {
+
+        font-size: 12px;
+    }
+    .section3-w h2 {
+        font-size: 16.5px;
+        float: none;
+        margin-left: 5vw;
+        position: relative;
+        top: -30vw;
     }
 }
