@@ -3545,9 +3545,11 @@ main>section>.sec02-title03 h1 {
     }
 
     .live h2 {
-        font-size: 23px;
+        font-size: 40px;
+        margin-left: 8vw;
+        padding-top: 6vw;
+        padding-bottom: 10vw;
     }
-
     .live p {
         margin-top: 15vw;
         letter-spacing: 0.2vw;
@@ -3600,9 +3602,10 @@ main>section>.sec02-title03 h1 {
     }
 
     .c1-h2 {
-        font-size: 23px;
+        font-size: 40px;
+        padding-top: 12vw;
+        padding-bottom: 13vw;
     }
-
     .c-text2 {
         font-size: 12px;
     }
