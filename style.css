@@ -2275,7 +2275,7 @@ main>section>.sec02-title03 h1 {
     }
 
     main>section>.sec01-title01 h1 {
-        font-size: 36px;
+        font-size: 25px;
         /* text-align: left; */
         margin-left: 6vw;
         letter-spacing: 6px;
@@ -2943,7 +2943,7 @@ main>section>.sec02-title03 h1 {
     }
 
     footer {
-        height: 132vw;
+        height: 120vw;
     }
 
     .footer-w {
@@ -3009,12 +3009,12 @@ main>section>.sec02-title03 h1 {
     }
 
     .copy {
-        width: 105%;
+        width: 131%;
         margin-top: 6vw;
-        font-size: 8px;
+        font-size: 11px;
         position: relative;
         top: 3vw;
-        left: 24vw;
+        left: 17vw;
     }
 
 
@@ -3399,18 +3399,18 @@ main>section>.sec02-title03 h1 {
     .desc1-9 {
         line-height: 5.7vw;
         margin-top: 2vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .desc2-9 {
         line-height: 5.7vw;
         margin-top: 1.5vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .desc3-9 {
         line-height: 5.7vw;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .d-add-text-3 p {
@@ -4093,7 +4093,7 @@ main>section>.sec02-title03 h1 {
     .copy {
         width: 131%;
         margin-top: 6vw;
-        font-size: 8px;
+        font-size: 11px;
         position: relative;
         top: 3vw;
         left: 17vw;
