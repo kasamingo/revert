@@ -3469,6 +3469,11 @@ main>section>.sec02-title03 h1 {
         margin: 20px 0;
         letter-spacing: 6px;
     }
+    .desc-9 {
+        font-size: 11px;
+        letter-spacing: 0.2vw;
+        margin-top: 4vw;
+    }
 
 
     .detailFO {
@@ -3512,7 +3517,7 @@ main>section>.sec02-title03 h1 {
         font-size: 12px;
         text-align: center;
         letter-spacing: 1px;
-        line-height: 12vw;
+        line-height: 8vw;
     }
 
     .aboufo {
@@ -4010,7 +4015,7 @@ main>section>.sec02-title03 h1 {
     .section3-w h2 {
         font-size: 16.5px;
         float: none;
-        margin-left: 5vw;
+        margin-left: 4vw;
         position: relative;
         top: -30vw;
     }
@@ -4092,7 +4097,7 @@ main>section>.sec02-title03 h1 {
         left: 17vw;
     }
     .final {
-        margin-top: 150vw;
+        margin-top: 116vw;
     }
     
 }
