@@ -1,3 +1,20 @@
+body {
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    /* IE, Edge 対応 */
+    scrollbar-width: none;
+    /* Firefox 対応 */
+}
+
+body::-webkit-scrollbar {
+    /* Chrome, Safari 対応 */
+    display: none;
+}
+
+
+
+
+
 a {
     list-style: none;
     text-decoration: none;
@@ -751,12 +768,13 @@ section {
 }
 
 
-.mail-f{
+.mail-f {
     width: 4vw;
     position: relative;
     top: 1.1vw;
     right: 1vw;
 }
+
 .three-btn {
     padding: 1.5vw 4.5vw;
     margin-top: 3vw;
@@ -900,13 +918,16 @@ section {
 .fa-line {
     font-size: 2vw;
 }
-.about-logo{
+
+.about-logo {
     width: 14vw;
 }
+
 .cart-ri {
     width: 5vw;
     margin-right: 2vw;
 }
+
 /*-------------------------------------------------------セクション6*/
 
 footer {
@@ -914,6 +935,7 @@ footer {
     height: 23vw;
     background-color: #e0d4cf;
 }
+
 .footer-w {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -1672,6 +1694,7 @@ main>section>.sec01-title03 h1 {
     line-height: 5vw;
     letter-spacing: 6px;
 }
+
 main>section>.sec01-img-contena01 {
     width: 60%;
     margin: 100px auto;
@@ -2065,13 +2088,13 @@ main>section>.sec02-title03 h1 {
 
 
 @media screen and (max-width: 420px) {
-    .about-header-contena{
+    .about-header-contena {
         display: none;
     }
-    .lefton{
 
-    }
-    .detail-header{
+    .lefton {}
+
+    .detail-header {
         display: none;
     }
 
@@ -2079,6 +2102,7 @@ main>section>.sec02-title03 h1 {
         list-style: none;
         margin-top: 20%;
     }
+
     .live h2 {
         font-size: 40px;
         font-family: serif;
@@ -2087,6 +2111,7 @@ main>section>.sec02-title03 h1 {
         font-weight: lighter;
         margin-bottom: 19vw;
     }
+
     .header {
         display: block;
         height: 17vw;
@@ -2099,7 +2124,8 @@ main>section>.sec02-title03 h1 {
         padding: 0 20px;
         background: rgb(224 211 207);
     }
-    .header img{
+
+    .header img {
         width: 100px;
     }
 
@@ -2112,17 +2138,16 @@ main>section>.sec02-title03 h1 {
         display: none;
     }
 
-    /* ハンバーガーアイコンの設置スペース */
     .drawer-open {
-        /* display: flex; */
-        height: 79px;
-        width: 71px;
+        display: flex;
+        height: 35px;
+        width: 35px;
         justify-content: center;
         align-items: center;
         position: fixed;
         z-index: 100;
-        right: -4vw;
-        top: 7vw;
+        right: 2.5%;
+        top: 2.5%;
         cursor: pointer;
     }
 
@@ -2193,7 +2218,8 @@ main>section>.sec02-title03 h1 {
         /* color: white; */
         list-style: none;
     }
-    .drawer-item a{
+
+    .drawer-item a {
         color: white;
     }
 
@@ -2206,6 +2232,7 @@ main>section>.sec02-title03 h1 {
         position: relative;
         top: 2vw;
     }
+
     .mail-f {
         width: 8vw;
         padding-right: 3vw;
@@ -2214,6 +2241,7 @@ main>section>.sec02-title03 h1 {
         top: 1vw;
         right: 1vw;
     }
+
     .toos {
         width: 90%;
     }
@@ -2225,26 +2253,31 @@ main>section>.sec02-title03 h1 {
     .about-logo {
         width: 20vw;
     }
+
     .three-value2 {
         font-size: 17px;
         margin: 0%;
         margin-top: 5vw;
     }
+
     .three-value3 {
         font-size: 17px;
         margin: 0%;
         margin-top: 5vw;
     }
+
     .three2-value1 {
         font-size: 17px;
         margin: 0%;
         margin-top: 5vw;
     }
+
     .three2-value2 {
         font-size: 17px;
         margin: 0%;
         margin-top: 5vw;
     }
+
     .three2-value3 {
         font-size: 17px;
         margin: 0%;
@@ -2391,6 +2424,7 @@ main>section>.sec02-title03 h1 {
     .c1-h2 {
         font-size: 40px;
     }
+
     .c-text1 {
         font-size: 14px;
         margin-top: 15vw;
@@ -2991,6 +3025,7 @@ main>section>.sec02-title03 h1 {
     .footer-menu {
         line-height: 9.5vw;
     }
+
     .number a {
         color: white;
         font-size: 20px;
@@ -3090,8 +3125,8 @@ main>section>.sec02-title03 h1 {
     }
 
     .detailSection3 {
-    height: 155vw;
-}
+        height: 155vw;
+    }
 
     .detailSection3-w {
         display: block;
@@ -3458,6 +3493,7 @@ main>section>.sec02-title03 h1 {
     .detailSetion7 {
         height: 224vw;
     }
+
     .aboufo {
         margin-top: 75vw;
     }
@@ -3469,6 +3505,7 @@ main>section>.sec02-title03 h1 {
         margin: 20px 0;
         letter-spacing: 6px;
     }
+
     .desc-9 {
         font-size: 11px;
         letter-spacing: 0.2vw;
@@ -3479,6 +3516,7 @@ main>section>.sec02-title03 h1 {
     .detailFO {
         margin-top: 3vw;
     }
+
     .desc1-4::before,
     .desc2-4::before,
     .desc3-4::before,
@@ -3555,6 +3593,7 @@ main>section>.sec02-title03 h1 {
         padding-top: 6vw;
         padding-bottom: 10vw;
     }
+
     .live p {
         margin-top: 15vw;
         letter-spacing: 0.2vw;
@@ -3611,6 +3650,7 @@ main>section>.sec02-title03 h1 {
         padding-top: 12vw;
         padding-bottom: 13vw;
     }
+
     .c-text2 {
         font-size: 12px;
     }
@@ -4086,10 +4126,12 @@ main>section>.sec02-title03 h1 {
     .detailSetion7 {
         height: 232vw;
     }
+
     .detailSetion8 {
         height: 193vw;
         margin-top: 14vw;
     }
+
     .copy {
         width: 131%;
         margin-top: 6vw;
@@ -4098,8 +4140,9 @@ main>section>.sec02-title03 h1 {
         top: 3vw;
         left: 17vw;
     }
+
     .final {
         margin-top: 116vw;
     }
-    
+
 }
