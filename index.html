@@ -1,32 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>株式会社Revert</title>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K6WBGQF');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="index.html">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/android-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="assets/icons/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+    <meta name="msapplication-TileColor" content="#9c7531">
+    <meta name="msapplication-TileImage" content="index.html">
+    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-navbutton-color" content="#9c7531">
+    <meta name="msapplication-TileColor" content="#9c7531">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#9c7531">
+    <link rel="mask-icon" href="index.html" color="#9c7531">
+    <link rel="manifest" href="index.html">
+    <link rel="alternate" hreflang="ja" href="index.html" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <!--ie対策カルーセル-->
+    <link href="https://fonts.googleapis.com/css?family=Lateef|Heebo:400,700|Libre+Caslon+Display" rel="stylesheet">
+    <script src='js/jquery-3.3.1.min.js'></script>
+    <script src="js/es6-promise.min.js"></script>
+    <!--polyfill IE対応-->
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="https://www.google.com/jsapi/"></script>
+    <!--googleMap-->
+    <title>REVERT | あなたのお口の専門店・歯ブラシ専門店</title>
+    <meta name="keywords" content="歯ブラシ,歯磨き粉,銀座,ステイン除去,ホワイトニング,虫歯予防,プロ仕様,口腔ケア">
+    <meta name="description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta name="Copyright" content="(C) REVERT Rights Reserved." />
+    <!-- OGP -->
+    <meta property="og:title" content="REVERT | あなたのお口の専門店・歯ブラシ専門店">
+    <meta property="og:description" content="歯ブラシ,歯磨き粉,銀座,ステイン除去,ホワイトニング,虫歯予防,プロ仕様,口腔ケア">
+    <meta name="description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://revert-inc.com/">
+    <meta property="og:image" content="img/index/revert_ogp.png">
+    <meta property="fb:app_id" content="">
+    <!-- close.OGP -->
+    <!-- Font-awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- close.Font-awesome -->
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:title" content="REVERT | あなたのお口の専門店・歯ブラシ専門店">
+    <meta name="twitter:description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta name="twitter:image:src" content="img/index/revert_ogp.png">
+    <meta name="tw_text" content="jp" id="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。" />
+    <meta name="tw_url" content="jp" id="img/index/revert_ogp.png" />
+    <!-- close.TWITTER -->
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Font-awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- close.Font-awesome -->
 </head>
 
 <body>
     <header>
         <div class="header1">
             <ul style="list-style: none;" class="h-ul">
-                <li class="h-li"><a class="concept h-a" href="">CONCEPT</a></li>
-                <li class="h-li"><a class="product h-a" href="detail.html">PRODUCT</a></li>
+                <li class="h-li"><a class="concept h-a" href="#concept">CONCEPT</a></li>
+                <li class="h-li"><a class="product h-a" href="#product">PRODUCT</a></li>
                 <li class="h-li"><a class="about h-a" href="about.html">ABOUT</a></li>
                 <li class="h-li"><a class="detail h-a" href="detail.html">DETAIL</a></li>
                 <li class="h-li"><a class="concept h-a" href="https://form.run/@revert--1605268010">CONTACT</a></li>
             </ul>
         </div>
         <div class="header2">
-            <img class="cart h2-l" src="Cart.png" alt="">
-            <a href="https://twitter.com/revert1023"><img class="twitter h2-l" src="Twitter.png" alt=""></a>
-            <a href="https://www.instagram.com/revert1023/"><img class="instagram h2-l" src="Instagram.png" alt=""></a>
+            <a href="https://www.paypal.com/webapps/shoppingcart?mfid=1605273544802_4e4ddc6271e0c" target="_blank">
+                <img class="cart h2-l" src="Cart.png" alt="商品カート一覧">
+            </a>
+            <a href="https://twitter.com/revert1023" target="_blank">
+                <img class="twitter h2-l" src="Twitter.png" alt="リベート公式Twitter">
+            </a>
+            <a href="https://www.instagram.com/revert1023/" target="_blank">
+                <img class="instagram h2-l" src="Instagram.png" alt="リベート公式インスタグラム">
+            </a>
             <div class="border-top"></div>
-            <a href=""><img class="right-logo" src="revert_logo_white.png" alt=""></a>
+            <a href=""><img class="right-logo" src="revert_logo_white.png" alt="リベートロゴ"></a>
         </div>
     </header>
 
@@ -35,7 +127,12 @@
 
     <!------------------------------------------------------ハンバーガーメニュー-->
     <header class="header">
-        <div><img src="revert_logo_white.png" alt=""></div>
+        <div>
+            <a href="index.html">
+                <img src="revert_logo_white.png" alt="リベートのロゴ">
+            </a>
+
+        </div>
         <!-- ハンバーガーメニュー部分 -->
         <div class="drawer">
             <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
@@ -46,11 +143,11 @@
             <nav class="drawer-content">
                 <ul class="drawer-list">
                     <li class="drawer-item">
-                        <a href="">CONSEPT</a>
+                        <a href="#consept">CONSEPT</a>
                     </li>
                     <!-- /.drawer-item -->
                     <li class="drawer-item">
-                        <a href="detail.html">PRODUCT</a>
+                        <a href="#product">PRODUCT</a>
                     </li>
                     <!-- /.drawer-item -->
                     <li class="drawer-item">
@@ -63,8 +160,21 @@
                     <li class="drawer-item">
                         <a href="https://form.run/@revert--1605268010">CONTACT</a>
                     </li>
+                    <!-- /.drawer-list -->
+                    <li class="drawer-item">
+                        <a href="https://www.twitter.com/revert1023/" target="_blank">
+                            <i class="fab fa-twitter"></i></a>
+
+
+                        <a href="https://www.instagram.com/revert1023/" target="_blank">
+                            <i class="fab fa-instagram"></i></a>
+
+
+                        <a href="https://lin.ee/f3lGvDp" target="_blank">
+                            <i class="fab fa-line"></i></a>
+                    </li>
                 </ul>
-                <!-- /.drawer-list -->
+
             </nav>
         </div>
     </header>
@@ -74,24 +184,23 @@
 
 
     <main>
-        <img class="top-img" src="revert_top.jpg" alt="">
-        <img class="top-logo" src="revert_logo_white.png" alt="">
+        <img class="top-img" src="revert_top.jpg" alt="リベートメインビジュアル">
+        <img class="top-logo" src="revert_logo_white.png" alt="リベートロゴ">
     </main>
 
     <section class="section1">
         <div class="section1-w">
-            <h3 class="h-concept">CONCEPT</h3>
+            <h3 class="h-concept" id="concept">CONCEPT</h3>
             <div class="live">
                 <h2>健口に生きる。</h2>
                 <p>あなたのお口の管理、Revertにおまかせあれ。</p>
             </div>
 
             <div class="gray">
-                <img class="g-quo" src="quotation.png" alt="">
+                <img class="g-quo" src="quotation.png" alt="クォテーションマーク">
                 <div class="g-text">
                     <h3>「歯ブラシはどれも一緒。」<br class="respo">そう思っていませんか？</h3>
-                    <p>歯は綺麗な方がいい。<br class="respoX">でも何を使ったらいいか分からない・・<br>そんな方のそれぞれのお悩みに合わせて<br
-                            class="respoX">口腔ケアのセレクトショップ<br>Revertが極上の健康LIFEをサポートします。</p>
+                    <p>歯は綺麗な方がいい。<br class="respoX">でも何を使ったらいいか分からない・・<br>そんな方のそれぞれのお悩みに合わせて<br class="respoX">口腔ケアのセレクトショップ<br>Revertが極上の健康LIFEをサポートします。</p>
                 </div>
                 <button class="g-btn"><a class="g-a" href="about.html">VIEW MORE</a></button>
             </div>
@@ -114,19 +223,19 @@
             <div class="puroduct1">
                 <div class="inner-pro inner-prores">
                     <div class="left-pro">
-                        <img class="proMain-img1" src="shoplist_curaprox.png" alt="">
+                        <img class="proMain-img1" src="shoplist_curaprox.png" alt="歯ブラシcuraprox">
                     </div>
                     <div class="pro-text1">
-                        <img class="por-img1" src="curaprox_logo.png" alt="">
+                        <img class="por-img1" src="curaprox_logo.png" alt="歯ブラシcuraprox">
                         <p class="merit1">＃もちもちふわふわ<br>＃植毛数5,460本<br>＃最高品質<br>＃長持ち3ヶ月</p>
                     </div>
                 </div>
                 <div class="inner-pro inner-prores">
                     <div class="right-pro">
-                        <img class="proMain-img2" src="shoplist_tepe.png" alt="">
+                        <img class="proMain-img2" src="shoplist_tepe.png" alt="歯ブラシtepe">
                     </div>
                     <div class="pro-text2">
-                        <img class="pro-img2" src="tepe_logo.jpg" alt="">
+                        <img class="pro-img2" src="tepe_logo.jpg" alt="tepeのロゴ">
                         <p class="merit1">＃スウェーデンで８割シェア<br>＃人間工学<br>＃歯磨き上手<br>＃マツコの知らない世界</p>
                     </div>
                 </div>
@@ -136,19 +245,19 @@
             <div class="puroduct1">
                 <div class="inner-pro inner-prores">
                     <div class="left-pro">
-                        <img class="proMain-img3" src="ruscello-white.png" alt="">
+                        <img class="proMain-img3" src="ruscello-white.png" alt="歯磨き粉ruscello-white">
                     </div>
                     <div class="pro-text3">
-                        <img class="por-img3" src="ruscello-white_logo.jpg" alt="">
+                        <img class="por-img3" src="ruscello-white_logo.jpg" alt="歯磨き粉ruscello-white">
                         <p class="merit1">＃もちもちふわふわ<br>＃植毛数5,460本<br>＃最高品質<br>＃長持ち3ヶ月</p>
                     </div>
                 </div>
                 <div class="inner-pro inner-prores">
                     <div class="right-pro">
-                        <img class="proMain-img4" src="APAGARD-RENAMEL.png" alt="">
+                        <img class="proMain-img4" src="APAGARD-RENAMEL.png" alt="歯磨き粉APAGARD-RENAMEL">
                     </div>
                     <div class="pro-text4">
-                        <img class="pro-img4" src="APG_logo.jpg" alt="">
+                        <img class="pro-img4" src="APG_logo.jpg" alt="APAGARD-RENAMELのロゴ">
                         <p class="merit1">＃スウェーデンで８割シェア<br>＃人間工学<br>＃歯磨き上手<br>＃マツコの知らない世界</p>
                     </div>
                 </div>
@@ -157,29 +266,29 @@
 
             <div class="pro-fin">
                 <p class="pro-f-text">買い忘れもなくなり、美しい歯が手に入る。<br>お泊まりやオフィスへの持ち運びにも嬉しい<br class="respo">オリジナル布着付き！</p>
-                <button class="pro-btn"><a class="pro-a" href="detail.html">VIEW MORE</a></button>
+                <button class="pro-btn"><a class="pro-a" href="#sbck">VIEW MORE</a></button>
             </div>
         </div>
     </section>
 
 
 
-    <section class="section3">
+    <section class="section3" id="sbck">
         <div class="section3-w">
             <h2>あなたにぴったりのセットを選ぼう。</h2>
 
             <div class="mach">
                 <div class="mach2-img">
-                    <img class="machImg-top" src="mix001.jpg" alt="">
-                    <img class="machImg-under" src="mix002.jpg" alt="">
+                    <img class="machImg-top" src="mix001.jpg" alt="組み合わせメインビジュアル">
+                    <img class="machImg-under" src="mix002.jpg" alt="組み合わせメインビジュアル">
                     <h1 class="under-white2">Ruscello toothpaste white</h2>
                 </div>
                 <div class="mach-right">
                     <p class="ma-right-text">美しい白い歯へと導く<br class="respo">ホワイトニングコース</p>
-                    <img class="machImg2-top" src="section01.png" alt="">
-                    <img class="machImg2-under" src="cream.png" alt="">
+                    <img class="machImg2-top" src="section01.png" alt="ホワイトニング文字">
+                    <img class="machImg2-under" src="cream.png" alt="クリームのイメージ図">
                     <div class="mach3-bottom">
-                        <img class="m3-img" src="ruscello-white.png" alt="">
+                        <img class="m3-img" src="ruscello-white.png" alt="歯磨き粉ruscello-white">
                         <div class="label">
                             <p>
                                 <input type="checkbox" checked id="test1" />
@@ -209,10 +318,10 @@
                             <p class="pre-top1">Premium</p>
                             <label for="submit_7">
                                 <button class="pre-btn">
-                                    <img class="sta-top1" src="set01.png" alt="">
+                                    <img class="sta-top1" src="set01.png" alt="curaproxの文字">
                                     <div class="sta-img1-w">
-                                        <img class="staImg1-left" src="curaprox.png" alt="">
-                                        <img class="staImg1-right" src="ruscello-white.png" alt="">
+                                        <img class="staImg1-left" src="curaprox.png" alt="歯ブラシcuraprox">
+                                        <img class="staImg1-right" src="ruscello-white.png" alt="歯磨き粉ruscello-white">
                                     </div>
 
                                     <p class="pre-under-text">
@@ -227,10 +336,8 @@
                                     <button class="value1-btn">カートに入れる</button>
                                 </label>
                             </div>
-                            <input class="submit_input" type="image" id="submit_7" src="" border="0" name="submit"
-                                alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                            <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                                height="1" />
+                            <input class="submit_input" type="image" id="submit_7" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                            <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                         </form>
                     </div>
                     <div class="standard">
@@ -240,10 +347,10 @@
                             <p class="pre-top2">Standard</p>
                             <label for="submit_8">
                                 <button class="sta-btn">
-                                    <img class="sta-top2" src="set02.png" alt="">
+                                    <img class="sta-top2" src="set02.png" alt="CROSS-FIELDの文字">
                                     <div class="sta-img2-w">
-                                        <img class="staImg2-left" src="tepe.png" alt="">
-                                        <img class="staImg2-right" src="ruscello-white.png" alt="">
+                                        <img class="staImg2-left" src="tepe.png" alt="歯ブラシtepe">
+                                        <img class="staImg2-right" src="ruscello-white.png" alt="歯磨き粉ruscello-white">
                                     </div>
 
                                     <p class="sta-under-text">歯ぐきの隅々まで汚れを落とし、白く輝く歯へ。<br>健康な歯と歯ぐきのあなたへ、<br
@@ -256,10 +363,8 @@
                                     <button class="value2-btn">カートに入れる</button>
                                 </label>
                             </div>
-                            <input class="submit_input" type="image" id="submit_8" src="" border="0" name="submit"
-                                alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                            <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                                height="1" />
+                            <input class="submit_input" type="image" id="submit_8" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                            <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                         </form>
 
                     </div>
@@ -273,16 +378,16 @@
         <div class="section4-w">
             <div class="mach">
                 <div class="mach2-img">
-                    <img class="machImg-top" src="mix001.jpg" alt="">
-                    <img class="machImg-under" src="mix002.jpg" alt="">
+                    <img class="machImg-top" src="mix001.jpg" alt="組み合わせメインビジュアル２">
+                    <img class="machImg-under" src="mix002.jpg" alt="組み合わせメインビジュアル２">
                     <h2 class="under-white">APAGARD RENAMEL</h2>
                 </div>
                 <div class="mach-right">
                     <p class="ge-right-text">健康で艶らかな歯を手に入れる<br class="respo">　虫歯予防コース</p>
-                    <img class="getImg2-top" src="section02.png" alt="">
-                    <img class="getImg2-under" src="waterdrop.png" alt="">
+                    <img class="getImg2-top" src="section02.png" alt="虫歯予防の文字">
+                    <img class="getImg2-under" src="waterdrop.png" alt="水滴のイメージ図">
                     <div class="mach3-bottom mach3-bottom3">
-                        <img class="g3-img" src="APAGARD-RENAMEL.png" alt="">
+                        <img class="g3-img" src="APAGARD-RENAMEL.png" alt="歯磨き粉APAGARD-RENAMEL">
                         <div class="label-g">
                             <p>
                                 <input type="checkbox" checked id="test1" />
@@ -311,10 +416,10 @@
                             <p class="pre-top1">Premium</p>
                             <label for="submit_9">
                                 <button class="pre-btn res-btn-4">
-                                    <img class="sta-top1" src="set01.png" alt="">
+                                    <img class="sta-top1" src="set01.png" alt="CURAPROXの文字">
                                     <div class="sta-img1-w">
-                                        <img class="staImg1-left" src="curaprox.png" alt="">
-                                        <img class="staImg1-right res-apa" src="APAGARD-RENAMEL.png" alt="">
+                                        <img class="staImg1-left" src="curaprox.png" alt="歯ブラシCURAPROX">
+                                        <img class="staImg1-right res-apa" src="APAGARD-RENAMEL.png" alt="歯磨き粉APAGARD-RENAMEL">
                                     </div>
 
                                     <p class="pre-under-text">5460本の蜜毛で汚れをしっかりキャッチし、<br
@@ -328,10 +433,8 @@
                                     <button class="value1-btn">カートに入れる</button>
                                 </label>
                             </div>
-                            <input class="submit_input" type="image" id="submit_9" src="" border="0" name="submit"
-                                alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                            <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                                height="1" />
+                            <input class="submit_input" type="image" id="submit_9" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                            <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                         </form>
 
                     </div>
@@ -344,10 +447,10 @@
                             <!-- 下のinput,labelを装飾 -->
                             <label for="submit_10">
                                 <button class="sta-btn res-btn-4">
-                                    <img class="sta-top2" src="set02.png" alt="">
+                                    <img class="sta-top2" src="set02.png" alt="CRESS-FIELDの文字">
                                     <div class="sta-img2-w">
-                                        <img class="staImg2-left" src="tepe.png" alt="">
-                                        <img class="staImg2-right" src="APAGARD-RENAMEL.png" alt="">
+                                        <img class="staImg2-left" src="tepe.png" alt="歯ブラシtepe">
+                                        <img class="staImg2-right" src="APAGARD-RENAMEL.png" alt="歯磨き粉APAGARD-RENAMEL">
                                     </div>
 
                                     <p class="sta-under-text">細かい隙間にもアプローチし、<br
@@ -361,10 +464,8 @@
                                     <button class="value2-btn">カートに入れる</button>
                                 </label>
                             </div>
-                            <input class="submit_input" type="image" id="submit_10" src="" border="0" name="submit"
-                                alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                            <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                                height="1" />
+                            <input class="submit_input" type="image" id="submit_10" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                            <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                         </form>
 
                     </div>
@@ -375,13 +476,13 @@
     </section>
 
 
-    <section class="section5">
+    <section class="section5" id="product">
         <div class="section5-w">
             <h2>PRODUCT</h2>
             <p class="local">合計金額3,000円以下は全国500円の送料でお届け！</p>
 
             <div class="s5-select">
-                <img src="toothpaste_w.png" alt="">
+                <img src="toothpaste_w.png" alt="歯磨き粉の文字">
                 <p>自分にあった歯ブラシを見つけよう。</p>
             </div>
 
@@ -389,7 +490,7 @@
             <div class="s5-three">
                 <div class="">
                     <div class="circle">
-                        <img class="three-img1" src="shoplist_curaprox.png" alt="">
+                        <img class="three-img1" src="shoplist_curaprox.png" alt="CURAPROXの商品イメージ図">
                         <p>ー　CURAPROX curaden CS5460</p>
                     </div>
                     <p class="white-text">植毛本数は市販品の約10倍<br>歯と歯ぐきに優しい極上の磨き心地！</p>
@@ -404,15 +505,13 @@
                         <label for="submit_2">
                             <button class="three-btn">カートに入れる</button>
                         </label>
-                        <input class="submit_input" type="image" id="submit_2" src="" border="0" name="submit"
-                            alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                        <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                            height="1" />
+                        <input class="submit_input" type="image" id="submit_2" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                        <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                     </form>
                 </div>
                 <div class="second-boll">
                     <div class="circle">
-                        <img class="three-img2" src="shoplist_tepe.png" alt="">
+                        <img class="three-img2" src="shoplist_tepe.png" alt="TEPEの商品イメージ図">
                         <p>ー　Cross Field Tepe</p>
                     </div>
                     <p class="white-text">予防先進国スウェーデンで<br>使用率約8割の圧倒的シェア</p>
@@ -427,15 +526,13 @@
                         <label for="submit_1">
                             <button class="three-btn">カートに入れる</button>
                         </label>
-                        <input class="submit_input" type="image" id="submit_1" src="" border="0" name="submit"
-                            alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                        <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                            height="1" />
+                        <input class="submit_input" type="image" id="submit_1" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                        <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                     </form>
                 </div>
                 <div class="three-boll">
                     <div class="circle">
-                        <img class="three-img3" src="shoplist_philips.png" alt="">
+                        <img class="three-img3" src="shoplist_philips.png" alt="PHILIPSの商品イメージ図">
                         <p>ー　Philips Sonicare</p>
                     </div>
                     <p class="white-text">お家でもプロ級の歯磨きを！<br>日本の歯科医推奨率NO.1ブランドの電動歯ブラシ！</p>
@@ -450,10 +547,8 @@
                         <label for="submit_6">
                             <button class="three-btn">カートに入れる</button>
                         </label>
-                        <input class="submit_input" type="image" id="submit_6" src="" border="0" name="submit"
-                            alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                        <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                            height="1" />
+                        <input class="submit_input" type="image" id="submit_6" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                        <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                     </form>
                 </div>
             </div>
@@ -462,7 +557,7 @@
 
 
             <div class="s5-select2">
-                <img src="toothpaste_w.png" alt="">
+                <img src="toothpaste_w.png" alt="歯磨き粉の文字">
                 <p>お好み別に歯磨き粉を選ぼう。</p>
             </div>
 
@@ -470,12 +565,11 @@
             <div class="s52-three">
                 <div class="">
                     <div class="circle2">
-                        <img class="three2-img1" src="ruscello-white.png" alt="">
+                        <img class="three2-img1" src="ruscello-white.png" alt="歯磨き粉ruscello-white">
                         <p>ー　CURAPROX curaden CS5460</p>
                     </div>
                     <p class="white-text">笑顔に自信を！<br>歯の黄ばみや黒ずみを落とし、<br>輝き続ける白い歯に</p>
-                    <p class="black-text">ルシェロホワイトは歯より柔らかく<br class="respo">きめ細かなLime粒子を配合。<br>ブラッシングで落としにくい<br
-                            class="respo">ステイン（着色）を除去します。</p>
+                    <p class="black-text">ルシェロホワイトは歯より柔らかく<br class="respo">きめ細かなLime粒子を配合。<br>ブラッシングで落としにくい<br class="respo">ステイン（着色）を除去します。</p>
                     <p class="three2-value1">¥1,950(税込)</p>
                     <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                         <input type="hidden" name="cmd" value="_s-xclick" />
@@ -485,15 +579,13 @@
                         <label for="submit_4">
                             <button class="three-btn">カートに入れる</button>
                         </label>
-                        <input class="submit_input" type="image" id="submit_4" src="" border="0" name="submit"
-                            alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                        <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                            height="1" />
+                        <input class="submit_input" type="image" id="submit_4" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                        <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                     </form>
                 </div>
                 <div>
                     <div class="circle2">
-                        <img class="three2-img2" src="APAGARD-RENAMEL.png" alt="">
+                        <img class="three2-img2" src="APAGARD-RENAMEL.png" alt="歯磨き粉APAGARD-RENAMEL">
                         <p>ー　Cross Field Tepe</p>
                     </div>
                     <p class="white-text">歯にもトリートメントを！<br>より健康で、より綺麗な歯に</p>
@@ -508,15 +600,13 @@
                         <label for="submit_5">
                             <button class="three-btn">カートに入れる</button>
                         </label>
-                        <input class="submit_input" type="image" id="submit_5" src="" border="0" name="submit"
-                            alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                        <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                            height="1" />
+                        <input class="submit_input" type="image" id="submit_5" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                        <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                     </form>
                 </div>
                 <div>
                     <div class="circle2">
-                        <img class="three2-img3 green" src="oralpeace.png" alt="">
+                        <img class="three2-img3 green" src="oralpeace.png" alt="歯磨き粉oralpeace">
                         <p>ー　Philips Sonicare</p>
                     </div>
                     <p class="white-text">100％天然由来成分の飲み込んでも安心な<br>新感覚歯磨き粉</p>
@@ -530,10 +620,8 @@
                         <label for="submit_3">
                             <button class="three-btn">カートに入れる</button>
                         </label>
-                        <input class="submit_input" type="image" id="submit_3" src="" border="0" name="submit"
-                            alt="PayPal - オンラインでより安全・簡単にお支払い" />
-                        <img alt="" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1"
-                            height="1" />
+                        <input class="submit_input" type="image" id="submit_3" src="" border="0" name="submit" alt="PayPal - オンラインでより安全・簡単にお支払い" />
+                        <img alt="ペイパルのアイコン" border="0" src="https://www.paypalobjects.com/ja_JP/i/scr/pixel.gif" width="1" height="1" />
                     </form>
                 </div>
             </div>
@@ -549,8 +637,8 @@
             </div>
             <div class="line">
                 <p class="middle">お悩み相談や商品。<br class="respo">口腔内に関しての質問はお気軽にLINE＠で！</p>
-                <img class="line-img" src="line.png" alt=""><br>
-                <button class="fre"><a href="https://lin.ee/f3lGvDp"><img class="LINE" src="lineit_display_btn_03.png" alt=""></a></button>
+                <img class="line-img" src="line.png" alt="電球のアイコン"><br>
+                <button class="fre"><a href="https://lin.ee/f3lGvDp"><img class="LINE" src="lineit_display_btn_03.png" alt="ラインのアイコン"></a></button>
             </div>
         </div>
     </section>
@@ -559,21 +647,21 @@
     <footer>
         <div class="footer-w">
             <div>
-                <a href="index.html"><img class="footer-logo" src="revert_logo_white.png" alt=""></a>
+                <a href="index.html"><img class="footer-logo" src="revert_logo_white.png" alt="リベートロゴ"></a>
                 <p class="post">〒104-0061</p>
                 <p class="direct">東京都中央区銀座1-22-11　銀座大竹ビジデンス 2F</p>
             </div>
             <div class="footer-menu">
-                <button class="f-concept"><a href="">CONCEPT</a></button><br>
+                <button class="f-concept"><a href="#concept">CONCEPT</a></button><br>
                 <button class="f-product"><a href="https://form.run/@revert--1605268010">CONTACT</a></button><br>
                 <button class="f-about"><a href="about.html">ABOUT</a></button><br>
                 <button class="f-detail"><a href="detail.html">DETAIL</a></button>
                 <p class="copy">Copyright 2020 Revert All rights reserved</p>
             </div>
             <div>
-                <button class="number"><a href="03-6691-1133"><img class="phone-f" src="phone.png" alt="">03-6691-1133</a></button><br>
-                <button class="mail"><a href=""><img class="mail-f" src="mail.png" alt="">CONTACT</a></button><br>
-                <img class="pauypal" src="paypal.png" alt="">
+                <button class="number"><a href="tel:03-6691-1133"><img class="phone-f" src="phone.png" alt="電話のアイコン">03-6691-1133</a></button><br>
+                <button class="mail"><a href="https://form.run/@revert--1605268010"><img class="mail-f" src="mail.png" alt="メールのアイコン">CONTACT</a></button><br>
+                <img class="pauypal" src="paypal.png" alt="https://www.paypal.com/webapps/shoppingcart?mfid=1605273544802_4e4ddc6271e0c">
             </div>
         </div>
     </footer>

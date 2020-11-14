@@ -1,32 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>株式会社Revert(商品一覧)</title>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K6WBGQF');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="assets/icons/favicon.ico">
+    <link rel="icon" sizes="16x16 32x32 64x64" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="196x196" href="index.html">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/android-icon-96x96.png">
+    <link rel="icon" type="image/png" sizes="72x72" href="assets/icons/android-icon-72x72.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+    <meta name="msapplication-TileColor" content="#9c7531">
+    <meta name="msapplication-TileImage" content="index.html">
+    <meta name="msapplication-config" content="assets/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-navbutton-color" content="#9c7531">
+    <meta name="msapplication-TileColor" content="#9c7531">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#9c7531">
+    <link rel="mask-icon" href="index.html" color="#9c7531">
+    <link rel="manifest" href="index.html">
+    <link rel="alternate" hreflang="ja" href="index.html" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/flickity.css">
+    <!--ie対策カルーセル-->
+    <link href="https://fonts.googleapis.com/css?family=Lateef|Heebo:400,700|Libre+Caslon+Display" rel="stylesheet">
+    <script src='js/jquery-3.3.1.min.js'></script>
+    <script src="js/es6-promise.min.js"></script>
+    <!--polyfill IE対応-->
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="https://www.google.com/jsapi/"></script>
+    <!--googleMap-->
+    <title>商品一覧 | あなたのお口の専門店・歯ブラシ専門店</title>
+    <meta name="keywords" content="歯ブラシ,歯磨き粉,銀座,ステイン除去,ホワイトニング,虫歯予防,プロ仕様,口腔ケア">
+    <meta name="description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta name="Copyright" content="(C) REVERT Rights Reserved." />
+    <!-- OGP -->
+    <meta property="og:title" content="REVERT | あなたのお口の専門店・歯ブラシ専門店">
+    <meta property="og:description" content="歯ブラシ,歯磨き粉,銀座,ステイン除去,ホワイトニング,虫歯予防,プロ仕様,口腔ケア">
+    <meta name="description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://revert-inc.com/">
+    <meta property="og:image" content="img/index/revert_ogp.png">
+    <meta property="fb:app_id" content="">
+    <!-- close.OGP -->
+    <!-- Font-awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- close.Font-awesome -->
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:title" content="REVERT | あなたのお口の専門店・歯ブラシ専門店">
+    <meta name="twitter:description" content="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。">
+    <meta name="twitter:image:src" content="img/index/revert_ogp.png">
+    <meta name="tw_text" content="jp" id="健口に生きる「リベート」は、お客様一人一人に適した、ハブラシや歯磨きといったお口のお手入れ用品を提供しおります。ホワイトニング・口臭予防・歯周病予防・オーラルケアの向上を通じて、皆様の健康増進のお役に立てればと考えております。" />
+    <meta name="tw_url" content="jp" id="img/index/revert_ogp.png" />
+    <!-- close.TWITTER -->
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!-- Font-awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <!-- close.Font-awesome -->
 </head>
 
 <body>
     <div class="detail-header">
         <div class="header-left">
-            <img src="revert_logo_white.png" alt="">
+            <a href="index.html">
+                <img src="revert_logo_white.png" alt="リベートロゴ">
+            </a>
+
         </div>
         <div class="header-right">
-            <img src="Cart.png" alt="">
+            <a href="https://www.paypal.com/webapps/shoppingcart?mfid=1605273544802_4e4ddc6271e0cs" target="_blank">
+                <img src="Cart.png" alt="商品カート一覧">
+            </a>
+
         </div>
     </div>
 
 
     <!------------------------------------------------------ハンバーガーメニュー-->
     <header class="header">
-        <div><img src="revert_logo_white.png" alt=""></div>
+        <div>
+            <a href="index.html">
+                <img src="revert_logo_white.png" alt="リベートのロゴ">
+            </a>
+
+        </div>
         <!-- ハンバーガーメニュー部分 -->
         <div class="drawer">
-            <!-- ハンバーガーメニューの表示非表示を切り替えるチェックボックス -->
+            <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
             <input type="checkbox" id="drawer-check" class="drawer-hidden">
             <!-- ハンバーガーアイコン -->
             <label for="drawer-check" class="drawer-open"><span></span></label>
@@ -34,11 +129,11 @@
             <nav class="drawer-content">
                 <ul class="drawer-list">
                     <li class="drawer-item">
-                        <a href="">CONSEPT</a>
+                        <a href="#consept">CONSEPT</a>
                     </li>
                     <!-- /.drawer-item -->
                     <li class="drawer-item">
-                        <a href="detail.html">PRODUCT</a>
+                        <a href="#product">PRODUCT</a>
                     </li>
                     <!-- /.drawer-item -->
                     <li class="drawer-item">
@@ -51,8 +146,21 @@
                     <li class="drawer-item">
                         <a href="https://form.run/@revert--1605268010">CONTACT</a>
                     </li>
+                    <!-- /.drawer-list -->
+                    <li class="drawer-item">
+                        <a href="https://www.twitter.com/revert1023/" target="_blank">
+                            <i class="fab fa-twitter"></i></a>
+
+
+                        <a href="https://www.instagram.com/revert1023/" target="_blank">
+                            <i class="fab fa-instagram"></i></a>
+
+
+                        <a href="https://lin.ee/f3lGvDp" target="_blank">
+                            <i class="fab fa-line"></i></a>
+                    </li>
                 </ul>
-                <!-- /.drawer-list -->
+
             </nav>
         </div>
     </header>
@@ -72,8 +180,8 @@
             </div>
             <div class="d-section1-right">
                 <p>取り扱い商品一覧</p>
-                <img class="water1" src="waterdrop.png" alt="">
-                <img class="cream1" src="cream.png" alt="">
+                <img class="water1" src="waterdrop.png" alt="水滴のイメージ図">
+                <img class="cream1" src="cream.png" alt="クリームのイメージ図">
             </div>
         </div>
     </div>
@@ -81,7 +189,7 @@
     <div class="detailSection2">
         <div class="detailSection2-w"></div>
         <div class="left-box">
-            <img src="toothpaste_w.png" alt="">
+            <img src="toothpaste_w.png" alt="toothpasteの文字">
         </div>
     </div>
 
@@ -90,8 +198,8 @@
     <div class="detailSection3">
         <div class="detailSection3-w">
             <div class="res-sec3">
-                <img class="d-curaprox" src="curaprox_logo.png" alt=""><br>
-                <img class="d-philips" src="aaaa.png" alt="">
+                <img class="d-curaprox" src="curaprox_logo.png" alt="CURAPROXのロゴ"><br>
+                <img class="d-philips" src="aaaa.png" alt="CURAPROXのイメージ図">
                 <div class="curaprox-text">
                     <p>
                         <input type="checkbox" checked id="test1" />
@@ -126,8 +234,8 @@
     <div class="detailSection4">
         <div class="detailSection4-w">
             <div>
-                <img class="d-tepe" src="tepe_logo.jpg" alt=""><br>
-                <img class="d-philips" src="aaaaa.png" alt="">
+                <img class="d-tepe" src="tepe_logo.jpg" alt="tepeのロゴ"><br>
+                <img class="d-philips" src="aaaaa.png" alt="tepeの商品イメージ図">
                 <div class="curaprox-text">
                     <p>
                         <input type="checkbox" checked id="test1" />
@@ -165,8 +273,8 @@
     <div class="detailSection5">
         <div class="detailSection5-w">
             <div>
-                <img class="d-aqua" src="Philips_logo.jpg" alt=""><br>
-                <img class="d-philips-5" src="aaa.png" alt="">
+                <img class="d-aqua" src="Philips_logo.jpg" alt="Philipsのロゴ"><br>
+                <img class="d-philips-5" src="aaa.png" alt="Philipsの商品イメージ図">
                 <div class="aqua-text">
                     <p>
                         <input type="checkbox" checked id="test1" />
@@ -202,7 +310,7 @@
     <div class="detailSection6">
         <div class="detailSection2-w"></div>
         <div class="left-box">
-            <img src="toothpaste_w.png" alt="">
+            <img src="toothpaste_w.png" alt="toothpasteの文字">
         </div>
     </div>
 
@@ -211,8 +319,8 @@
     <div class="detailSetion7">
         <div class="detailSection7-w">
             <div>
-                <img class="d-aqua" src="ruscello-white_logo.jpg" alt=""><br>
-                <img class="d-ruscello" src="ruscello-white.png" alt="">
+                <img class="d-aqua" src="ruscello-white_logo.jpg" alt="ruscello-whiteのロゴ"><br>
+                <img class="d-ruscello" src="ruscello-white.png" alt="ruscello-whiteの商品イメージ図">
                 <div class="rusce-text">
                     <p>
                         <input type="checkbox" checked id="test1" />
@@ -265,8 +373,8 @@
     <div class="detailSetion8">
         <div class="detailSection7-w">
             <div>
-                <img class="d-APG" src="APG_logo.jpg" alt=""><br>
-                <img class="d-APAGARD" src="APAGARD-RENAMEL.png" alt="">
+                <img class="d-APG" src="APG_logo.jpg" alt="APAGARD-RENAMELのロゴ"><br>
+                <img class="d-APAGARD" src="APAGARD-RENAMEL.png" alt="APAGARD-RENAMELの商品イメージ図">
                 <div class="rusce-text">
                     <p>
                         <input type="checkbox" checked id="test1" />
@@ -316,8 +424,8 @@
     <div class="detailSetion9">
         <div class="detailSection7-w">
             <div>
-                <img class="d-oral" src="item003.png" alt=""><br>
-                <img class="d-oralpeace" src="oralpeace.png" alt="">
+                <img class="d-oral" src="item003.png" alt="oralpeaceのロゴ"><br>
+                <img class="d-oralpeace" src="oralpeace.png" alt="oralpeaceの商品イメージ図">
                 <div class="oral-text">
                     <p>
                         <input type="checkbox" checked id="test1" />
@@ -344,8 +452,7 @@
                 <p class="desc-9">【商品説明】</p>
                 <p class="desc1-9">歯磨き粉としてだけでなく、保湿剤としてと使用可能で<br>ドライマウスによる不快感や口臭対策にピッタリ。</p>
                 <p class="desc2-9">”梅”と”おから”から作られた天然由来の原料だから<br class="respo">飲み込んでも安心です。</p>
-                <p class="desc3-9">化学成分のフリーなのにも関わらず、口内トラブルの<br
-                        class="respo">様々な原因菌を素早く殺菌！<br>虫歯、歯周病、ドライマウスのトータルケアができます。</p>
+                <p class="desc3-9">化学成分のフリーなのにも関わらず、口内トラブルの<br class="respo">様々な原因菌を素早く殺菌！<br>虫歯、歯周病、ドライマウスのトータルケアができます。</p>
 
                 <div class="d-add-text-3">
                     <p class="imp">【成分】</p>
@@ -360,24 +467,25 @@
     </div>
 
 
+
     <footer class="aboufo detailFO">
         <div class="footer-w">
             <div>
-                <a href="index.html"><img class="footer-logo" src="revert_logo_white.png" alt=""></a>
+                <a href="index.html"><img class="footer-logo" src="revert_logo_white.png" alt="リベートロゴ"></a>
                 <p class="post">〒104-0061</p>
                 <p class="direct">東京都中央区銀座1-22-11　銀座大竹ビジデンス 2F</p>
             </div>
             <div class="footer-menu">
-                <button class="f-concept"><a href="">CONCEPT</a></button><br>
-                <button class="f-product"><a href="https://form.run/@revert--1605268010">CONTCT</a></button><br>
-                <button class="f-about"><a href="">ABOUT</a></button><br>
+                <button class="f-concept"><a href="index.html#concept">CONCEPT</a></button><br>
+                <button class="f-product"><a href="https://form.run/@revert--1605268010">CONTACT</a></button><br>
+                <button class="f-about"><a href="about.html">ABOUT</a></button><br>
                 <button class="f-detail"><a href="detail.html">DETAIL</a></button>
                 <p class="copy">Copyright 2020 Revert All rights reserved</p>
             </div>
             <div>
-                <button class="number"><a href="03-6691-1133"><img class="phone-f" src="phone.png" alt="">03-6691-1133</a></button><br>
-                <button class="mail"><a href=""><img class="mail-f" src="mail.png" alt="">CONTACT</a></button><br>
-                <img class="pauypal" src="paypal.png" alt="">
+                <button class="number"><a href="tel:03-6691-1133"><img class="phone-f" src="phone.png" alt="電話のアイコン">03-6691-1133</a></button><br>
+                <button class="mail"><a href="https://form.run/@revert--1605268010"><img class="mail-f" src="mail.png" alt="メールのアイコン">CONTACT</a></button><br>
+                <img class="pauypal" src="paypal.png" alt="https://www.paypal.com/webapps/shoppingcart?mfid=1605273544802_4e4ddc6271e0c">
             </div>
         </div>
     </footer>
@@ -386,4 +494,4 @@
 
 </body>
 
-</html>z
+</html>
