@@ -4015,7 +4015,9 @@ main>section>.sec02-title03 h1 {
     .section3-w h2 {
         font-size: 16.5px;
         float: none;
+        margin-right: 0px;
         margin-left: 4vw;
+        letter-spacing: 0.8vw;
         position: relative;
         top: -30vw;
     }
