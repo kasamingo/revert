@@ -3581,6 +3581,11 @@ main>section>.sec02-title03 h1 {
         margin-top: 3vw;
     }
 
+
+
+    .desc1::before,
+    .desc3::before,
+    .desc3::before,
     .desc1-4::before,
     .desc2-4::before,
     .desc3-4::before,
