@@ -945,7 +945,7 @@ footer {
 
 .f-product a {
     color: black;
-    margin-left: -5.6vw;
+    margin-left: -6.2vw;
     letter-spacing: 0.5vw;
 }
 
@@ -2079,6 +2079,14 @@ main>section>.sec02-title03 h1 {
         list-style: none;
         margin-top: 20%;
     }
+    .live h2 {
+        font-size: 40px;
+        font-family: serif;
+        letter-spacing: 1vw;
+        margin-left: 5vw;
+        font-weight: lighter;
+        margin-bottom: 19vw;
+    }
     .header {
         display: block;
         height: 17vw;
@@ -2317,7 +2325,7 @@ main>section>.sec02-title03 h1 {
     }
 
     .h-concept {
-        font-size: 36px;
+        font-size: 26px;
         margin-top: 8vw;
         margin-bottom: 20vw;
     }
@@ -2368,8 +2376,9 @@ main>section>.sec02-title03 h1 {
 
     .h-set {
         font-weight: lighter;
-        font-size: 36px;
+        font-size: 25px;
         margin-left: 5vw;
+        margin-top: 61vw;
         letter-spacing: 0.2vw;
         margin-bottom: 6vw;
     }
@@ -2380,9 +2389,8 @@ main>section>.sec02-title03 h1 {
     }
 
     .c1-h2 {
-        font-size: 20px;
+        font-size: 40px;
     }
-
     .c-text1 {
         font-size: 14px;
         margin-top: 15vw;
@@ -2765,7 +2773,7 @@ main>section>.sec02-title03 h1 {
 
     .section5-w h2 {
         font-weight: lighter;
-        font-size: 36px;
+        font-size: 25px;
         margin-left: 5vw;
         position: relative;
         letter-spacing: 0.2vw;
